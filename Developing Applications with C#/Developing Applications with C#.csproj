@@ -54,17 +54,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tool Utilizations\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Tool Utilizations\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Tool Utilizations\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
-    <Compile Include="Tool Utilizations\Program.cs" />
-    <Compile Include="Tool Utilizations\Properties\AssemblyInfo.cs" />
-    <Compile Include="Tool Utilizations\Properties\Resources.Designer.cs" />
-    <Compile Include="Tool Utilizations\Properties\Settings.Designer.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -74,7 +63,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Tool Utilizations\Properties\Resources.resx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -84,20 +72,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="Tool Utilizations\App.config" />
-    <None Include="Tool Utilizations\Developing Applications with C#.csproj" />
-    <None Include="Tool Utilizations\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
-    <None Include="Tool Utilizations\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <None Include="Tool Utilizations\obj\Debug\Developing Applications with C#.csproj.AssemblyReference.cache" />
-    <None Include="Tool Utilizations\Properties\Settings.settings" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Tool Utilizations\bin\Debug\" />
-    <Folder Include="Tool Utilizations\bin\Release\" />
-    <Folder Include="Tool Utilizations\obj\Debug\TempPE\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
