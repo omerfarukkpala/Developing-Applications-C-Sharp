@@ -16,5 +16,19 @@ namespace Flight_Reservation
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add("From: " + comboBox1.Text + " - " + comboBox2.Text + " Date: " + dateTimePicker1.Text + " Time: " + maskedTextBox1.Text + " Passenger Information ~ Name: " + textBox1.Text + " ID: " + maskedTextBox2.Text + " Phone: " + maskedTextBox3.Text);
+            MessageBox.Show("Passenger record added");
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label9.Text = comboBox2.Text;
+            comboBox2.Text = comboBox1.Text;
+            comboBox1.Text = label9.Text;
+        }
     }
 }
