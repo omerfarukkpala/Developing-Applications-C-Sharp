@@ -16,7 +16,7 @@ namespace Developing_Applications_with_C_
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form2());
+            Application.Run(new Form3());
             //Tool Utilizations
             
         }
