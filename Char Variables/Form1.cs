@@ -16,5 +16,17 @@ namespace Char_Variables
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            /*char team;
+            team = 'g';
+            label1.Text = team.ToString();*/
+
+            char lesson;
+            lesson = Convert.ToChar(textBox1.Text);
+            label1.Text = lesson.ToString();
+
+        }
     }
 }
