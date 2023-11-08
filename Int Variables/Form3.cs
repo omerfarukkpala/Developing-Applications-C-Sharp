@@ -19,6 +19,7 @@ namespace Int_Variables
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //Arithmetic operations for the four basic operations have been performed.
             int number1, number2, sum, difference, product, quotient;
             number1 = Convert.ToInt32(textBox1.Text);
             number2 = Convert.ToInt32(textBox2.Text);
