@@ -16,5 +16,23 @@ namespace String_Variables
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            /*string text;
+            text = "Hello, today is Tuesday, November 8, 2023";
+            label1.Text = text;*/
+
+            /*string fullName, profession;
+            fullName = "Ömer Faruk PALA";
+            profession = "Software Developer";
+            label1.Text = fullName;
+            label2.Text = profession;*/
+
+            string city;
+            city = textBox1.Text;
+            label1.Text = city;
+
+        }
     }
 }
