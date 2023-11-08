@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Int Variables", "Int Variab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Double Variables", "Double Variables\Double Variables.csproj", "{186FBCF6-BCF1-4A16-9ACB-E8827F4198FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Char Variables", "Char Variables\Char Variables.csproj", "{421C04BA-6246-4215-A5D4-01758BAC5CFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{186FBCF6-BCF1-4A16-9ACB-E8827F4198FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{186FBCF6-BCF1-4A16-9ACB-E8827F4198FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{186FBCF6-BCF1-4A16-9ACB-E8827F4198FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{421C04BA-6246-4215-A5D4-01758BAC5CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421C04BA-6246-4215-A5D4-01758BAC5CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421C04BA-6246-4215-A5D4-01758BAC5CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421C04BA-6246-4215-A5D4-01758BAC5CFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
