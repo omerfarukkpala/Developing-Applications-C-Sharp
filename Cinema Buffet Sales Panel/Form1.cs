@@ -30,7 +30,12 @@ namespace Cinema_Buffet_Sales_Panel
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            double r, area, perimeter;
+            r = Convert.ToDouble(TxtYaricapi.Text);
+            area = Math.PI * r * r;
+            perimeter = 2 * Math.PI * r;
+            LblDaireAlan.Text = r.ToString("0.00");
+            LblDaireCevre.Text = perimeter.ToString("0.00");
         }
     }
 }
