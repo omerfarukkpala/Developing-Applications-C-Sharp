@@ -37,5 +37,15 @@ namespace Cinema_Buffet_Sales_Panel
             LblDaireAlan.Text = r.ToString("0.00");
             LblDaireCevre.Text = perimeter.ToString("0.00");
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            double exam1, exam2, exam3, average;
+            exam1 = Convert.ToDouble(TxtSinav1.Text);
+            exam2 = Convert.ToDouble(TxtSinav2.Text);
+            exam3 = Convert.ToDouble(TxtSinav3.Text);
+            average = (exam1 + exam2 + exam3) / 3;
+            LblOrtalama.Text = average.ToString("0.00");
+        }
     }
 }
