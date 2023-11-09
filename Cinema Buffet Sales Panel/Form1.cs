@@ -47,5 +47,21 @@ namespace Cinema_Buffet_Sales_Panel
             average = (exam1 + exam2 + exam3) / 3;
             LblOrtalama.Text = average.ToString("0.00");
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            double num1, num2, num3, sum, difference, multiplication, division;
+            num1 = Convert.ToDouble(TxtSayi1.Text);
+            num2 = Convert.ToDouble(TxtSayi2.Text);
+            num3 = Convert.ToDouble(TxtSayi3.Text);
+            sum = num1 + num2 + num3;
+            difference = num1 - num2 - num3;
+            multiplication = num1 * num2 * num3;
+            division = num1 / num2 / num3;
+            LblToplam.Text = sum.ToString();
+            LblFark.Text = difference.ToString();
+            LblCarpim.Text = multiplication.ToString();
+            LblBolum.Text = division.ToString();
+        }
     }
 }
