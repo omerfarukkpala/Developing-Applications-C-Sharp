@@ -17,33 +17,33 @@ namespace Loops
             InitializeComponent();
         }
 
-        int sayac = 0;
+        int counter = 0;
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            sayac++;
-            label1.Text = sayac.ToString();
-            if (sayac >= 0 && sayac < 30)
+            counter++;
+            label1.Text = counter.ToString();
+            if (counter >= 0 && counter < 30)
             {
                 button1.BackColor = Color.Red;
                 button2.BackColor = Color.Transparent;
                 button3.BackColor = Color.Transparent;
             }
-            if (sayac >= 30 && sayac < 40)
+            if (counter >= 30 && counter < 40)
             {
                 button2.BackColor = Color.Yellow;
                 button1.BackColor = Color.Transparent;
                 button3.BackColor = Color.Transparent;
             }
-            if (sayac >= 40 && sayac <= 70)
+            if (counter >= 40 && counter <= 70)
             {
                 button3.BackColor = Color.Green;
                 button1.BackColor = Color.Transparent;
                 button2.BackColor = Color.Transparent;
             }
-            if (sayac == 70)
+            if (counter == 70)
             {
-                sayac = 0;
+                counter = 0;
             }
         }
 

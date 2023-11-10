@@ -95,7 +95,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Name = "Form6";
-            this.Text = "Form6";
+            this.Text = "Timer";
             this.ResumeLayout(false);
             this.PerformLayout();
 
