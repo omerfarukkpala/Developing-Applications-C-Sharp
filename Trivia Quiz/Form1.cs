@@ -16,7 +16,7 @@ namespace Trivia_Quiz
         {
             InitializeComponent();
         }
-
+        //
         int questionNumber = 0, correct = 0, incorrect = 0;
 
         private void BtnD_Click(object sender, EventArgs e)
@@ -105,7 +105,7 @@ namespace Trivia_Quiz
                 BtnC.Text = "Attila İlhan";
                 BtnD.Text = "Reşat Nuri";
                 label4.Text = "Sait Faik";
-                BtnSonraki.Text = "Sonuçlar";
+                BtnSonraki.Text = "Result";
             }
             if (questionNumber == 4)
             {
