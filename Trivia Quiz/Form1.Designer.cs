@@ -97,8 +97,9 @@
             this.BtnSonraki.Name = "BtnSonraki";
             this.BtnSonraki.Size = new System.Drawing.Size(162, 29);
             this.BtnSonraki.TabIndex = 27;
-            this.BtnSonraki.Text = "Sonraki";
+            this.BtnSonraki.Text = "Next";
             this.BtnSonraki.UseVisualStyleBackColor = true;
+            this.BtnSonraki.Click += new System.EventHandler(this.BtnSonraki_Click);
             // 
             // LblYanlis
             // 
@@ -132,27 +133,27 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(517, 87);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 13);
+            this.label3.Size = new System.Drawing.Size(55, 13);
             this.label3.TabIndex = 23;
-            this.label3.Text = "Yanlış:";
+            this.label3.Text = "Incorrect :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(513, 52);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(39, 13);
+            this.label2.Size = new System.Drawing.Size(47, 13);
             this.label2.TabIndex = 22;
-            this.label2.Text = "Doğru:";
+            this.label2.Text = "Correct :";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(499, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(49, 13);
+            this.label1.Size = new System.Drawing.Size(72, 13);
             this.label1.TabIndex = 21;
-            this.label1.Text = "Soru No:";
+            this.label1.Text = "Question No :";
             // 
             // BtnD
             // 
@@ -162,6 +163,7 @@
             this.BtnD.TabIndex = 20;
             this.BtnD.Text = "D";
             this.BtnD.UseVisualStyleBackColor = true;
+            this.BtnD.Click += new System.EventHandler(this.BtnD_Click);
             // 
             // BtnC
             // 
@@ -171,6 +173,7 @@
             this.BtnC.TabIndex = 19;
             this.BtnC.Text = "C";
             this.BtnC.UseVisualStyleBackColor = true;
+            this.BtnC.Click += new System.EventHandler(this.BtnC_Click);
             // 
             // BtnB
             // 
@@ -190,6 +193,7 @@
             this.BtnA.TabIndex = 17;
             this.BtnA.Text = "A";
             this.BtnA.UseVisualStyleBackColor = true;
+            this.BtnA.Click += new System.EventHandler(this.BtnA_Click);
             // 
             // richTextBox1
             // 
@@ -221,7 +225,7 @@
             this.Controls.Add(this.BtnA);
             this.Controls.Add(this.richTextBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Trivia Quiz";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
