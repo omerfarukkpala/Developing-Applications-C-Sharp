@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decision Structures", "Deci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trivia Quiz", "Trivia Quiz\Trivia Quiz.csproj", "{62104967-38CE-4D3F-AB7D-B8EB7AEB1980}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{69A9E2E7-2CD3-4D89-8C05-395EC6FA7A6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{62104967-38CE-4D3F-AB7D-B8EB7AEB1980}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62104967-38CE-4D3F-AB7D-B8EB7AEB1980}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62104967-38CE-4D3F-AB7D-B8EB7AEB1980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69A9E2E7-2CD3-4D89-8C05-395EC6FA7A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69A9E2E7-2CD3-4D89-8C05-395EC6FA7A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69A9E2E7-2CD3-4D89-8C05-395EC6FA7A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69A9E2E7-2CD3-4D89-8C05-395EC6FA7A6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
