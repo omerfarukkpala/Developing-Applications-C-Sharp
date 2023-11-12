@@ -82,7 +82,7 @@ namespace ExampleConsole
             personInfo.FirstName = "Ömer Faruk";
             personInfo.LastName = "Pala";
             personInfo.Hometown = "Bursa";
-            personInfo.Age = 99;
+            personInfo.Age = 88;
             personInfo.Gender = 'M';
 
             Console.WriteLine(personInfo.FirstName);

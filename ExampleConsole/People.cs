@@ -32,7 +32,8 @@ namespace ExampleConsole
         //    }
         //}
 
-        public void personList(string firstName, string lastName, int age, string occupation)
+        public void personList(string firstName, string lastName, 
+        int age, string occupation)
         {
             Console.WriteLine(firstName);
             Console.WriteLine(lastName);

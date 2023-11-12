@@ -45,7 +45,7 @@ namespace ExampleConsole
         {
             firstName = "";
             lastName = "";
-            age = 18;
+            age =  18;
             gender = 'F';
             hometown = "Bursa";
         }
