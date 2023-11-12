@@ -22,12 +22,12 @@ namespace Class
             Car car = new Car();
             car.Color = "Blue";
             car.Speed = 160;
-            car.Engine = 1245.56;
-            car.Price = 50000;
+            car.Engine = 5678.560;
+            car.Price = 500000;
             car.Status = 's';
-            car.YearOfManufacture = -2016;
+            car.YearOfManufacture = -2019;
             car.BrandName = "Golf";
-            car.inspection = 2017;
+            car.inspection = 2023;
             car.plate = "16 OFP 2024";
             car.owner = "Ömer Faruk PALA";
 
