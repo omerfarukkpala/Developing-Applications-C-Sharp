@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleConsole", "ExampleCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie Trailer Project", "Movie Trailer Project\Movie Trailer Project.csproj", "{CB513C90-D5EC-4096-A20E-F5DFAE4220FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chart", "Chart\Chart.csproj", "{0BB1577D-32AE-420E-86C1-819E3372BA4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{CB513C90-D5EC-4096-A20E-F5DFAE4220FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB513C90-D5EC-4096-A20E-F5DFAE4220FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB513C90-D5EC-4096-A20E-F5DFAE4220FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BB1577D-32AE-420E-86C1-819E3372BA4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BB1577D-32AE-420E-86C1-819E3372BA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BB1577D-32AE-420E-86C1-819E3372BA4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BB1577D-32AE-420E-86C1-819E3372BA4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

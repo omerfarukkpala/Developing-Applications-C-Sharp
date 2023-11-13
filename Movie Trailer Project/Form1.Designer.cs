@@ -38,7 +38,7 @@
             this.psILoveYouToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aynıYıldızınAltındaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.korkuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.korkuSeansıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.korkuSeansiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bilimKurguToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.uzayYolcularıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.renklerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -96,14 +96,15 @@
             this.aksiyonToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.madMaxToolStripMenuItem});
             this.aksiyonToolStripMenuItem.Name = "aksiyonToolStripMenuItem";
-            this.aksiyonToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.aksiyonToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.aksiyonToolStripMenuItem.Text = "Action";
             // 
             // madMaxToolStripMenuItem
             // 
             this.madMaxToolStripMenuItem.Name = "madMaxToolStripMenuItem";
-            this.madMaxToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.madMaxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.madMaxToolStripMenuItem.Text = "Mad Max";
+            this.madMaxToolStripMenuItem.Click += new System.EventHandler(this.madMaxToolStripMenuItem_Click);
             // 
             // romantikToolStripMenuItem
             // 
@@ -111,7 +112,7 @@
             this.psILoveYouToolStripMenuItem,
             this.aynıYıldızınAltındaToolStripMenuItem});
             this.romantikToolStripMenuItem.Name = "romantikToolStripMenuItem";
-            this.romantikToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.romantikToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.romantikToolStripMenuItem.Text = "Romantic";
             // 
             // psILoveYouToolStripMenuItem
@@ -119,6 +120,7 @@
             this.psILoveYouToolStripMenuItem.Name = "psILoveYouToolStripMenuItem";
             this.psILoveYouToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.psILoveYouToolStripMenuItem.Text = "Ps: I Love You";
+            this.psILoveYouToolStripMenuItem.Click += new System.EventHandler(this.psILoveYouToolStripMenuItem_Click);
             // 
             // aynıYıldızınAltındaToolStripMenuItem
             // 
@@ -129,30 +131,32 @@
             // korkuToolStripMenuItem
             // 
             this.korkuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.korkuSeansıToolStripMenuItem});
+            this.korkuSeansiToolStripMenuItem});
             this.korkuToolStripMenuItem.Name = "korkuToolStripMenuItem";
-            this.korkuToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.korkuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.korkuToolStripMenuItem.Text = "Horror";
             // 
-            // korkuSeansıToolStripMenuItem
+            // korkuSeansiToolStripMenuItem
             // 
-            this.korkuSeansıToolStripMenuItem.Name = "korkuSeansıToolStripMenuItem";
-            this.korkuSeansıToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
-            this.korkuSeansıToolStripMenuItem.Text = "Korku Seansı";
+            this.korkuSeansiToolStripMenuItem.Name = "korkuSeansiToolStripMenuItem";
+            this.korkuSeansiToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.korkuSeansiToolStripMenuItem.Text = "Horror Session";
+            this.korkuSeansiToolStripMenuItem.Click += new System.EventHandler(this.korkuSeansiToolStripMenuItem_Click);
             // 
             // bilimKurguToolStripMenuItem
             // 
             this.bilimKurguToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.uzayYolcularıToolStripMenuItem});
             this.bilimKurguToolStripMenuItem.Name = "bilimKurguToolStripMenuItem";
-            this.bilimKurguToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.bilimKurguToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.bilimKurguToolStripMenuItem.Text = "Science Fiction";
             // 
             // uzayYolcularıToolStripMenuItem
             // 
             this.uzayYolcularıToolStripMenuItem.Name = "uzayYolcularıToolStripMenuItem";
-            this.uzayYolcularıToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
-            this.uzayYolcularıToolStripMenuItem.Text = "Uzay Yolcuları";
+            this.uzayYolcularıToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.uzayYolcularıToolStripMenuItem.Text = "Space Travelers";
+            this.uzayYolcularıToolStripMenuItem.Click += new System.EventHandler(this.uzayYolculariToolStripMenuItem_Click);
             // 
             // renklerToolStripMenuItem
             // 
@@ -237,7 +241,7 @@
         private System.Windows.Forms.ToolStripMenuItem psILoveYouToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aynıYıldızınAltındaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem korkuToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem korkuSeansıToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem korkuSeansiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bilimKurguToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem uzayYolcularıToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem renklerToolStripMenuItem;
