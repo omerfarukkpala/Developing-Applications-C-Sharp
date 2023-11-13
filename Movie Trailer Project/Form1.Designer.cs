@@ -46,8 +46,8 @@
             this.griToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.turuncuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hızlıErişimToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.hakkımızdaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.çıkışToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hakkimizdaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -96,7 +96,7 @@
             this.aksiyonToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.madMaxToolStripMenuItem});
             this.aksiyonToolStripMenuItem.Name = "aksiyonToolStripMenuItem";
-            this.aksiyonToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aksiyonToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.aksiyonToolStripMenuItem.Text = "Action";
             // 
             // madMaxToolStripMenuItem
@@ -111,7 +111,7 @@
             this.psILoveYouToolStripMenuItem,
             this.aynıYıldızınAltındaToolStripMenuItem});
             this.romantikToolStripMenuItem.Name = "romantikToolStripMenuItem";
-            this.romantikToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.romantikToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.romantikToolStripMenuItem.Text = "Romantic";
             // 
             // psILoveYouToolStripMenuItem
@@ -131,7 +131,7 @@
             this.korkuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.korkuSeansıToolStripMenuItem});
             this.korkuToolStripMenuItem.Name = "korkuToolStripMenuItem";
-            this.korkuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.korkuToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.korkuToolStripMenuItem.Text = "Horror";
             // 
             // korkuSeansıToolStripMenuItem
@@ -145,7 +145,7 @@
             this.bilimKurguToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.uzayYolcularıToolStripMenuItem});
             this.bilimKurguToolStripMenuItem.Name = "bilimKurguToolStripMenuItem";
-            this.bilimKurguToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.bilimKurguToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.bilimKurguToolStripMenuItem.Text = "Science Fiction";
             // 
             // uzayYolcularıToolStripMenuItem
@@ -167,41 +167,46 @@
             // maviToolStripMenuItem
             // 
             this.maviToolStripMenuItem.Name = "maviToolStripMenuItem";
-            this.maviToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.maviToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
             this.maviToolStripMenuItem.Text = "Blue";
+            this.maviToolStripMenuItem.Click += new System.EventHandler(this.maviToolStripMenuItem_Click);
             // 
             // griToolStripMenuItem
             // 
             this.griToolStripMenuItem.Name = "griToolStripMenuItem";
-            this.griToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.griToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
             this.griToolStripMenuItem.Text = "Grey";
+            this.griToolStripMenuItem.Click += new System.EventHandler(this.griToolStripMenuItem_Click);
             // 
             // turuncuToolStripMenuItem
             // 
             this.turuncuToolStripMenuItem.Name = "turuncuToolStripMenuItem";
-            this.turuncuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.turuncuToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
             this.turuncuToolStripMenuItem.Text = "Orange";
+            this.turuncuToolStripMenuItem.Click += new System.EventHandler(this.turuncuToolStripMenuItem_Click);
             // 
             // hızlıErişimToolStripMenuItem
             // 
             this.hızlıErişimToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.hakkımızdaToolStripMenuItem,
-            this.çıkışToolStripMenuItem});
+            this.hakkimizdaToolStripMenuItem,
+            this.exitToolStripMenuItem});
             this.hızlıErişimToolStripMenuItem.Name = "hızlıErişimToolStripMenuItem";
             this.hızlıErişimToolStripMenuItem.Size = new System.Drawing.Size(89, 20);
             this.hızlıErişimToolStripMenuItem.Text = "Quick Access";
             // 
-            // hakkımızdaToolStripMenuItem
+            // hakkimizdaToolStripMenuItem
             // 
-            this.hakkımızdaToolStripMenuItem.Name = "hakkımızdaToolStripMenuItem";
-            this.hakkımızdaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.hakkımızdaToolStripMenuItem.Text = "About Us";
+            this.hakkimizdaToolStripMenuItem.Name = "hakkimizdaToolStripMenuItem";
+            this.hakkimizdaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.hakkimizdaToolStripMenuItem.Text = "About Us";
+            this.hakkimizdaToolStripMenuItem.Click += new System.EventHandler(this.hakkimizdaToolStripMenuItem_Click);
             // 
-            // çıkışToolStripMenuItem
+            // exitToolStripMenuItem
             // 
-            this.çıkışToolStripMenuItem.Name = "çıkışToolStripMenuItem";
-            this.çıkışToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.çıkışToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -212,7 +217,7 @@
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.menuStrip1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Movie Trailer Project";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -240,8 +245,8 @@
         private System.Windows.Forms.ToolStripMenuItem griToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem turuncuToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem hızlıErişimToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem hakkımızdaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem çıkışToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem hakkimizdaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
     }
 }
 

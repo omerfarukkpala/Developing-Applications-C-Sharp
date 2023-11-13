@@ -16,5 +16,34 @@ namespace Movie_Trailer_Project
         {
             InitializeComponent();
         }
+
+        private void maviToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.CadetBlue;
+
+        }
+
+        private void griToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Gray;
+
+        }
+
+        private void turuncuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Orange;
+
+        }
+
+        private void hakkimizdaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This project was created by Ömer Faruk PALA.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
