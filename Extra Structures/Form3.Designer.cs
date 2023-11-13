@@ -77,7 +77,7 @@
             this.Controls.Add(this.button1);
             this.ForeColor = System.Drawing.Color.CornflowerBlue;
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.Text = "Captcha";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -54,7 +54,9 @@ namespace Extra_Structures
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+            Form4 fr = new Form4();
+            fr.Show();
+            this.Hide();
         }
     }
 }
