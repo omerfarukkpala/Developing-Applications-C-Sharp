@@ -35,9 +35,10 @@
             this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.kolayErişimToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.easyAccessToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calculaterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.paintToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,21 +48,23 @@
             this.blueToolStripMenuItem,
             this.greenToolStripMenuItem,
             this.settingsToolStripMenuItem,
-            this.kolayErişimToolStripMenuItem});
+            this.easyAccessToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(139, 92);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 114);
             // 
             // blueToolStripMenuItem
             // 
             this.blueToolStripMenuItem.Name = "blueToolStripMenuItem";
             this.blueToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.blueToolStripMenuItem.Text = "Blue";
+            this.blueToolStripMenuItem.Click += new System.EventHandler(this.blueToolStripMenuItem_Click);
             // 
             // greenToolStripMenuItem
             // 
             this.greenToolStripMenuItem.Name = "greenToolStripMenuItem";
             this.greenToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.greenToolStripMenuItem.Text = "Green";
+            this.greenToolStripMenuItem.Click += new System.EventHandler(this.greenToolStripMenuItem_Click);
             // 
             // settingsToolStripMenuItem
             // 
@@ -71,12 +74,14 @@
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
             this.settingsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.settingsToolStripMenuItem.Text = "Settings";
+            this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.aboutToolStripMenuItem.Text = "About Us";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
@@ -84,26 +89,33 @@
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             // 
-            // kolayErişimToolStripMenuItem
+            // easyAccessToolStripMenuItem
             // 
-            this.kolayErişimToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.easyAccessToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.calculaterToolStripMenuItem,
             this.paintToolStripMenuItem});
-            this.kolayErişimToolStripMenuItem.Name = "kolayErişimToolStripMenuItem";
-            this.kolayErişimToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.kolayErişimToolStripMenuItem.Text = "Kolay Erişim";
+            this.easyAccessToolStripMenuItem.Name = "easyAccessToolStripMenuItem";
+            this.easyAccessToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.easyAccessToolStripMenuItem.Text = "Easy Access";
             // 
             // calculaterToolStripMenuItem
             // 
             this.calculaterToolStripMenuItem.Name = "calculaterToolStripMenuItem";
             this.calculaterToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.calculaterToolStripMenuItem.Text = "Calculator";
+            this.calculaterToolStripMenuItem.Click += new System.EventHandler(this.calculaterToolStripMenuItem_Click);
             // 
             // paintToolStripMenuItem
             // 
             this.paintToolStripMenuItem.Name = "paintToolStripMenuItem";
             this.paintToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.paintToolStripMenuItem.Text = "Paint";
+            this.paintToolStripMenuItem.Click += new System.EventHandler(this.paintToolStripMenuItem_Click);
+            // 
+            // contextMenuStrip2
+            // 
+            this.contextMenuStrip2.Name = "contextMenuStrip2";
+            this.contextMenuStrip2.Size = new System.Drawing.Size(61, 4);
             // 
             // Form2
             // 
@@ -125,8 +137,9 @@
         private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem kolayErişimToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem easyAccessToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem calculaterToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem paintToolStripMenuItem;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
     }
 }
