@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie Trailer Project", "Mo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chart", "Chart\Chart.csproj", "{0BB1577D-32AE-420E-86C1-819E3372BA4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extra Structures", "Extra Structures\Extra Structures.csproj", "{1D792F9A-30C4-4628-8B2D-6A73F7AE6EAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{0BB1577D-32AE-420E-86C1-819E3372BA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BB1577D-32AE-420E-86C1-819E3372BA4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BB1577D-32AE-420E-86C1-819E3372BA4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D792F9A-30C4-4628-8B2D-6A73F7AE6EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D792F9A-30C4-4628-8B2D-6A73F7AE6EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D792F9A-30C4-4628-8B2D-6A73F7AE6EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D792F9A-30C4-4628-8B2D-6A73F7AE6EAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
