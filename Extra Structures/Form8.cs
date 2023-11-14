@@ -16,5 +16,16 @@ namespace Extra_Structures
         {
             InitializeComponent();
         }
+
+        enum cities { X, Adana, Adıyaman, Afyonkarahisar, Ağrı, Amasya, Ankara, Antalya, Artvin, Aydın }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int plate = Convert.ToInt32(textBox1.Text);
+            cities city;
+            city = (cities)plate;
+            label1.Text = city.ToString();
+
+        }
     }
 }
