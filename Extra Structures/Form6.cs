@@ -16,5 +16,19 @@ namespace Extra_Structures
         {
             InitializeComponent();
         }
+        //public string message;
+        //public string sender;
+
+        public string name;
+        public string surname;
+        public int age;
+
+        private void Form6_Load(object sender, EventArgs e)
+        {
+            //label1.Text = from;
+            //label2.Text = message;
+
+            comboBox1.Text = name + " " + surname + " " + age.ToString();
+        }
     }
 }
