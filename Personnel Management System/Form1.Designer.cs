@@ -243,7 +243,7 @@
             this.BtnRaporlar.Name = "BtnRaporlar";
             this.BtnRaporlar.Size = new System.Drawing.Size(200, 37);
             this.BtnRaporlar.TabIndex = 9;
-            this.BtnRaporlar.Text = "Raporlar";
+            this.BtnRaporlar.Text = "Reports";
             this.BtnRaporlar.UseVisualStyleBackColor = true;
             // 
             // BtnGrafikler
@@ -252,7 +252,7 @@
             this.BtnGrafikler.Name = "BtnGrafikler";
             this.BtnGrafikler.Size = new System.Drawing.Size(200, 37);
             this.BtnGrafikler.TabIndex = 8;
-            this.BtnGrafikler.Text = "Grafikler";
+            this.BtnGrafikler.Text = "Graphs";
             this.BtnGrafikler.UseVisualStyleBackColor = true;
             // 
             // Btnistatistik
@@ -261,7 +261,7 @@
             this.Btnistatistik.Name = "Btnistatistik";
             this.Btnistatistik.Size = new System.Drawing.Size(200, 38);
             this.Btnistatistik.TabIndex = 7;
-            this.Btnistatistik.Text = "İstatistik";
+            this.Btnistatistik.Text = "Statistics";
             this.Btnistatistik.UseVisualStyleBackColor = true;
             // 
             // BtnTemizle
@@ -270,7 +270,7 @@
             this.BtnTemizle.Name = "BtnTemizle";
             this.BtnTemizle.Size = new System.Drawing.Size(200, 38);
             this.BtnTemizle.TabIndex = 6;
-            this.BtnTemizle.Text = "Temizle";
+            this.BtnTemizle.Text = "Clear";
             this.BtnTemizle.UseVisualStyleBackColor = true;
             // 
             // BtnGuncelle
@@ -279,7 +279,7 @@
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(200, 38);
             this.BtnGuncelle.TabIndex = 5;
-            this.BtnGuncelle.Text = "Güncelle";
+            this.BtnGuncelle.Text = "Update";
             this.BtnGuncelle.UseVisualStyleBackColor = true;
             // 
             // BtnSil
@@ -288,7 +288,7 @@
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(200, 38);
             this.BtnSil.TabIndex = 4;
-            this.BtnSil.Text = "Sil";
+            this.BtnSil.Text = "Delete";
             this.BtnSil.UseVisualStyleBackColor = true;
             // 
             // BtnKaydet
@@ -297,7 +297,7 @@
             this.BtnKaydet.Name = "BtnKaydet";
             this.BtnKaydet.Size = new System.Drawing.Size(200, 38);
             this.BtnKaydet.TabIndex = 3;
-            this.BtnKaydet.Text = "Kaydet";
+            this.BtnKaydet.Text = "Save";
             this.BtnKaydet.UseVisualStyleBackColor = true;
             // 
             // BtnListele
@@ -306,7 +306,7 @@
             this.BtnListele.Name = "BtnListele";
             this.BtnListele.Size = new System.Drawing.Size(200, 38);
             this.BtnListele.TabIndex = 2;
-            this.BtnListele.Text = "Listele";
+            this.BtnListele.Text = "List";
             this.BtnListele.UseVisualStyleBackColor = true;
             // 
             // groupBox3
