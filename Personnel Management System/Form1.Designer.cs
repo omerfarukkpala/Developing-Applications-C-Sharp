@@ -312,6 +312,7 @@
             this.BtnKaydet.TabIndex = 3;
             this.BtnKaydet.Text = "Save";
             this.BtnKaydet.UseVisualStyleBackColor = true;
+            this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
             // BtnListele
             // 
