@@ -317,7 +317,7 @@
             this.groupBox3.Size = new System.Drawing.Size(933, 253);
             this.groupBox3.TabIndex = 225;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Kayıtlar";
+            this.groupBox3.Text = "Records";
             // 
             // dataGridView1
             // 
