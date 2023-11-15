@@ -321,6 +321,7 @@
             this.BtnListele.TabIndex = 2;
             this.BtnListele.Text = "List";
             this.BtnListele.UseVisualStyleBackColor = true;
+            this.BtnListele.Click += new System.EventHandler(this.BtnListele_Click);
             // 
             // groupBox3
             // 
