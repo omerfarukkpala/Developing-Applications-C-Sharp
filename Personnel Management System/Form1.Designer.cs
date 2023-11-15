@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -58,11 +59,23 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.personelDatabaseDataSet = new Personnel_Management_System.PersonelDatabaseDataSet();
+            this.tblPersonelBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tbl_PersonelTableAdapter = new Personnel_Management_System.PersonelDatabaseDataSetTableAdapters.Tbl_PersonelTableAdapter();
+            this.peridDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.perNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.perSurnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.perCityDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.perSalaryDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.perStatusDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.perOccupationDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.personelDatabaseDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblPersonelBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -321,7 +334,17 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.peridDataGridViewTextBoxColumn,
+            this.perNameDataGridViewTextBoxColumn,
+            this.perSurnameDataGridViewTextBoxColumn,
+            this.perCityDataGridViewTextBoxColumn,
+            this.perSalaryDataGridViewTextBoxColumn,
+            this.perStatusDataGridViewCheckBoxColumn,
+            this.perOccupationDataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.tblPersonelBindingSource;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(3, 16);
             this.dataGridView1.Name = "dataGridView1";
@@ -350,6 +373,63 @@
             this.pictureBox1.TabIndex = 226;
             this.pictureBox1.TabStop = false;
             // 
+            // personelDatabaseDataSet
+            // 
+            this.personelDatabaseDataSet.DataSetName = "PersonelDatabaseDataSet";
+            this.personelDatabaseDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tblPersonelBindingSource
+            // 
+            this.tblPersonelBindingSource.DataMember = "Tbl_Personel";
+            this.tblPersonelBindingSource.DataSource = this.personelDatabaseDataSet;
+            // 
+            // tbl_PersonelTableAdapter
+            // 
+            this.tbl_PersonelTableAdapter.ClearBeforeFill = true;
+            // 
+            // peridDataGridViewTextBoxColumn
+            // 
+            this.peridDataGridViewTextBoxColumn.DataPropertyName = "Perid";
+            this.peridDataGridViewTextBoxColumn.HeaderText = "Perid";
+            this.peridDataGridViewTextBoxColumn.Name = "peridDataGridViewTextBoxColumn";
+            this.peridDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // perNameDataGridViewTextBoxColumn
+            // 
+            this.perNameDataGridViewTextBoxColumn.DataPropertyName = "PerName";
+            this.perNameDataGridViewTextBoxColumn.HeaderText = "PerName";
+            this.perNameDataGridViewTextBoxColumn.Name = "perNameDataGridViewTextBoxColumn";
+            // 
+            // perSurnameDataGridViewTextBoxColumn
+            // 
+            this.perSurnameDataGridViewTextBoxColumn.DataPropertyName = "PerSurname";
+            this.perSurnameDataGridViewTextBoxColumn.HeaderText = "PerSurname";
+            this.perSurnameDataGridViewTextBoxColumn.Name = "perSurnameDataGridViewTextBoxColumn";
+            // 
+            // perCityDataGridViewTextBoxColumn
+            // 
+            this.perCityDataGridViewTextBoxColumn.DataPropertyName = "PerCity";
+            this.perCityDataGridViewTextBoxColumn.HeaderText = "PerCity";
+            this.perCityDataGridViewTextBoxColumn.Name = "perCityDataGridViewTextBoxColumn";
+            // 
+            // perSalaryDataGridViewTextBoxColumn
+            // 
+            this.perSalaryDataGridViewTextBoxColumn.DataPropertyName = "PerSalary";
+            this.perSalaryDataGridViewTextBoxColumn.HeaderText = "PerSalary";
+            this.perSalaryDataGridViewTextBoxColumn.Name = "perSalaryDataGridViewTextBoxColumn";
+            // 
+            // perStatusDataGridViewCheckBoxColumn
+            // 
+            this.perStatusDataGridViewCheckBoxColumn.DataPropertyName = "PerStatus";
+            this.perStatusDataGridViewCheckBoxColumn.HeaderText = "PerStatus";
+            this.perStatusDataGridViewCheckBoxColumn.Name = "perStatusDataGridViewCheckBoxColumn";
+            // 
+            // perOccupationDataGridViewTextBoxColumn
+            // 
+            this.perOccupationDataGridViewTextBoxColumn.DataPropertyName = "PerOccupation";
+            this.perOccupationDataGridViewTextBoxColumn.HeaderText = "PerOccupation";
+            this.perOccupationDataGridViewTextBoxColumn.Name = "perOccupationDataGridViewTextBoxColumn";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -363,12 +443,15 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.personelDatabaseDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblPersonelBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -405,6 +488,16 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private PersonelDatabaseDataSet personelDatabaseDataSet;
+        private System.Windows.Forms.BindingSource tblPersonelBindingSource;
+        private PersonelDatabaseDataSetTableAdapters.Tbl_PersonelTableAdapter tbl_PersonelTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn peridDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn perNameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn perSurnameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn perCityDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn perSalaryDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn perStatusDataGridViewCheckBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn perOccupationDataGridViewTextBoxColumn;
     }
 }
 
