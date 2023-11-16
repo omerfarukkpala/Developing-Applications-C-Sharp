@@ -106,5 +106,31 @@ namespace Personnel_Management_System
                 radioButton2.Checked = true;
             }
         }
+
+        private void BtnSil_Click(object sender, EventArgs e)
+        {
+            connection.Open();
+            SqlCommand deletecommand = new SqlCommand("Delete From Tbl_Personel Where Perid=@k1", connection);
+            deletecommand.Parameters.AddWithValue("@k1", Txtid.Text);
+            deletecommand.ExecuteNonQuery();
+            connection.Close();
+            MessageBox.Show("Record deleted.");
+        }
+
+        private void BtnGuncelle_Click(object sender, EventArgs e)
+        {
+            connection.Open();
+            SqlCommand updatecommand = new SqlCommand("Update Tbl_Personel Set PerName=@a1,PerSurname=@a2,PerCity=@a3,PerSalary=@a4,PerStatus=@a5,PerOccupation=@a6 where Perid=@a7", connection);
+            updatecommand.Parameters.AddWithValue("@a1", TxtAd.Text);
+            updatecommand.Parameters.AddWithValue("@a2", TxtSoyad.Text);
+            updatecommand.Parameters.AddWithValue("@a3", CmbSehir.Text);
+            updatecommand.Parameters.AddWithValue("@a4", MskMaas.Text);
+            updatecommand.Parameters.AddWithValue("@a5", label8.Text);
+            updatecommand.Parameters.AddWithValue("@a6", TxtMeslek.Text);
+            updatecommand.Parameters.AddWithValue("@a7", Txtid.Text);
+            updatecommand.ExecuteNonQuery();
+            connection.Close();
+            MessageBox.Show("Employee information has been updated.");
+        }
     }
 }

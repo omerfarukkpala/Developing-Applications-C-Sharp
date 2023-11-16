@@ -297,6 +297,7 @@
             this.BtnGuncelle.TabIndex = 5;
             this.BtnGuncelle.Text = "Update";
             this.BtnGuncelle.UseVisualStyleBackColor = true;
+            this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
             // 
             // BtnSil
             // 
@@ -306,6 +307,7 @@
             this.BtnSil.TabIndex = 4;
             this.BtnSil.Text = "Delete";
             this.BtnSil.UseVisualStyleBackColor = true;
+            this.BtnSil.Click += new System.EventHandler(this.BtnSil_Click);
             // 
             // BtnKaydet
             // 
@@ -422,7 +424,6 @@
             this.label8.Text = "label8";
             this.label8.Visible = false;
             this.label8.TextChanged += new System.EventHandler(this.label8_TextChanged);
-//            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // pictureBox1
             // 
