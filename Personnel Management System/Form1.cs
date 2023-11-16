@@ -33,7 +33,7 @@ namespace Personnel_Management_System
 
         private void BtnKaydet_Click(object sender, EventArgs e)
         {
-            connection.Open();
+            connection.Open(); //con bağlantı
             SqlCommand komut = new SqlCommand("insert into Tbl_Personel (PerName,PerSurname,PerCity,PerSalary,PerOccupation,PerStatus) values (@P1,@P2,@P3,@P4,@P5,@P6)", connection);
             komut.Parameters.AddWithValue("@p1", TxtAd.Text);
             komut.Parameters.AddWithValue("@p2", TxtSoyad.Text);
