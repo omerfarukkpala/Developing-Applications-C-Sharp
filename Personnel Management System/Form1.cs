@@ -132,5 +132,11 @@ namespace Personnel_Management_System
             connection.Close();
             MessageBox.Show("Employee information has been updated.");
         }
+
+        private void Btnistatistik_Click(object sender, EventArgs e)
+        {
+            FrmStatistics frmStatistics = new FrmStatistics();
+            frmStatistics.Show();
+        }
     }
 }

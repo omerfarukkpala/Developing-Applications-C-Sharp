@@ -278,6 +278,7 @@
             this.Btnistatistik.TabIndex = 7;
             this.Btnistatistik.Text = "Statistics";
             this.Btnistatistik.UseVisualStyleBackColor = true;
+            this.Btnistatistik.Click += new System.EventHandler(this.Btnistatistik_Click);
             // 
             // BtnTemizle
             // 
