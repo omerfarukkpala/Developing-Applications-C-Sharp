@@ -63,6 +63,26 @@ namespace Personnel_Management_System
             }
             connection.Close();
 
+            // Toplam Maaş
+
+            connection.Open();
+            SqlCommand command5 = new SqlCommand("Select Sum(PerSalary) From Tbl_Personel", connection);
+            SqlDataReader reader5 = command5.ExecuteReader();
+            while (reader5.Read())
+            {
+                LblToplamMaas.Text = reader5[0].ToString();
+            }
+            connection.Close();
+
+            // Ortalama Maaş
+            connection.Open();
+            SqlCommand command6 = new SqlCommand("Select Avg(PerSalary) From Tbl_Personel", connection);
+            SqlDataReader reader6 = command6.ExecuteReader();
+            while (reader6.Read())
+            {
+                LblOrtalamaMaas.Text = reader6[0].ToString();
+            }
+            connection.Close();
 
 
 

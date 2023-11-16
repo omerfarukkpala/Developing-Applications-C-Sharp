@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Personnel_Management_System
 {
-    public partial class Form1 : Form
+    public partial class FrmMainForm : Form
     {
-        public Form1()
+        public FrmMainForm()
         {
             InitializeComponent();
         }
