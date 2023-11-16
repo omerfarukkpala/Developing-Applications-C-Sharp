@@ -83,7 +83,14 @@ namespace Personnel_Management_System
 
         private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            int selected = dataGridView1.SelectedCells[0].RowIndex;
+            Txtid.Text = dataGridView1.Rows[selected].Cells[0].Value.ToString();
+            TxtAd.Text = dataGridView1.Rows[selected].Cells[1].Value.ToString();
+            TxtSoyad.Text = dataGridView1.Rows[selected].Cells[2].Value.ToString();
+            CmbSehir.Text = dataGridView1.Rows[selected].Cells[3].Value.ToString();
+            MskMaas.Text = dataGridView1.Rows[selected].Cells[4].Value.ToString();
+            label8.Text = dataGridView1.Rows[selected].Cells[5].Value.ToString();
+            TxtMeslek.Text = dataGridView1.Rows[selected].Cells[6].Value.ToString();
         }
     }
 }
