@@ -119,7 +119,7 @@ namespace Personnel_Management_System
 
         private void BtnGuncelle_Click(object sender, EventArgs e)
         {
-            connection.Open();
+            connection.Open();//
             SqlCommand updatecommand = new SqlCommand("Update Tbl_Personel Set PerName=@a1,PerSurname=@a2,PerCity=@a3,PerSalary=@a4,PerStatus=@a5,PerOccupation=@a6 where Perid=@a7", connection);
             updatecommand.Parameters.AddWithValue("@a1", TxtAd.Text);
             updatecommand.Parameters.AddWithValue("@a2", TxtSoyad.Text);
