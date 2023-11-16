@@ -22,6 +22,23 @@ namespace Personnel_Management_System
 
         private void BtnGirisYap_Click(object sender, EventArgs e)
         {
+            connection.Open();
+            SqlCommand command = new SqlCommand("Select * From Tbl_Administrator where UserName=@p1 and Password=@p2", connection);
+            command.Parameters.AddWithValue("@p1", TxtKullaniciAd.Text);
+            command.Parameters.AddWithValue("@p2", TxtSifre.Text);
+            SqlDataReader reader = command.ExecuteReader();
+            if (reader.Read())
+            {
+                FrmMainForm frm = new FrmMainForm();
+                frm.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Incorrect Username or Password");
+            }
+            connection.Close();
+
 
         }
     }
