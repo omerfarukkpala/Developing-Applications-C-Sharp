@@ -260,6 +260,7 @@
             this.BtnRaporlar.TabIndex = 9;
             this.BtnRaporlar.Text = "Reports";
             this.BtnRaporlar.UseVisualStyleBackColor = true;
+            this.BtnRaporlar.Click += new System.EventHandler(this.BtnRaporlar_Click);
             // 
             // BtnGrafikler
             // 

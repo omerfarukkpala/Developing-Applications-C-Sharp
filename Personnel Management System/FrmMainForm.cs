@@ -144,5 +144,11 @@ namespace Personnel_Management_System
             FrmCharts frmCharts = new FrmCharts();
             frmCharts.Show();
         }
+
+        private void BtnRaporlar_Click(object sender, EventArgs e)
+        {
+            FrmReports frmReports = new FrmReports();
+            frmReports.Show();
+        }
     }
 }
