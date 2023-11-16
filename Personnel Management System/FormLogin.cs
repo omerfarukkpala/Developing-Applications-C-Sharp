@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -16,6 +17,8 @@ namespace Personnel_Management_System
         {
             InitializeComponent();
         }
+
+        SqlConnection connection = new SqlConnection("Data Source=OMERFARUKPALA;Initial Catalog=PersonelDatabase;Integrated Security=True");
 
         private void BtnGirisYap_Click(object sender, EventArgs e)
         {
