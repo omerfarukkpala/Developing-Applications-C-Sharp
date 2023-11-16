@@ -53,7 +53,7 @@
             series1.Name = "Cities";
             series1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
             this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(300, 300);
+            this.chart1.Size = new System.Drawing.Size(362, 300);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
             // 
@@ -70,7 +70,7 @@
             series2.Name = "Occupation-Salary";
             series2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
             this.chart2.Series.Add(series2);
-            this.chart2.Size = new System.Drawing.Size(300, 300);
+            this.chart2.Size = new System.Drawing.Size(356, 300);
             this.chart2.TabIndex = 1;
             this.chart2.Text = "chart2";
             // 

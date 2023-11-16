@@ -269,6 +269,7 @@
             this.BtnGrafikler.TabIndex = 8;
             this.BtnGrafikler.Text = "Graphs";
             this.BtnGrafikler.UseVisualStyleBackColor = true;
+            this.BtnGrafikler.Click += new System.EventHandler(this.BtnGrafikler_Click);
             // 
             // Btnistatistik
             // 

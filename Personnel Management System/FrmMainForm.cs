@@ -138,5 +138,11 @@ namespace Personnel_Management_System
             FrmStatistics frmStatistics = new FrmStatistics();
             frmStatistics.Show();
         }
+
+        private void BtnGrafikler_Click(object sender, EventArgs e)
+        {
+            FrmCharts frmCharts = new FrmCharts();
+            frmCharts.Show();
+        }
     }
 }
