@@ -57,11 +57,6 @@
             this.BtnListele = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label8 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.personelDatabaseDataSet = new Personnel_Management_System.PersonelDatabaseDataSet();
-            this.tblPersonelBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.tbl_PersonelTableAdapter = new Personnel_Management_System.PersonelDatabaseDataSetTableAdapters.Tbl_PersonelTableAdapter();
             this.peridDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.perNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.perSurnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -69,13 +64,18 @@
             this.perSalaryDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.perStatusDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.perOccupationDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tblPersonelBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.personelDatabaseDataSet = new Personnel_Management_System.PersonelDatabaseDataSet();
+            this.label8 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.tbl_PersonelTableAdapter = new Personnel_Management_System.PersonelDatabaseDataSetTableAdapters.Tbl_PersonelTableAdapter();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.personelDatabaseDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblPersonelBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.personelDatabaseDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -131,6 +131,7 @@
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Single";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // label6
             // 
@@ -151,6 +152,7 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Married";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // label5
             // 
@@ -285,6 +287,7 @@
             this.BtnTemizle.TabIndex = 6;
             this.BtnTemizle.Text = "Clear";
             this.BtnTemizle.UseVisualStyleBackColor = true;
+            this.BtnTemizle.Click += new System.EventHandler(this.BtnTemizle_Click);
             // 
             // BtnGuncelle
             // 
@@ -354,40 +357,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(927, 234);
             this.dataGridView1.TabIndex = 30;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(889, 297);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 13);
-            this.label8.TabIndex = 227;
-            this.label8.Text = "label8";
-            this.label8.Visible = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(812, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(198, 151);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 226;
-            this.pictureBox1.TabStop = false;
-            // 
-            // personelDatabaseDataSet
-            // 
-            this.personelDatabaseDataSet.DataSetName = "PersonelDatabaseDataSet";
-            this.personelDatabaseDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // tblPersonelBindingSource
-            // 
-            this.tblPersonelBindingSource.DataMember = "Tbl_Personel";
-            this.tblPersonelBindingSource.DataSource = this.personelDatabaseDataSet;
-            // 
-            // tbl_PersonelTableAdapter
-            // 
-            this.tbl_PersonelTableAdapter.ClearBeforeFill = true;
+            this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
             // peridDataGridViewTextBoxColumn
             // 
@@ -432,6 +402,40 @@
             this.perOccupationDataGridViewTextBoxColumn.HeaderText = "PerOccupation";
             this.perOccupationDataGridViewTextBoxColumn.Name = "perOccupationDataGridViewTextBoxColumn";
             // 
+            // tblPersonelBindingSource
+            // 
+            this.tblPersonelBindingSource.DataMember = "Tbl_Personel";
+            this.tblPersonelBindingSource.DataSource = this.personelDatabaseDataSet;
+            // 
+            // personelDatabaseDataSet
+            // 
+            this.personelDatabaseDataSet.DataSetName = "PersonelDatabaseDataSet";
+            this.personelDatabaseDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(889, 297);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(35, 13);
+            this.label8.TabIndex = 227;
+            this.label8.Text = "label8";
+            this.label8.Visible = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(812, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(198, 151);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 226;
+            this.pictureBox1.TabStop = false;
+            // 
+            // tbl_PersonelTableAdapter
+            // 
+            this.tbl_PersonelTableAdapter.ClearBeforeFill = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -451,9 +455,9 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.personelDatabaseDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblPersonelBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.personelDatabaseDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
