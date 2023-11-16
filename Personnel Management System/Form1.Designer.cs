@@ -421,6 +421,8 @@
             this.label8.TabIndex = 227;
             this.label8.Text = "label8";
             this.label8.Visible = false;
+            this.label8.TextChanged += new System.EventHandler(this.label8_TextChanged);
+//            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // pictureBox1
             // 

@@ -92,5 +92,19 @@ namespace Personnel_Management_System
             label8.Text = dataGridView1.Rows[selected].Cells[5].Value.ToString();
             TxtMeslek.Text = dataGridView1.Rows[selected].Cells[6].Value.ToString();
         }
+
+       
+
+        private void label8_TextChanged(object sender, EventArgs e)
+        {
+            if (label8.Text == "True")
+            {
+                radioButton1.Checked = true;
+            }
+            if (label8.Text == "False")
+            {
+                radioButton2.Checked = true;
+            }
+        }
     }
 }
