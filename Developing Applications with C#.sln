@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extra Structures", "Extra S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personnel Management System", "Personnel Management System\Personnel Management System.csproj", "{728F33C9-DAB5-4B1E-8628-4EA1F229C01C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File Operations", "File Operations\File Operations.csproj", "{CA4FDC65-52C6-49F6-9F0A-4CDAA2073872}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{728F33C9-DAB5-4B1E-8628-4EA1F229C01C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{728F33C9-DAB5-4B1E-8628-4EA1F229C01C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{728F33C9-DAB5-4B1E-8628-4EA1F229C01C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA4FDC65-52C6-49F6-9F0A-4CDAA2073872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4FDC65-52C6-49F6-9F0A-4CDAA2073872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4FDC65-52C6-49F6-9F0A-4CDAA2073872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4FDC65-52C6-49F6-9F0A-4CDAA2073872}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
