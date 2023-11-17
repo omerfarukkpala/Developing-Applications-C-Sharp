@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personnel Management System
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File Operations", "File Operations\File Operations.csproj", "{CA4FDC65-52C6-49F6-9F0A-4CDAA2073872}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital Management Automation", "Hospital Management Automation\Hospital Management Automation.csproj", "{0C35FBBE-0D9C-43CE-AC84-8CDC2C0C6626}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{CA4FDC65-52C6-49F6-9F0A-4CDAA2073872}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA4FDC65-52C6-49F6-9F0A-4CDAA2073872}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA4FDC65-52C6-49F6-9F0A-4CDAA2073872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C35FBBE-0D9C-43CE-AC84-8CDC2C0C6626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C35FBBE-0D9C-43CE-AC84-8CDC2C0C6626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C35FBBE-0D9C-43CE-AC84-8CDC2C0C6626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C35FBBE-0D9C-43CE-AC84-8CDC2C0C6626}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
