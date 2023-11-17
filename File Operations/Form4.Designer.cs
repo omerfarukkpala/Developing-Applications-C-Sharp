@@ -59,7 +59,7 @@
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button1);
             this.Name = "Form4";
-            this.Text = "Text Files";
+            this.Text = ",";
             this.ResumeLayout(false);
 
         }
