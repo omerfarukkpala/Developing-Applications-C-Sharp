@@ -245,12 +245,12 @@
             this.groupBox2.Controls.Add(this.BtnSil);
             this.groupBox2.Controls.Add(this.BtnKaydet);
             this.groupBox2.Controls.Add(this.BtnListele);
-            this.groupBox2.Location = new System.Drawing.Point(445, 12);
+            this.groupBox2.Location = new System.Drawing.Point(404, 12);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(292, 392);
             this.groupBox2.TabIndex = 224;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "İşlemler";
+            this.groupBox2.Text = "Operations";
             // 
             // BtnRaporlar
             // 
@@ -337,7 +337,7 @@
             this.groupBox3.Controls.Add(this.dataGridView1);
             this.groupBox3.Location = new System.Drawing.Point(12, 438);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(933, 253);
+            this.groupBox3.Size = new System.Drawing.Size(760, 276);
             this.groupBox3.TabIndex = 225;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Records";
@@ -360,7 +360,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(927, 234);
+            this.dataGridView1.Size = new System.Drawing.Size(754, 257);
             this.dataGridView1.TabIndex = 30;
             this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
@@ -420,7 +420,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(889, 297);
+            this.label8.Location = new System.Drawing.Point(734, 236);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(35, 13);
             this.label8.TabIndex = 227;
@@ -431,9 +431,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(812, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(702, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(198, 151);
+            this.pictureBox1.Size = new System.Drawing.Size(168, 161);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 226;
             this.pictureBox1.TabStop = false;
@@ -447,12 +447,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1070, 726);
+            this.ClientSize = new System.Drawing.Size(903, 729);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Name = "FrmMainForm";
             this.Text = "FrmMainForm";
             this.Load += new System.EventHandler(this.Form1_Load);
