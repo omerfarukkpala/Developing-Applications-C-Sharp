@@ -81,7 +81,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Personel  Ad</Value>
+                              <Value>Personnel  Name</Value>
                               <Style>
                                 <FontSize>11pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
@@ -122,7 +122,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Personel Soyad</Value>
+                              <Value>Personnel Name</Value>
                               <Style>
                                 <FontSize>11pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
@@ -163,7 +163,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Personel Sehir</Value>
+                              <Value>Personnel City</Value>
                               <Style>
                                 <FontSize>11pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
@@ -204,7 +204,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Personel Maas</Value>
+                              <Value>Personnel Salary</Value>
                               <Style>
                                 <FontSize>11pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
@@ -245,7 +245,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Personel Durum</Value>
+                              <Value>Personnel Status</Value>
                               <Style>
                                 <FontSize>11pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
@@ -286,7 +286,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Personel Meslek</Value>
+                              <Value>Personel Occupation</Value>
                               <Style>
                                 <FontSize>11pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
@@ -595,7 +595,7 @@
     <Height>2.39583in</Height>
     <Style />
   </Body>
-  <Width>10.15018in</Width>
+  <Width>10.57726in</Width>
   <Page>
     <PageHeight>29.7cm</PageHeight>
     <PageWidth>21cm</PageWidth>

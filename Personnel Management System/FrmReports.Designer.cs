@@ -30,18 +30,28 @@
         {
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            this.tblPersonelBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.personelDatabaseDataSet21 = new Personnel_Management_System.PersonelDatabaseDataSet2();
             this.directoryEntry1 = new System.DirectoryServices.DirectoryEntry();
             this.personelDatabaseDataSet1 = new Personnel_Management_System.PersonelDatabaseDataSet();
             this.personelDatabaseDataSet2 = new Personnel_Management_System.PersonelDatabaseDataSet();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.personelDatabaseDataSet21 = new Personnel_Management_System.PersonelDatabaseDataSet2();
-            this.tblPersonelBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tbl_PersonelTableAdapter1 = new Personnel_Management_System.PersonelDatabaseDataSet2TableAdapters.Tbl_PersonelTableAdapter();
+            ((System.ComponentModel.ISupportInitialize)(this.tblPersonelBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.personelDatabaseDataSet21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.personelDatabaseDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.personelDatabaseDataSet2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.personelDatabaseDataSet21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tblPersonelBindingSource)).BeginInit();
             this.SuspendLayout();
+            // 
+            // tblPersonelBindingSource
+            // 
+            this.tblPersonelBindingSource.DataMember = "Tbl_Personel";
+            this.tblPersonelBindingSource.DataSource = this.personelDatabaseDataSet21;
+            // 
+            // personelDatabaseDataSet21
+            // 
+            this.personelDatabaseDataSet21.DataSetName = "PersonelDatabaseDataSet2";
+            this.personelDatabaseDataSet21.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // personelDatabaseDataSet1
             // 
@@ -62,18 +72,8 @@
             this.reportViewer1.Location = new System.Drawing.Point(29, 27);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(1025, 303);
+            this.reportViewer1.Size = new System.Drawing.Size(1162, 492);
             this.reportViewer1.TabIndex = 0;
-            // 
-            // personelDatabaseDataSet21
-            // 
-            this.personelDatabaseDataSet21.DataSetName = "PersonelDatabaseDataSet2";
-            this.personelDatabaseDataSet21.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // tblPersonelBindingSource
-            // 
-            this.tblPersonelBindingSource.DataMember = "Tbl_Personel";
-            this.tblPersonelBindingSource.DataSource = this.personelDatabaseDataSet21;
             // 
             // tbl_PersonelTableAdapter1
             // 
@@ -83,15 +83,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1142, 450);
+            this.ClientSize = new System.Drawing.Size(1281, 581);
             this.Controls.Add(this.reportViewer1);
             this.Name = "FrmReports";
             this.Text = "FrmReports";
             this.Load += new System.EventHandler(this.FrmReports_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.tblPersonelBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.personelDatabaseDataSet21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.personelDatabaseDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.personelDatabaseDataSet2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.personelDatabaseDataSet21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tblPersonelBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }

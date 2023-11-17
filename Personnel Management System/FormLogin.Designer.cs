@@ -39,7 +39,7 @@
             // BtnGirisYap
             // 
             this.BtnGirisYap.Location = new System.Drawing.Point(431, 305);
-            this.BtnGirisYap.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.BtnGirisYap.Margin = new System.Windows.Forms.Padding(6);
             this.BtnGirisYap.Name = "BtnGirisYap";
             this.BtnGirisYap.Size = new System.Drawing.Size(290, 78);
             this.BtnGirisYap.TabIndex = 11;
@@ -60,8 +60,8 @@
             // 
             // TxtSifre
             // 
-            this.TxtSifre.Location = new System.Drawing.Point(431, 227);
-            this.TxtSifre.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.TxtSifre.Location = new System.Drawing.Point(431, 243);
+            this.TxtSifre.Margin = new System.Windows.Forms.Padding(6);
             this.TxtSifre.Name = "TxtSifre";
             this.TxtSifre.Size = new System.Drawing.Size(286, 29);
             this.TxtSifre.TabIndex = 9;
@@ -70,7 +70,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(238, 243);
+            this.label2.Location = new System.Drawing.Point(238, 248);
             this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(102, 24);
@@ -80,7 +80,7 @@
             // TxtKullaniciAd
             // 
             this.TxtKullaniciAd.Location = new System.Drawing.Point(431, 150);
-            this.TxtKullaniciAd.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.TxtKullaniciAd.Margin = new System.Windows.Forms.Padding(6);
             this.TxtKullaniciAd.Name = "TxtKullaniciAd";
             this.TxtKullaniciAd.Size = new System.Drawing.Size(286, 29);
             this.TxtKullaniciAd.TabIndex = 7;
@@ -108,7 +108,7 @@
             this.Controls.Add(this.TxtKullaniciAd);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "FormLogin";
             this.Text = "FormLogin";
             this.ResumeLayout(false);
