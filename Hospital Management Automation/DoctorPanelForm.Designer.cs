@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DoctorPanelForm));
             this.BtnGuncelle = new System.Windows.Forms.Button();
             this.BtnSil = new System.Windows.Forms.Button();
             this.BtnEkle = new System.Windows.Forms.Button();
@@ -49,69 +50,73 @@
             // 
             this.BtnGuncelle.BackColor = System.Drawing.Color.Lime;
             this.BtnGuncelle.Location = new System.Drawing.Point(94, 322);
-            this.BtnGuncelle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnGuncelle.Margin = new System.Windows.Forms.Padding(4);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(204, 50);
             this.BtnGuncelle.TabIndex = 40;
             this.BtnGuncelle.Text = "Update";
             this.BtnGuncelle.UseVisualStyleBackColor = false;
+            this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
             // 
             // BtnSil
             // 
             this.BtnSil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.BtnSil.Location = new System.Drawing.Point(210, 264);
-            this.BtnSil.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnSil.Margin = new System.Windows.Forms.Padding(4);
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(88, 50);
             this.BtnSil.TabIndex = 39;
             this.BtnSil.Text = "Delete";
             this.BtnSil.UseVisualStyleBackColor = false;
+            this.BtnSil.Click += new System.EventHandler(this.BtnSil_Click);
             // 
             // BtnEkle
             // 
             this.BtnEkle.BackColor = System.Drawing.Color.RoyalBlue;
             this.BtnEkle.Location = new System.Drawing.Point(94, 264);
-            this.BtnEkle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnEkle.Margin = new System.Windows.Forms.Padding(4);
             this.BtnEkle.Name = "BtnEkle";
             this.BtnEkle.Size = new System.Drawing.Size(88, 50);
             this.BtnEkle.TabIndex = 38;
             this.BtnEkle.Text = "Add";
             this.BtnEkle.UseVisualStyleBackColor = false;
+            this.BtnEkle.Click += new System.EventHandler(this.BtnEkle_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(334, 8);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1018, 364);
             this.dataGridView1.TabIndex = 37;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // TxtSifre
             // 
             this.TxtSifre.Location = new System.Drawing.Point(94, 213);
-            this.TxtSifre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtSifre.Margin = new System.Windows.Forms.Padding(4);
             this.TxtSifre.Name = "TxtSifre";
             this.TxtSifre.Size = new System.Drawing.Size(202, 24);
-            this.TxtSifre.TabIndex = 31;
+            this.TxtSifre.TabIndex = 5;
             // 
             // TxtSoyad
             // 
             this.TxtSoyad.Location = new System.Drawing.Point(94, 59);
-            this.TxtSoyad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtSoyad.Margin = new System.Windows.Forms.Padding(4);
             this.TxtSoyad.Name = "TxtSoyad";
             this.TxtSoyad.Size = new System.Drawing.Size(202, 24);
-            this.TxtSoyad.TabIndex = 28;
+            this.TxtSoyad.TabIndex = 2;
             // 
             // MskTC
             // 
             this.MskTC.Location = new System.Drawing.Point(94, 162);
-            this.MskTC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MskTC.Margin = new System.Windows.Forms.Padding(4);
             this.MskTC.Mask = "00000000000";
             this.MskTC.Name = "MskTC";
             this.MskTC.Size = new System.Drawing.Size(202, 24);
-            this.MskTC.TabIndex = 30;
+            this.MskTC.TabIndex = 4;
             this.MskTC.ValidatingType = typeof(int);
             // 
             // label5
@@ -158,18 +163,18 @@
             // 
             this.CmbBrans.FormattingEnabled = true;
             this.CmbBrans.Location = new System.Drawing.Point(94, 111);
-            this.CmbBrans.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CmbBrans.Margin = new System.Windows.Forms.Padding(4);
             this.CmbBrans.Name = "CmbBrans";
             this.CmbBrans.Size = new System.Drawing.Size(202, 26);
-            this.CmbBrans.TabIndex = 29;
+            this.CmbBrans.TabIndex = 3;
             // 
             // TxtAd
             // 
             this.TxtAd.Location = new System.Drawing.Point(94, 8);
-            this.TxtAd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtAd.Margin = new System.Windows.Forms.Padding(4);
             this.TxtAd.Name = "TxtAd";
             this.TxtAd.Size = new System.Drawing.Size(202, 24);
-            this.TxtAd.TabIndex = 27;
+            this.TxtAd.TabIndex = 1;
             // 
             // label1
             // 
@@ -185,6 +190,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(1377, 390);
             this.Controls.Add(this.BtnGuncelle);
             this.Controls.Add(this.BtnSil);
@@ -201,9 +207,11 @@
             this.Controls.Add(this.TxtAd);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "DoctorPanelForm";
             this.Text = "DoctorPanelForm";
+            this.Load += new System.EventHandler(this.DoctorPanelForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

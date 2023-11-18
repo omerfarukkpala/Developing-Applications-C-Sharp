@@ -73,32 +73,35 @@
             // BtnDuyurular
             // 
             this.BtnDuyurular.Location = new System.Drawing.Point(621, 42);
-            this.BtnDuyurular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnDuyurular.Margin = new System.Windows.Forms.Padding(4);
             this.BtnDuyurular.Name = "BtnDuyurular";
             this.BtnDuyurular.Size = new System.Drawing.Size(194, 53);
             this.BtnDuyurular.TabIndex = 22;
             this.BtnDuyurular.Text = "Announcements";
             this.BtnDuyurular.UseVisualStyleBackColor = true;
+            this.BtnDuyurular.Click += new System.EventHandler(this.BtnDuyurular_Click);
             // 
             // BtnListe
             // 
             this.BtnListe.Location = new System.Drawing.Point(414, 42);
-            this.BtnListe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnListe.Margin = new System.Windows.Forms.Padding(4);
             this.BtnListe.Name = "BtnListe";
             this.BtnListe.Size = new System.Drawing.Size(194, 53);
             this.BtnListe.TabIndex = 21;
             this.BtnListe.Text = "Appointment List";
             this.BtnListe.UseVisualStyleBackColor = true;
+            this.BtnListe.Click += new System.EventHandler(this.BtnListe_Click);
             // 
             // BtnDoktorPanel
             // 
             this.BtnDoktorPanel.Location = new System.Drawing.Point(9, 42);
-            this.BtnDoktorPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnDoktorPanel.Margin = new System.Windows.Forms.Padding(4);
             this.BtnDoktorPanel.Name = "BtnDoktorPanel";
             this.BtnDoktorPanel.Size = new System.Drawing.Size(194, 53);
             this.BtnDoktorPanel.TabIndex = 19;
             this.BtnDoktorPanel.Text = "Doctor Panel";
             this.BtnDoktorPanel.UseVisualStyleBackColor = true;
+            this.BtnDoktorPanel.Click += new System.EventHandler(this.BtnDoktorPanel_Click);
             // 
             // dataGridView2
             // 
@@ -106,7 +109,7 @@
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView2.Location = new System.Drawing.Point(4, 21);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(528, 379);
             this.dataGridView2.TabIndex = 0;
@@ -115,9 +118,9 @@
             // 
             this.groupBox5.Controls.Add(this.dataGridView2);
             this.groupBox5.Location = new System.Drawing.Point(842, 281);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox5.Size = new System.Drawing.Size(536, 404);
             this.groupBox5.TabIndex = 10;
             this.groupBox5.TabStop = false;
@@ -129,7 +132,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(4, 21);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(528, 235);
             this.dataGridView1.TabIndex = 0;
@@ -138,9 +141,9 @@
             // 
             this.groupBox4.Controls.Add(this.dataGridView1);
             this.groupBox4.Location = new System.Drawing.Point(842, 12);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox4.Size = new System.Drawing.Size(536, 260);
             this.groupBox4.TabIndex = 9;
             this.groupBox4.TabStop = false;
@@ -149,28 +152,30 @@
             // BtnBransPanel
             // 
             this.BtnBransPanel.Location = new System.Drawing.Point(212, 42);
-            this.BtnBransPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnBransPanel.Margin = new System.Windows.Forms.Padding(4);
             this.BtnBransPanel.Name = "BtnBransPanel";
             this.BtnBransPanel.Size = new System.Drawing.Size(194, 53);
             this.BtnBransPanel.TabIndex = 20;
             this.BtnBransPanel.Text = "Department Panel";
             this.BtnBransPanel.UseVisualStyleBackColor = true;
+            this.BtnBransPanel.Click += new System.EventHandler(this.BtnBransPanel_Click);
             // 
             // BtnKaydet
             // 
             this.BtnKaydet.Location = new System.Drawing.Point(141, 433);
-            this.BtnKaydet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnKaydet.Margin = new System.Windows.Forms.Padding(4);
             this.BtnKaydet.Name = "BtnKaydet";
             this.BtnKaydet.Size = new System.Drawing.Size(219, 44);
             this.BtnKaydet.TabIndex = 18;
             this.BtnKaydet.Text = "Save";
             this.BtnKaydet.UseVisualStyleBackColor = true;
+            this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
             // ChkDurum
             // 
             this.ChkDurum.AutoSize = true;
             this.ChkDurum.Location = new System.Drawing.Point(124, 379);
-            this.ChkDurum.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ChkDurum.Margin = new System.Windows.Forms.Padding(4);
             this.ChkDurum.Name = "ChkDurum";
             this.ChkDurum.Size = new System.Drawing.Size(69, 22);
             this.ChkDurum.TabIndex = 17;
@@ -180,7 +185,7 @@
             // MskTC
             // 
             this.MskTC.Location = new System.Drawing.Point(124, 328);
-            this.MskTC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MskTC.Margin = new System.Windows.Forms.Padding(4);
             this.MskTC.Mask = "00000000000";
             this.MskTC.Name = "MskTC";
             this.MskTC.Size = new System.Drawing.Size(250, 24);
@@ -191,7 +196,7 @@
             // 
             this.CmbDoktor.FormattingEnabled = true;
             this.CmbDoktor.Location = new System.Drawing.Point(124, 273);
-            this.CmbDoktor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CmbDoktor.Margin = new System.Windows.Forms.Padding(4);
             this.CmbDoktor.Name = "CmbDoktor";
             this.CmbDoktor.Size = new System.Drawing.Size(250, 26);
             this.CmbDoktor.TabIndex = 15;
@@ -200,15 +205,16 @@
             // 
             this.CmbBrans.FormattingEnabled = true;
             this.CmbBrans.Location = new System.Drawing.Point(124, 217);
-            this.CmbBrans.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CmbBrans.Margin = new System.Windows.Forms.Padding(4);
             this.CmbBrans.Name = "CmbBrans";
             this.CmbBrans.Size = new System.Drawing.Size(250, 26);
             this.CmbBrans.TabIndex = 14;
+            this.CmbBrans.SelectedIndexChanged += new System.EventHandler(this.CmbBrans_SelectedIndexChanged);
             // 
             // MskSaat
             // 
             this.MskSaat.Location = new System.Drawing.Point(124, 162);
-            this.MskSaat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MskSaat.Margin = new System.Windows.Forms.Padding(4);
             this.MskSaat.Mask = "00:00";
             this.MskSaat.Name = "MskSaat";
             this.MskSaat.Size = new System.Drawing.Size(250, 24);
@@ -222,9 +228,9 @@
             this.groupBox6.Controls.Add(this.BtnBransPanel);
             this.groupBox6.Controls.Add(this.BtnDoktorPanel);
             this.groupBox6.Location = new System.Drawing.Point(9, 559);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox6.Size = new System.Drawing.Size(824, 122);
             this.groupBox6.TabIndex = 11;
             this.groupBox6.TabStop = false;
@@ -237,9 +243,9 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(9, 12);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(414, 166);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
@@ -288,7 +294,7 @@
             // MskTarih
             // 
             this.MskTarih.Location = new System.Drawing.Point(124, 104);
-            this.MskTarih.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MskTarih.Margin = new System.Windows.Forms.Padding(4);
             this.MskTarih.Mask = "00/00/0000";
             this.MskTarih.Name = "MskTarih";
             this.MskTarih.Size = new System.Drawing.Size(250, 24);
@@ -298,7 +304,7 @@
             // Txtid
             // 
             this.Txtid.Location = new System.Drawing.Point(124, 47);
-            this.Txtid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Txtid.Margin = new System.Windows.Forms.Padding(4);
             this.Txtid.Name = "Txtid";
             this.Txtid.Size = new System.Drawing.Size(250, 24);
             this.Txtid.TabIndex = 11;
@@ -346,7 +352,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(34, 111);
+            this.label6.Location = new System.Drawing.Point(49, 110);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(47, 18);
@@ -358,9 +364,9 @@
             this.groupBox2.Controls.Add(this.BtnDuyuruOlustur);
             this.groupBox2.Controls.Add(this.RchDuyuru);
             this.groupBox2.Location = new System.Drawing.Point(9, 187);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(414, 364);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
@@ -369,17 +375,18 @@
             // BtnDuyuruOlustur
             // 
             this.BtnDuyuruOlustur.Location = new System.Drawing.Point(9, 287);
-            this.BtnDuyuruOlustur.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnDuyuruOlustur.Margin = new System.Windows.Forms.Padding(4);
             this.BtnDuyuruOlustur.Name = "BtnDuyuruOlustur";
             this.BtnDuyuruOlustur.Size = new System.Drawing.Size(386, 65);
             this.BtnDuyuruOlustur.TabIndex = 1;
             this.BtnDuyuruOlustur.Text = "Create ";
             this.BtnDuyuruOlustur.UseVisualStyleBackColor = true;
+            this.BtnDuyuruOlustur.Click += new System.EventHandler(this.BtnDuyuruOlustur_Click);
             // 
             // RchDuyuru
             // 
             this.RchDuyuru.Location = new System.Drawing.Point(9, 42);
-            this.RchDuyuru.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RchDuyuru.Margin = new System.Windows.Forms.Padding(4);
             this.RchDuyuru.Name = "RchDuyuru";
             this.RchDuyuru.Size = new System.Drawing.Size(384, 235);
             this.RchDuyuru.TabIndex = 0;
@@ -412,9 +419,9 @@
             this.groupBox3.Controls.Add(this.label6);
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Location = new System.Drawing.Point(432, 12);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.Size = new System.Drawing.Size(400, 539);
             this.groupBox3.TabIndex = 8;
             this.groupBox3.TabStop = false;
@@ -424,6 +431,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(1380, 689);
             this.Controls.Add(this.groupBox5);
@@ -433,9 +441,11 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox3);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
             this.Name = "SecretaryDetailsForm";
             this.Text = "Secretary Details Form";
+            this.Load += new System.EventHandler(this.SecretaryDetailsForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.groupBox5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

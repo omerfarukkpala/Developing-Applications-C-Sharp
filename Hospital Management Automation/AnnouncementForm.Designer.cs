@@ -50,6 +50,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "AnnouncementForm";
             this.Text = "Announcement Form";
+            this.Load += new System.EventHandler(this.AnnouncementForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 

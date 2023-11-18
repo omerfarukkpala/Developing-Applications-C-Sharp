@@ -78,5 +78,23 @@ namespace Hospital_Management_Automation
             fr.TCno = LblTC.Text;
             fr.Show();
         }
+
+        private void dataGridView2_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int secilen = dataGridView2.SelectedCells[0].RowIndex;
+            Txtid.Text = dataGridView2.Rows[secilen].Cells[0].Value.ToString();
+        }
+
+        private void BtnRandevuAl_Click(object sender, EventArgs e)
+        {
+            SqlCommand komut = new SqlCommand("update Tbl_Randevular set RandevuDurum=1,HastaTC=@p1,HastaSikayet=@p2 where Randevuid=@p3", bgl.baglanti());
+            komut.Parameters.AddWithValue("@p1", LblTC.Text);
+            komut.Parameters.AddWithValue("@p2", RchSikayet.Text);
+            komut.Parameters.AddWithValue("@p3", Txtid.Text);
+            komut.ExecuteNonQuery();
+            bgl.baglanti().Close();
+            MessageBox.Show("Randevu Alındı", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+        }
     }
 }

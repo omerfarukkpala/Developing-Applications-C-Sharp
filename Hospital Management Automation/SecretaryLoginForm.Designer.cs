@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SecretaryLoginForm));
             this.BtnGirisYap = new System.Windows.Forms.Button();
             this.TxtSifre = new System.Windows.Forms.TextBox();
             this.MskTC = new System.Windows.Forms.MaskedTextBox();
@@ -39,17 +40,18 @@
             // BtnGirisYap
             // 
             this.BtnGirisYap.Location = new System.Drawing.Point(228, 223);
-            this.BtnGirisYap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnGirisYap.Margin = new System.Windows.Forms.Padding(4);
             this.BtnGirisYap.Name = "BtnGirisYap";
             this.BtnGirisYap.Size = new System.Drawing.Size(186, 47);
             this.BtnGirisYap.TabIndex = 18;
             this.BtnGirisYap.Text = "Log In";
             this.BtnGirisYap.UseVisualStyleBackColor = true;
+            this.BtnGirisYap.Click += new System.EventHandler(this.BtnGirisYap_Click);
             // 
             // TxtSifre
             // 
             this.TxtSifre.Location = new System.Drawing.Point(208, 172);
-            this.TxtSifre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtSifre.Margin = new System.Windows.Forms.Padding(4);
             this.TxtSifre.Name = "TxtSifre";
             this.TxtSifre.Size = new System.Drawing.Size(228, 24);
             this.TxtSifre.TabIndex = 17;
@@ -58,7 +60,7 @@
             // MskTC
             // 
             this.MskTC.Location = new System.Drawing.Point(208, 117);
-            this.MskTC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MskTC.Margin = new System.Windows.Forms.Padding(4);
             this.MskTC.Mask = "00000000000";
             this.MskTC.Name = "MskTC";
             this.MskTC.Size = new System.Drawing.Size(228, 24);
@@ -98,8 +100,10 @@
             // 
             // SecretaryLoginForm
             // 
+            this.AcceptButton = this.BtnGirisYap;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.CadetBlue;
             this.ClientSize = new System.Drawing.Size(573, 416);
             this.Controls.Add(this.BtnGirisYap);
@@ -109,7 +113,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "SecretaryLoginForm";
             this.Text = "Secretary Login Form";
             this.ResumeLayout(false);
