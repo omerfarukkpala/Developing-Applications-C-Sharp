@@ -61,7 +61,7 @@
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView2.Location = new System.Drawing.Point(4, 21);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(859, 314);
             this.dataGridView2.TabIndex = 1;
@@ -71,7 +71,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(4, 21);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(859, 306);
             this.dataGridView1.TabIndex = 0;
@@ -80,9 +80,9 @@
             // 
             this.groupBox4.Controls.Add(this.dataGridView2);
             this.groupBox4.Location = new System.Drawing.Point(491, 352);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox4.Size = new System.Drawing.Size(867, 339);
             this.groupBox4.TabIndex = 7;
             this.groupBox4.TabStop = false;
@@ -92,9 +92,9 @@
             // 
             this.groupBox3.Controls.Add(this.dataGridView1);
             this.groupBox3.Location = new System.Drawing.Point(493, 21);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.Size = new System.Drawing.Size(867, 331);
             this.groupBox3.TabIndex = 6;
             this.groupBox3.TabStop = false;
@@ -104,7 +104,7 @@
             // 
             this.Txtid.Enabled = false;
             this.Txtid.Location = new System.Drawing.Point(168, 46);
-            this.Txtid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Txtid.Margin = new System.Windows.Forms.Padding(4);
             this.Txtid.Name = "Txtid";
             this.Txtid.Size = new System.Drawing.Size(252, 24);
             this.Txtid.TabIndex = 19;
@@ -115,9 +115,9 @@
             this.label2.Location = new System.Drawing.Point(121, 52);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(23, 18);
+            this.label2.Size = new System.Drawing.Size(30, 18);
             this.label2.TabIndex = 18;
-            this.label2.Text = "id:";
+            this.label2.Text = "ID :";
             // 
             // LnkBilgiDuzenle
             // 
@@ -129,11 +129,12 @@
             this.LnkBilgiDuzenle.TabIndex = 17;
             this.LnkBilgiDuzenle.TabStop = true;
             this.LnkBilgiDuzenle.Text = "Edit Information";
+            this.LnkBilgiDuzenle.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkBilgiDuzenle_LinkClicked);
             // 
             // BtnRandevuAl
             // 
             this.BtnRandevuAl.Location = new System.Drawing.Point(168, 353);
-            this.BtnRandevuAl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnRandevuAl.Margin = new System.Windows.Forms.Padding(4);
             this.BtnRandevuAl.Name = "BtnRandevuAl";
             this.BtnRandevuAl.Size = new System.Drawing.Size(254, 53);
             this.BtnRandevuAl.TabIndex = 13;
@@ -174,15 +175,16 @@
             // 
             this.CmbDoktor.FormattingEnabled = true;
             this.CmbDoktor.Location = new System.Drawing.Point(168, 148);
-            this.CmbDoktor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CmbDoktor.Margin = new System.Windows.Forms.Padding(4);
             this.CmbDoktor.Name = "CmbDoktor";
             this.CmbDoktor.Size = new System.Drawing.Size(252, 26);
             this.CmbDoktor.TabIndex = 14;
+            this.CmbDoktor.SelectedIndexChanged += new System.EventHandler(this.CmbDoktor_SelectedIndexChanged);
             // 
             // RchSikayet
             // 
             this.RchSikayet.Location = new System.Drawing.Point(168, 198);
-            this.RchSikayet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RchSikayet.Margin = new System.Windows.Forms.Padding(4);
             this.RchSikayet.Name = "RchSikayet";
             this.RchSikayet.Size = new System.Drawing.Size(252, 145);
             this.RchSikayet.TabIndex = 12;
@@ -202,10 +204,11 @@
             // 
             this.CmbBrans.FormattingEnabled = true;
             this.CmbBrans.Location = new System.Drawing.Point(168, 97);
-            this.CmbBrans.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CmbBrans.Margin = new System.Windows.Forms.Padding(4);
             this.CmbBrans.Name = "CmbBrans";
             this.CmbBrans.Size = new System.Drawing.Size(252, 26);
             this.CmbBrans.TabIndex = 0;
+            this.CmbBrans.SelectedIndexChanged += new System.EventHandler(this.CmbBrans_SelectedIndexChanged);
             // 
             // label5
             // 
@@ -250,9 +253,9 @@
             this.groupBox2.Controls.Add(this.CmbBrans);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Location = new System.Drawing.Point(10, 232);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(472, 453);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
@@ -265,9 +268,9 @@
             this.groupBox1.Controls.Add(this.LblTC);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(10, 21);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(472, 201);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
@@ -284,9 +287,10 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "PatientDetailsForm";
-            this.Text = "PatientDetailsForm";
+            this.Text = "Patient Details Form";
+            this.Load += new System.EventHandler(this.PatientDetailsForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox4.ResumeLayout(false);

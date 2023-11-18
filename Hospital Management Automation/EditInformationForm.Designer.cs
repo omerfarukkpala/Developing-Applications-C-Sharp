@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditInformationForm));
             this.BtnBilgiGuncelle = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.CmbCinsiyet = new System.Windows.Forms.ComboBox();
@@ -53,6 +54,7 @@
             this.BtnBilgiGuncelle.TabIndex = 37;
             this.BtnBilgiGuncelle.Text = "Update";
             this.BtnBilgiGuncelle.UseVisualStyleBackColor = false;
+            this.BtnBilgiGuncelle.Click += new System.EventHandler(this.BtnBilgiGuncelle_Click);
             // 
             // label6
             // 
@@ -74,7 +76,7 @@
             this.CmbCinsiyet.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
             this.CmbCinsiyet.Name = "CmbCinsiyet";
             this.CmbCinsiyet.Size = new System.Drawing.Size(340, 26);
-            this.CmbCinsiyet.TabIndex = 35;
+            this.CmbCinsiyet.TabIndex = 6;
             // 
             // MskTelefon
             // 
@@ -83,7 +85,7 @@
             this.MskTelefon.Mask = "(999) 000-0000";
             this.MskTelefon.Name = "MskTelefon";
             this.MskTelefon.Size = new System.Drawing.Size(340, 24);
-            this.MskTelefon.TabIndex = 33;
+            this.MskTelefon.TabIndex = 4;
             // 
             // label5
             // 
@@ -101,7 +103,7 @@
             this.TxtSoyad.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
             this.TxtSoyad.Name = "TxtSoyad";
             this.TxtSoyad.Size = new System.Drawing.Size(340, 24);
-            this.TxtSoyad.TabIndex = 31;
+            this.TxtSoyad.TabIndex = 2;
             // 
             // label4
             // 
@@ -119,7 +121,7 @@
             this.TxtAd.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
             this.TxtAd.Name = "TxtAd";
             this.TxtAd.Size = new System.Drawing.Size(340, 24);
-            this.TxtAd.TabIndex = 30;
+            this.TxtAd.TabIndex = 1;
             // 
             // label1
             // 
@@ -137,7 +139,7 @@
             this.TxtSifre.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
             this.TxtSifre.Name = "TxtSifre";
             this.TxtSifre.Size = new System.Drawing.Size(340, 24);
-            this.TxtSifre.TabIndex = 34;
+            this.TxtSifre.TabIndex = 5;
             this.TxtSifre.UseSystemPasswordChar = true;
             // 
             // MskTC
@@ -147,7 +149,7 @@
             this.MskTC.Mask = "00000000000";
             this.MskTC.Name = "MskTC";
             this.MskTC.Size = new System.Drawing.Size(340, 24);
-            this.MskTC.TabIndex = 32;
+            this.MskTC.TabIndex = 3;
             this.MskTC.ValidatingType = typeof(int);
             // 
             // label3
@@ -172,6 +174,7 @@
             // 
             // EditInformationForm
             // 
+            this.AcceptButton = this.BtnBilgiGuncelle;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CadetBlue;
@@ -190,9 +193,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "EditInformationForm";
             this.Text = "Edit Information Form";
+            this.Load += new System.EventHandler(this.EditInformationForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
