@@ -163,7 +163,7 @@
             this.BtnKaydet.Name = "BtnKaydet";
             this.BtnKaydet.Size = new System.Drawing.Size(219, 44);
             this.BtnKaydet.TabIndex = 18;
-            this.BtnKaydet.Text = "Kaydet";
+            this.BtnKaydet.Text = "Save";
             this.BtnKaydet.UseVisualStyleBackColor = true;
             // 
             // ChkDurum
@@ -172,9 +172,9 @@
             this.ChkDurum.Location = new System.Drawing.Point(124, 379);
             this.ChkDurum.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ChkDurum.Name = "ChkDurum";
-            this.ChkDurum.Size = new System.Drawing.Size(72, 22);
+            this.ChkDurum.Size = new System.Drawing.Size(69, 22);
             this.ChkDurum.TabIndex = 17;
-            this.ChkDurum.Text = "Durum";
+            this.ChkDurum.Text = "Status";
             this.ChkDurum.UseVisualStyleBackColor = true;
             // 
             // MskTC
@@ -306,32 +306,32 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(60, 332);
+            this.label10.Location = new System.Drawing.Point(40, 334);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(32, 18);
+            this.label10.Size = new System.Drawing.Size(78, 18);
             this.label10.TabIndex = 9;
-            this.label10.Text = "TC:";
+            this.label10.Text = "TR ID No :";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(10, 277);
+            this.label9.Location = new System.Drawing.Point(40, 281);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(58, 18);
+            this.label9.Size = new System.Drawing.Size(62, 18);
             this.label9.TabIndex = 8;
-            this.label9.Text = "Doktor:";
+            this.label9.Text = "Doctor :";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(27, 222);
+            this.label8.Location = new System.Drawing.Point(23, 225);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(51, 18);
+            this.label8.Size = new System.Drawing.Size(93, 18);
             this.label8.TabIndex = 7;
-            this.label8.Text = "Branş:";
+            this.label8.Text = "Department :";
             // 
             // label7
             // 
@@ -339,9 +339,9 @@
             this.label7.Location = new System.Drawing.Point(40, 166);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(42, 18);
+            this.label7.Size = new System.Drawing.Size(49, 18);
             this.label7.TabIndex = 6;
-            this.label7.Text = "Saat:";
+            this.label7.Text = "Time :";
             // 
             // label6
             // 
@@ -349,9 +349,9 @@
             this.label6.Location = new System.Drawing.Point(34, 111);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(45, 18);
+            this.label6.Size = new System.Drawing.Size(47, 18);
             this.label6.TabIndex = 5;
-            this.label6.Text = "Tarih:";
+            this.label6.Text = "Date :";
             // 
             // groupBox2
             // 
@@ -388,12 +388,12 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(72, 55);
+            this.label5.Location = new System.Drawing.Point(66, 51);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(23, 18);
+            this.label5.Size = new System.Drawing.Size(30, 18);
             this.label5.TabIndex = 4;
-            this.label5.Text = "id:";
+            this.label5.Text = "ID :";
             // 
             // groupBox3
             // 
@@ -418,14 +418,14 @@
             this.groupBox3.Size = new System.Drawing.Size(400, 539);
             this.groupBox3.TabIndex = 8;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Randevu Paneli";
+            this.groupBox3.Text = "Appointment Panel";
             // 
             // SecretaryDetailsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.ClientSize = new System.Drawing.Size(1408, 717);
+            this.ClientSize = new System.Drawing.Size(1380, 689);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox6);
