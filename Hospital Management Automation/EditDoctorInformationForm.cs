@@ -16,5 +16,10 @@ namespace Hospital_Management_Automation
         {
             InitializeComponent();
         }
+
+        private void FormEditDoctorInformation_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
