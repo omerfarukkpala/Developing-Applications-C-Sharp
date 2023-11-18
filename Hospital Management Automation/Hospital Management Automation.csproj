@@ -150,6 +150,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SecretaryDetailsForm.resx">
+      <DependentUpon>SecretaryDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SecretaryLoginForm.resx">
       <DependentUpon>SecretaryLoginForm.cs</DependentUpon>
     </EmbeddedResource>
