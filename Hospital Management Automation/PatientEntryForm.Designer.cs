@@ -47,6 +47,7 @@
             this.BtnGirisYap.TabIndex = 13;
             this.BtnGirisYap.Text = "Log in";
             this.BtnGirisYap.UseVisualStyleBackColor = true;
+            this.BtnGirisYap.Click += new System.EventHandler(this.BtnGirisYap_Click);
             // 
             // LnkUyeOl
             // 
@@ -130,7 +131,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MinimizeBox = false;
             this.Name = "PatientEntryForm";
-            this.Text = "PatientEntryForm";
+            this.Text = "Patient Entry Form";
             this.ResumeLayout(false);
             this.PerformLayout();
 
