@@ -44,7 +44,8 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe Script", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(67, 72);
+            this.label4.Location = new System.Drawing.Point(100, 100);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(318, 44);
             this.label4.TabIndex = 15;
@@ -53,9 +54,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(409, 38);
+            this.pictureBox1.Location = new System.Drawing.Point(614, 53);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(228, 108);
+            this.pictureBox1.Size = new System.Drawing.Size(342, 150);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
@@ -63,27 +65,30 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(517, 304);
+            this.label3.Location = new System.Drawing.Point(776, 421);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 13);
+            this.label3.Size = new System.Drawing.Size(71, 18);
             this.label3.TabIndex = 13;
             this.label3.Text = "Secretary";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(303, 304);
+            this.label2.Location = new System.Drawing.Point(454, 421);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(39, 13);
+            this.label2.Size = new System.Drawing.Size(54, 18);
             this.label2.TabIndex = 12;
             this.label2.Text = "Doctor";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(91, 304);
+            this.label1.Location = new System.Drawing.Point(136, 421);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 13);
+            this.label1.Size = new System.Drawing.Size(53, 18);
             this.label1.TabIndex = 11;
             this.label1.Text = "Patient";
             // 
@@ -91,9 +96,10 @@
             // 
             this.BtnSekreterGirisi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnSekreterGirisi.BackgroundImage")));
             this.BtnSekreterGirisi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnSekreterGirisi.Location = new System.Drawing.Point(462, 188);
+            this.BtnSekreterGirisi.Location = new System.Drawing.Point(693, 260);
+            this.BtnSekreterGirisi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnSekreterGirisi.Name = "BtnSekreterGirisi";
-            this.BtnSekreterGirisi.Size = new System.Drawing.Size(176, 113);
+            this.BtnSekreterGirisi.Size = new System.Drawing.Size(264, 156);
             this.BtnSekreterGirisi.TabIndex = 10;
             this.BtnSekreterGirisi.UseVisualStyleBackColor = true;
             // 
@@ -101,9 +107,10 @@
             // 
             this.BtnDoktorGirisi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnDoktorGirisi.BackgroundImage")));
             this.BtnDoktorGirisi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnDoktorGirisi.Location = new System.Drawing.Point(248, 188);
+            this.BtnDoktorGirisi.Location = new System.Drawing.Point(372, 260);
+            this.BtnDoktorGirisi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnDoktorGirisi.Name = "BtnDoktorGirisi";
-            this.BtnDoktorGirisi.Size = new System.Drawing.Size(176, 113);
+            this.BtnDoktorGirisi.Size = new System.Drawing.Size(264, 156);
             this.BtnDoktorGirisi.TabIndex = 9;
             this.BtnDoktorGirisi.UseVisualStyleBackColor = true;
             // 
@@ -111,18 +118,19 @@
             // 
             this.BtnHastaGirisi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnHastaGirisi.BackgroundImage")));
             this.BtnHastaGirisi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnHastaGirisi.Location = new System.Drawing.Point(37, 188);
+            this.BtnHastaGirisi.Location = new System.Drawing.Point(56, 260);
+            this.BtnHastaGirisi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnHastaGirisi.Name = "BtnHastaGirisi";
-            this.BtnHastaGirisi.Size = new System.Drawing.Size(176, 113);
+            this.BtnHastaGirisi.Size = new System.Drawing.Size(264, 156);
             this.BtnHastaGirisi.TabIndex = 8;
             this.BtnHastaGirisi.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // LoginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FloralWhite;
-            this.ClientSize = new System.Drawing.Size(686, 361);
+            this.ClientSize = new System.Drawing.Size(1029, 500);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label3);
@@ -131,7 +139,9 @@
             this.Controls.Add(this.BtnSekreterGirisi);
             this.Controls.Add(this.BtnDoktorGirisi);
             this.Controls.Add(this.BtnHastaGirisi);
-            this.Name = "Form1";
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "LoginForm";
             this.Text = "PALA Love  Hospital";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

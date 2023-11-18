@@ -39,9 +39,10 @@
             // 
             // BtnGirisYap
             // 
-            this.BtnGirisYap.Location = new System.Drawing.Point(162, 186);
+            this.BtnGirisYap.Location = new System.Drawing.Point(243, 258);
+            this.BtnGirisYap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnGirisYap.Name = "BtnGirisYap";
-            this.BtnGirisYap.Size = new System.Drawing.Size(124, 34);
+            this.BtnGirisYap.Size = new System.Drawing.Size(186, 47);
             this.BtnGirisYap.TabIndex = 13;
             this.BtnGirisYap.Text = "Log in";
             this.BtnGirisYap.UseVisualStyleBackColor = true;
@@ -49,45 +50,50 @@
             // LnkUyeOl
             // 
             this.LnkUyeOl.AutoSize = true;
-            this.LnkUyeOl.Location = new System.Drawing.Point(319, 152);
+            this.LnkUyeOl.Location = new System.Drawing.Point(478, 210);
+            this.LnkUyeOl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LnkUyeOl.Name = "LnkUyeOl";
-            this.LnkUyeOl.Size = new System.Drawing.Size(45, 13);
+            this.LnkUyeOl.Size = new System.Drawing.Size(60, 18);
             this.LnkUyeOl.TabIndex = 12;
             this.LnkUyeOl.TabStop = true;
             this.LnkUyeOl.Text = "Sign Up";
             // 
             // TxtSifre
             // 
-            this.TxtSifre.Location = new System.Drawing.Point(150, 149);
+            this.TxtSifre.Location = new System.Drawing.Point(225, 206);
+            this.TxtSifre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtSifre.Name = "TxtSifre";
-            this.TxtSifre.Size = new System.Drawing.Size(153, 20);
+            this.TxtSifre.Size = new System.Drawing.Size(228, 24);
             this.TxtSifre.TabIndex = 11;
             this.TxtSifre.UseSystemPasswordChar = true;
             // 
             // MskTC
             // 
-            this.MskTC.Location = new System.Drawing.Point(150, 109);
+            this.MskTC.Location = new System.Drawing.Point(225, 151);
+            this.MskTC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MskTC.Mask = "00000000000";
             this.MskTC.Name = "MskTC";
-            this.MskTC.Size = new System.Drawing.Size(153, 20);
+            this.MskTC.Size = new System.Drawing.Size(228, 24);
             this.MskTC.TabIndex = 10;
             this.MskTC.ValidatingType = typeof(int);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(63, 152);
+            this.label3.Location = new System.Drawing.Point(94, 210);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 13);
+            this.label3.Size = new System.Drawing.Size(87, 18);
             this.label3.TabIndex = 9;
             this.label3.Text = "Password : ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(66, 116);
+            this.label2.Location = new System.Drawing.Point(99, 161);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 13);
+            this.label2.Size = new System.Drawing.Size(78, 18);
             this.label2.TabIndex = 8;
             this.label2.Text = "TR ID No :";
             // 
@@ -95,7 +101,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe Script", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(33, 43);
+            this.label1.Location = new System.Drawing.Point(50, 60);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(372, 53);
             this.label1.TabIndex = 7;
@@ -103,10 +110,10 @@
             // 
             // PatientEntryForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Cornsilk;
-            this.ClientSize = new System.Drawing.Size(465, 303);
+            this.ClientSize = new System.Drawing.Size(698, 420);
             this.Controls.Add(this.BtnGirisYap);
             this.Controls.Add(this.LnkUyeOl);
             this.Controls.Add(this.TxtSifre);
@@ -114,6 +121,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "PatientEntryForm";
             this.Text = "PatientEntryForm";
             this.ResumeLayout(false);
