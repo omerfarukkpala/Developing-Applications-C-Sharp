@@ -16,5 +16,26 @@ namespace Hospital_Management_Automation
         {
             InitializeComponent();
         }
+
+        private void BtnHastaGirisi_Click(object sender, EventArgs e)
+        {
+            PatientEntryForm fr = new PatientEntryForm();
+            fr.Show();
+            this.Hide();
+        }
+
+        private void BtnDoktorGirisi_Click(object sender, EventArgs e)
+        {
+            DoctorLoginForm fr = new DoctorLoginForm();
+            fr.Show();
+            this.Hide();
+        }
+
+        private void BtnSekreterGirisi_Click(object sender, EventArgs e)
+        {
+            SecretaryLoginForm fr = new SecretaryLoginForm();
+            fr.Show();
+            this.Hide();
+        }
     }
 }

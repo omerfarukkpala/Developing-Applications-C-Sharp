@@ -16,5 +16,11 @@ namespace Hospital_Management_Automation
         {
             InitializeComponent();
         }
+
+        private void LnkUyeOl_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            PatientRegistrationForm fr = new PatientRegistrationForm();
+            fr.Show();
+        }
     }
 }

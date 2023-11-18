@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PatientEntryForm));
             this.BtnGirisYap = new System.Windows.Forms.Button();
             this.LnkUyeOl = new System.Windows.Forms.LinkLabel();
             this.TxtSifre = new System.Windows.Forms.TextBox();
@@ -40,7 +41,7 @@
             // BtnGirisYap
             // 
             this.BtnGirisYap.Location = new System.Drawing.Point(243, 258);
-            this.BtnGirisYap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnGirisYap.Margin = new System.Windows.Forms.Padding(4);
             this.BtnGirisYap.Name = "BtnGirisYap";
             this.BtnGirisYap.Size = new System.Drawing.Size(186, 47);
             this.BtnGirisYap.TabIndex = 13;
@@ -57,11 +58,12 @@
             this.LnkUyeOl.TabIndex = 12;
             this.LnkUyeOl.TabStop = true;
             this.LnkUyeOl.Text = "Sign Up";
+            this.LnkUyeOl.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkUyeOl_LinkClicked);
             // 
             // TxtSifre
             // 
             this.TxtSifre.Location = new System.Drawing.Point(225, 206);
-            this.TxtSifre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtSifre.Margin = new System.Windows.Forms.Padding(4);
             this.TxtSifre.Name = "TxtSifre";
             this.TxtSifre.Size = new System.Drawing.Size(228, 24);
             this.TxtSifre.TabIndex = 11;
@@ -70,7 +72,7 @@
             // MskTC
             // 
             this.MskTC.Location = new System.Drawing.Point(225, 151);
-            this.MskTC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MskTC.Margin = new System.Windows.Forms.Padding(4);
             this.MskTC.Mask = "00000000000";
             this.MskTC.Name = "MskTC";
             this.MskTC.Size = new System.Drawing.Size(228, 24);
@@ -110,9 +112,11 @@
             // 
             // PatientEntryForm
             // 
+            this.AcceptButton = this.BtnGirisYap;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Cornsilk;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(698, 420);
             this.Controls.Add(this.BtnGirisYap);
             this.Controls.Add(this.LnkUyeOl);
@@ -122,7 +126,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MinimizeBox = false;
             this.Name = "PatientEntryForm";
             this.Text = "PatientEntryForm";
             this.ResumeLayout(false);

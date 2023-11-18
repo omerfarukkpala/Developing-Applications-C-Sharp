@@ -102,6 +102,7 @@
             this.BtnSekreterGirisi.Size = new System.Drawing.Size(264, 156);
             this.BtnSekreterGirisi.TabIndex = 10;
             this.BtnSekreterGirisi.UseVisualStyleBackColor = true;
+            this.BtnSekreterGirisi.Click += new System.EventHandler(this.BtnSekreterGirisi_Click);
             // 
             // BtnDoktorGirisi
             // 
@@ -113,6 +114,7 @@
             this.BtnDoktorGirisi.Size = new System.Drawing.Size(264, 156);
             this.BtnDoktorGirisi.TabIndex = 9;
             this.BtnDoktorGirisi.UseVisualStyleBackColor = true;
+            this.BtnDoktorGirisi.Click += new System.EventHandler(this.BtnDoktorGirisi_Click);
             // 
             // BtnHastaGirisi
             // 
@@ -124,13 +126,14 @@
             this.BtnHastaGirisi.Size = new System.Drawing.Size(264, 156);
             this.BtnHastaGirisi.TabIndex = 8;
             this.BtnHastaGirisi.UseVisualStyleBackColor = true;
+            this.BtnHastaGirisi.Click += new System.EventHandler(this.BtnHastaGirisi_Click);
             // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FloralWhite;
-            this.ClientSize = new System.Drawing.Size(1029, 500);
+            this.ClientSize = new System.Drawing.Size(1142, 500);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label3);
@@ -140,6 +143,7 @@
             this.Controls.Add(this.BtnDoktorGirisi);
             this.Controls.Add(this.BtnHastaGirisi);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "LoginForm";
             this.Text = "PALA Love  Hospital";
