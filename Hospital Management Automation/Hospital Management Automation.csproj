@@ -52,6 +52,12 @@
     <Compile Include="AnnouncementForm.Designer.cs">
       <DependentUpon>AnnouncementForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AppointmentListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppointmentListForm.Designer.cs">
+      <DependentUpon>AppointmentListForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DepartmentForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +134,9 @@
     </Compile>
     <EmbeddedResource Include="AnnouncementForm.resx">
       <DependentUpon>AnnouncementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppointmentListForm.resx">
+      <DependentUpon>AppointmentListForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DepartmentForm.resx">
       <DependentUpon>DepartmentForm.cs</DependentUpon>
