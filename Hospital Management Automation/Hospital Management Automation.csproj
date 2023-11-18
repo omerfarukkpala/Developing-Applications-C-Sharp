@@ -64,6 +64,12 @@
     <Compile Include="DoctorLoginForm.Designer.cs">
       <DependentUpon>DoctorLoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DoctorPanelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorPanelForm.Designer.cs">
+      <DependentUpon>DoctorPanelForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="EditDoctorInformationForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +128,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DoctorLoginForm.resx">
       <DependentUpon>DoctorLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorPanelForm.resx">
+      <DependentUpon>DoctorPanelForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditDoctorInformationForm.resx">
       <DependentUpon>EditDoctorInformationForm.cs</DependentUpon>
