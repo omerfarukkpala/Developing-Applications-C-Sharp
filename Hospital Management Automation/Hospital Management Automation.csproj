@@ -58,6 +58,12 @@
     <Compile Include="DoctorLoginForm.Designer.cs">
       <DependentUpon>DoctorLoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="EditDoctorInformationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditDoctorInformationForm.Designer.cs">
+      <DependentUpon>EditDoctorInformationForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="EditInformationForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DoctorLoginForm.resx">
       <DependentUpon>DoctorLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditDoctorInformationForm.resx">
+      <DependentUpon>EditDoctorInformationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditInformationForm.resx">
       <DependentUpon>EditInformationForm.cs</DependentUpon>
