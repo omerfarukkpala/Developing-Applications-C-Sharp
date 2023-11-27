@@ -18,6 +18,8 @@
 ## Char Variables ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/4f4be6d2-b80d-4ca0-93f6-703cd07aa29d)
 ## Case Studies ![case](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/e1bd3a62-238c-4b8d-9237-9d5140d9c09b)
 ## Cinema Buffet Sales Application ![cinema](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/e2574075-06c0-4b60-81b7-f02f562b3497)
+## Decision Structures
+## If - Else![8](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/02858eae-350c-4a17-be17-13c2e54227c3)
 
 
 
