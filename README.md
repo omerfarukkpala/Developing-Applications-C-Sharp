@@ -14,6 +14,7 @@
 ## Double Variables ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/47fe3b7b-5ef2-47e7-b9c8-7ef87caeb345) 
 ## Student Exam Grades Calculation Application ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/895ec804-5e52-4fb9-9ce0-c5024d83971c)
 ## VAT Calculation  ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/67f2c704-6039-4800-bcbb-3ef660856ebc) 
+![VAT Calculation](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/67f2c704-6039-4800-bcbb-3ef660856ebc)
 
 
 
