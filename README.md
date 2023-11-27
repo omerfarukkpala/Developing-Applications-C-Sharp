@@ -20,6 +20,6 @@
 ## Cinema Buffet Sales Application ![cinema](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/e2574075-06c0-4b60-81b7-f02f562b3497)
 ## Decision Structures
 ## If - Else![8](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/02858eae-350c-4a17-be17-13c2e54227c3)
-
+## Student Exam Status Calculation
 
 
