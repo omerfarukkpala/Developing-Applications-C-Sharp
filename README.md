@@ -11,5 +11,8 @@
 ## Int Variables ![intvariables](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/775c3838-2c6e-4ad2-8167-c59348486a5d)
 ## Example Cube ![3](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/5ea24c5d-782a-485e-bc9d-b44125e9409e)
 ## Arithmetic Operations ![aritmetikoperatorler](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/b50e9b07-5bad-4109-af8f-43f4fb701554)
+## Double Variables ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/47fe3b7b-5ef2-47e7-b9c8-7ef87caeb345) 
+## Student Exam Grades Calculation Application ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/895ec804-5e52-4fb9-9ce0-c5024d83971c)
+
 
 
