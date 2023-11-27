@@ -7,5 +7,6 @@
 ## Sample Project - Creating a Login Panel ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/ebd63f38-1e21-4fd4-a1aa-27c0abb32510) ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/5f90ce71-3157-4a1e-811d-b7d01a22d4a2)
 ## Sample Project - Flight Ticket Reservation System ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/8f69b69a-f292-4daf-8a48-60658666dd8a) ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/546925e7-9dfa-4b6a-9423-abc801f5a1fb)
 ## Variables
-## String Variables ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/0b4e5b27-0a71-43d0-ab1b-524935a41fe6) ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/852e2763-451b-44ec-bb42-e8beced220e5)
+## String Variables ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/0b4e5b27-0a71-43d0-ab1b-524935a41fe6)  ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/852e2763-451b-44ec-bb42-e8beced220e5)
+## Int Variables ![intvariables](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/775c3838-2c6e-4ad2-8167-c59348486a5d)
 
