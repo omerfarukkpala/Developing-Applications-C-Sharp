@@ -5,9 +5,9 @@
 ## Maskedtextbox - Picturebox - Datetimepicker Usages ![3](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/9063cde1-a39e-41c1-a66f-65a996f42b5d)
 ## Checkbox Radio Button Richtextbox Panel and Groupbox Usage ![4](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/0c915562-1df0-4712-8ebd-7c8659ca9b68)
 ## Sample Project - Creating a Login Panel ![5](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/826bee14-18eb-4301-9845-6378dcd77c55)
-## Sample Project - Flight Ticket Reservation System ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/8f69b69a-f292-4daf-8a48-60658666dd8a) ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/546925e7-9dfa-4b6a-9423-abc801f5a1fb)
+## Sample Project - Flight Ticket Reservation System ![7](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/f967e556-b6a7-436b-b320-b9366cb819fd)
 ## Variables
-## String Variables ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/0b4e5b27-0a71-43d0-ab1b-524935a41fe6)  ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/852e2763-451b-44ec-bb42-e8beced220e5)
+## String Variables ![6](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/e348710c-3cdd-48ce-b955-fbc8d05de2a0)
 ## Int Variables ![intvariables](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/775c3838-2c6e-4ad2-8167-c59348486a5d)
 ## Example Cube ![3](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/5ea24c5d-782a-485e-bc9d-b44125e9409e)
 ## Arithmetic Operations ![aritmetikoperatorler](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/b50e9b07-5bad-4109-af8f-43f4fb701554)
