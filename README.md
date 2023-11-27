@@ -9,4 +9,5 @@
 ## Variables
 ## String Variables ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/0b4e5b27-0a71-43d0-ab1b-524935a41fe6)  ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/852e2763-451b-44ec-bb42-e8beced220e5)
 ## Int Variables ![intvariables](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/775c3838-2c6e-4ad2-8167-c59348486a5d)
+## Example Cube ![3](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/5ea24c5d-782a-485e-bc9d-b44125e9409e)
 
