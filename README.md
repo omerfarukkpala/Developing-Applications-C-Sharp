@@ -34,6 +34,7 @@
 ## Movie Trailer Project![39](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/91a454e4-2d0d-48cd-9bb7-9e281dc6bd2f)
 ## Extra Tools![40](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/961a0bee-f1af-45f9-b752-3700a86eaf30)
 ## Numerical Lotto Application![42](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/f43a2f14-5843-4128-bbbf-22cda0cba035)
+## Extra Structures![43](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/6f66d26f-39e8-4ea1-b982-0cfdf9451d8a)
 
 
 
