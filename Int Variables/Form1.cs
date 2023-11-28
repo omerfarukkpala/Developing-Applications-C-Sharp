@@ -47,7 +47,7 @@ namespace Int_Variables
             // A program calculating the average of three exam grades
             int exam1, exam2, exam3, average;
             exam1 = 55;
-            exam2 = 65;
+            exam2 = 75;
             exam3 = 80;
             average = (exam1 + exam2 + exam3) / 3;
             label1.Text = average.ToString();

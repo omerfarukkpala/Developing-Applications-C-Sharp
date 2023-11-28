@@ -106,36 +106,36 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(404, 134);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(43, 13);
+            this.label5.Size = new System.Drawing.Size(46, 13);
             this.label5.TabIndex = 18;
-            this.label5.Text = "Project:";
+            this.label5.Text = "Project :";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(215, 134);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(45, 13);
+            this.label4.Size = new System.Drawing.Size(48, 13);
             this.label4.TabIndex = 17;
-            this.label4.Text = "Exam 2:";
+            this.label4.Text = "Exam 2 :";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(24, 130);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(45, 13);
+            this.label3.Size = new System.Drawing.Size(48, 13);
             this.label3.TabIndex = 16;
-            this.label3.Text = "Exam 1:";
+            this.label3.Text = "Exam 1 :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(24, 72);
+            this.label2.Location = new System.Drawing.Point(29, 76);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 13);
+            this.label2.Size = new System.Drawing.Size(55, 13);
             this.label2.TabIndex = 15;
-            this.label2.Text = "Surname:";
+            this.label2.Text = "Surname :";
             // 
             // textBox1
             // 
@@ -149,9 +149,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(43, 38);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
+            this.label1.Size = new System.Drawing.Size(41, 13);
             this.label1.TabIndex = 13;
-            this.label1.Text = "Name:";
+            this.label1.Text = "Name :";
             // 
             // Form2
             // 
@@ -173,7 +173,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Student Exam Grades Calculation Application";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

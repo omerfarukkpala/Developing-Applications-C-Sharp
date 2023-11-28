@@ -76,7 +76,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(396, 33);
             this.label11.TabIndex = 8;
-            this.label11.Text = "Cinema & Buffet Sales Panel";
+            this.label11.Text = "Cinema  Buffet Sales Panel";
             // 
             // groupBox3
             // 
@@ -293,7 +293,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Cinema  Buffet Sales Panel";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();

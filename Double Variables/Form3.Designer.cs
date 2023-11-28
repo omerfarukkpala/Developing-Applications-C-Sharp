@@ -99,7 +99,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.Text = "VAT Calculation";
             this.ResumeLayout(false);
             this.PerformLayout();
 

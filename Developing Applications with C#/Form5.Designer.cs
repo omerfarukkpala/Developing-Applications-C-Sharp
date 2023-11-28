@@ -126,6 +126,7 @@
             this.button1.TabIndex = 14;
             this.button1.Text = "Log in";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel2
             // 
@@ -149,7 +150,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel2);
             this.Name = "Form5";
-            this.Text = "Form5";
+            this.Text = "Online Course Login Panel";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

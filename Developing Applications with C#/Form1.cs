@@ -19,7 +19,7 @@ namespace Developing_Applications_with_C_
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hallo Welt"); //Hello World
+            MessageBox.Show("Hello World"); //Hello World
 
         }
 

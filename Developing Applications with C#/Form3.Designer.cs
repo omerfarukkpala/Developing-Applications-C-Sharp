@@ -180,7 +180,7 @@
             this.Controls.Add(this.Telephone);
             this.Controls.Add(this.maskedTextBox1);
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.Text = "Maskedtextbox - Picturebox - Datetimepicker Usages";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
