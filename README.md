@@ -41,6 +41,7 @@
 ## Personnel Registration Project Statictics And  Reports ![58](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/ca6aa6df-354e-457f-878a-fb3b540cee3f)
 ## File Operations CRUD - Axacropdf ![62](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/6cc64961-e4b5-471b-85a2-773b33272783)
 ## Hospital Management Automation ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/4a30317e-8220-426f-992e-c0c4be509b0d)
+## Patient Operations ![patient](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/465ded8d-72b6-475a-b8d3-601c034303a0)
 
 
 
