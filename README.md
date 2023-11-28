@@ -32,6 +32,8 @@
 ## Class ![36](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/aa4f550d-7e16-455e-8287-66d2548da2b1)
 ## Console Example  ![38](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/63172d7f-e43b-449a-9cf0-45cd985915ec)
 ## Movie Trailer Project![39](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/91a454e4-2d0d-48cd-9bb7-9e281dc6bd2f)
+## Extra Tools![40](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/961a0bee-f1af-45f9-b752-3700a86eaf30)
+## Numerical Lotto Application![42](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/f43a2f14-5843-4128-bbbf-22cda0cba035)
 
 
 
