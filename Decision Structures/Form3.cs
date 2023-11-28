@@ -19,7 +19,7 @@ namespace Decision_Structures
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //bookCountbookCount
+            //bookCount
             int bookCount;
             double total;
             bookCount = Convert.ToInt32(textBox1.Text);

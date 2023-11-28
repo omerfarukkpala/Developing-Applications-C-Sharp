@@ -17,6 +17,7 @@ namespace Hospital_Management_Automation
         {
             InitializeComponent();
         }
+        sqlbaglantisi bgl = new sqlbaglantisi();
 
         private void AnnouncementForm_Load(object sender, EventArgs e)
         {

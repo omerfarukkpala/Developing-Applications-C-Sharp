@@ -162,7 +162,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Name = "Form4";
-            this.Text = "Form4";
+            this.Text = "Switch - Case Structure";
             this.ResumeLayout(false);
             this.PerformLayout();
 

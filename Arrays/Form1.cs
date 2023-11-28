@@ -20,7 +20,7 @@ namespace Arrays
         private void button1_Click(object sender, EventArgs e)
         {
 
-            //string[] people = { "Ömer", "Ahmet", "Faruk", "Mehmet", "Esma", "Ayşe", "Rüya" };
+            //string[] people = { "Ömer", "Ahmet", "Faruk", "Mehmet", "Esma", "Emin", "Rüya" };
             //label1.Text = people[4];
 
             //int[] numbers = { 4, 7, 5, 6, 9, 8, 2, 3 };

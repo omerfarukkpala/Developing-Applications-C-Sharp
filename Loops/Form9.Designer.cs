@@ -138,7 +138,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.progressBar1);
             this.Name = "Form9";
-            this.Text = "Form9";
+            this.Text = "Cake Baking Application";
             this.Load += new System.EventHandler(this.Form9_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -143,6 +143,7 @@
             this.BtnBilgiGuncelle.TabIndex = 51;
             this.BtnBilgiGuncelle.Text = "Update";
             this.BtnBilgiGuncelle.UseVisualStyleBackColor = false;
+            this.BtnBilgiGuncelle.Click += new System.EventHandler(this.BtnBilgiGuncelle_Click);
             // 
             // FormEditDoctorInformation
             // 
@@ -162,9 +163,9 @@
             this.Controls.Add(this.MskTC);
             this.Controls.Add(this.label2);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormEditDoctorInformation";
-            this.Text = "EditDoctorInformation";
+            this.Text = "Edit Doctor Information";
             this.Load += new System.EventHandler(this.FormEditDoctorInformation_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

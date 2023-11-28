@@ -21,5 +21,10 @@ namespace Hospital_Management_Automation
         {
 
         }
+
+        private void BtnBilgiGuncelle_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

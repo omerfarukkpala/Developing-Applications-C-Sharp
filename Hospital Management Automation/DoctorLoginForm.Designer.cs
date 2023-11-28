@@ -39,17 +39,18 @@
             // BtnGirisYap
             // 
             this.BtnGirisYap.Location = new System.Drawing.Point(309, 303);
-            this.BtnGirisYap.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.BtnGirisYap.Margin = new System.Windows.Forms.Padding(6);
             this.BtnGirisYap.Name = "BtnGirisYap";
             this.BtnGirisYap.Size = new System.Drawing.Size(279, 65);
             this.BtnGirisYap.TabIndex = 20;
             this.BtnGirisYap.Text = "Log in";
             this.BtnGirisYap.UseVisualStyleBackColor = true;
+            this.BtnGirisYap.Click += new System.EventHandler(this.BtnGirisYap_Click);
             // 
             // TxtSifre
             // 
             this.TxtSifre.Location = new System.Drawing.Point(282, 231);
-            this.TxtSifre.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.TxtSifre.Margin = new System.Windows.Forms.Padding(6);
             this.TxtSifre.Name = "TxtSifre";
             this.TxtSifre.Size = new System.Drawing.Size(340, 24);
             this.TxtSifre.TabIndex = 18;
@@ -58,7 +59,7 @@
             // MskTC
             // 
             this.MskTC.Location = new System.Drawing.Point(282, 155);
-            this.MskTC.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.MskTC.Margin = new System.Windows.Forms.Padding(6);
             this.MskTC.Mask = "00000000000";
             this.MskTC.Name = "MskTC";
             this.MskTC.Size = new System.Drawing.Size(340, 24);
@@ -98,6 +99,7 @@
             // 
             // DoctorLoginForm
             // 
+            this.AcceptButton = this.BtnGirisYap;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSeaGreen;
@@ -109,7 +111,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
             this.Name = "DoctorLoginForm";
             this.Text = "Doctor Login Form";
             this.ResumeLayout(false);

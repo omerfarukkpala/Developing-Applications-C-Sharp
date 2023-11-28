@@ -91,7 +91,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.Text = "Book Count";
             this.ResumeLayout(false);
             this.PerformLayout();
 

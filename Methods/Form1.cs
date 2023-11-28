@@ -28,8 +28,8 @@ namespace Methods
         }
         void ChangeColors()
         {
-            textBox1.BackColor = Color.Blue;
-            textBox2.BackColor = Color.Yellow;
+            textBox1.BackColor = Color.Yellow;
+            textBox2.BackColor = Color.Red;
             textBox3.BackColor = Color.Orange;
             textBox4.BackColor = Color.Purple;
         }
