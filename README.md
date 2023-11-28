@@ -38,7 +38,8 @@
 ## Personnel Registration Project ![50](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/722461a8-f44d-4349-9d78-f29ac012541c)
 ## Personnel Registration Project Main Form ![52](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/7a3f9640-8d66-4b51-9373-ef8e99130d49)
 ## Personnel Registration Project CRUD![54](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/714398f2-c007-4cb2-af79-1dc0ea2c702a)
-## ## Personnel Registration Project Statictics And  Reports ![58](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/ca6aa6df-354e-457f-878a-fb3b540cee3f)
+## Personnel Registration Project Statictics And  Reports ![58](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/ca6aa6df-354e-457f-878a-fb3b540cee3f)
+## File Operations CRUD - Axacropdf ![62](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/6cc64961-e4b5-471b-85a2-773b33272783)
 
 
 
