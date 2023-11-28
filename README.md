@@ -43,6 +43,13 @@
 ## Hospital Management Automation ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/4a30317e-8220-426f-992e-c0c4be509b0d)
 ## Patient Operations ![patient](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/465ded8d-72b6-475a-b8d3-601c034303a0)
 ## Doctor Operations ![doktor](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/2ed7aaa3-cf8c-47e3-9695-95637acdf93f)
+## Secratary Operations![sekratary](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/f9ece8e4-fdfe-4fad-9c0d-ddeb87c0ce4e)
+## Secratary Doctor Panel CRUD ![crudsekratary](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/c0bc3efa-8147-4bf3-a520-7e774f26ad91)
+## Secratary Department Panel  ![branch](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/aec9039c-b117-4814-b170-fc13d0849b15)
+## Secratary Department ![list](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/9b737c18-10d0-4dcb-8eef-2e6fad2383ea)
+
+
+
 
 
 
