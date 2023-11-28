@@ -30,6 +30,8 @@
 ## Arrays ![16](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/b88a10cf-3028-4852-b906-3482fa932702)
 ## Methods ![17](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/720bcd49-626f-44b6-b1a4-41dcbbd65dfb)
 ## Class ![36](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/aa4f550d-7e16-455e-8287-66d2548da2b1)
+## Console Example  ![38](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/63172d7f-e43b-449a-9cf0-45cd985915ec)
+## Movie Trailer Project![39](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/91a454e4-2d0d-48cd-9bb7-9e281dc6bd2f)
 
 
 
