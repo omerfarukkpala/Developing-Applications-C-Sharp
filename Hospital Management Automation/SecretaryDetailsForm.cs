@@ -66,7 +66,7 @@ namespace Hospital_Management_Automation
             komutkaydet.Parameters.AddWithValue("@r4", CmbDoktor.Text);
             komutkaydet.ExecuteNonQuery();
             bgl.baglanti().Close();
-            MessageBox.Show("Randevu Oluşturuldu");
+            MessageBox.Show("Appointment Created");
         }
 
         private void CmbBrans_SelectedIndexChanged(object sender, EventArgs e)
@@ -89,7 +89,7 @@ namespace Hospital_Management_Automation
             komut.Parameters.AddWithValue("@d1", RchDuyuru.Text);
             komut.ExecuteNonQuery();
             bgl.baglanti().Close();
-            MessageBox.Show("Duyuru Oluşturuldu");
+            MessageBox.Show("Announcement Created");
         }
 
         private void BtnDoktorPanel_Click(object sender, EventArgs e)

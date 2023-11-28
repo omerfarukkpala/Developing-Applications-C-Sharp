@@ -35,7 +35,7 @@ namespace Hospital_Management_Automation
             }
             else
             {
-                MessageBox.Show("Hatalı TC veya Şifre");
+                MessageBox.Show("Incorrect ID or Password");
             }
             bgl.baglanti().Close();
         }

@@ -25,7 +25,7 @@ namespace Hospital_Management_Automation
             komut.Parameters.AddWithValue("@b1", TxtBrans.Text);
             komut.ExecuteNonQuery();
             bgl.baglanti().Close();
-            MessageBox.Show("Branş Eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Branch Added", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void DepartmentForm_Load(object sender, EventArgs e)
@@ -42,7 +42,7 @@ namespace Hospital_Management_Automation
             komut.Parameters.AddWithValue("@b1", Txtid.Text);
             komut.ExecuteNonQuery();
             bgl.baglanti().Close();
-            MessageBox.Show("Branş Silindi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Branch Deleted", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void BtnGuncelle_Click(object sender, EventArgs e)
@@ -52,7 +52,7 @@ namespace Hospital_Management_Automation
             komut.Parameters.AddWithValue("@p2", Txtid.Text);
             komut.ExecuteNonQuery();
             bgl.baglanti().Close();
-            MessageBox.Show("Branş Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Branch Updated", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)

@@ -47,7 +47,7 @@ namespace Hospital_Management_Automation
             komut2.Parameters.AddWithValue("@p6", MskTC);
             komut2.ExecuteNonQuery();
             bgl.baglanti().Close();
-            MessageBox.Show("Bilgileriniz güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            MessageBox.Show("Your information has been updated", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
     }
 }

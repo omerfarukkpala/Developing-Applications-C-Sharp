@@ -46,7 +46,7 @@ namespace Hospital_Management_Automation
             komut.Parameters.AddWithValue("@d5", TxtSifre.Text);
             komut.ExecuteNonQuery();
             bgl.baglanti().Close();
-            MessageBox.Show("Doktor Eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Doctor Added", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void BtnSil_Click(object sender, EventArgs e)
@@ -55,7 +55,7 @@ namespace Hospital_Management_Automation
             komut.Parameters.AddWithValue("@p1", MskTC.Text);
             komut.ExecuteNonQuery();
             bgl.baglanti().Close();
-            MessageBox.Show("Kayıt Silindi", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            MessageBox.Show("Doctor Deleted", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
 
         private void BtnGuncelle_Click(object sender, EventArgs e)
@@ -68,7 +68,7 @@ namespace Hospital_Management_Automation
             komut.Parameters.AddWithValue("@d5", TxtSifre.Text);
             komut.ExecuteNonQuery();
             bgl.baglanti().Close();
-            MessageBox.Show("Doktor Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Doctor Updated", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)

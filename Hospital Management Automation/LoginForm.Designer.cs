@@ -55,7 +55,7 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(614, 53);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(342, 150);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -97,7 +97,7 @@
             this.BtnSekreterGirisi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnSekreterGirisi.BackgroundImage")));
             this.BtnSekreterGirisi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnSekreterGirisi.Location = new System.Drawing.Point(693, 260);
-            this.BtnSekreterGirisi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnSekreterGirisi.Margin = new System.Windows.Forms.Padding(4);
             this.BtnSekreterGirisi.Name = "BtnSekreterGirisi";
             this.BtnSekreterGirisi.Size = new System.Drawing.Size(264, 156);
             this.BtnSekreterGirisi.TabIndex = 10;
@@ -109,7 +109,7 @@
             this.BtnDoktorGirisi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnDoktorGirisi.BackgroundImage")));
             this.BtnDoktorGirisi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnDoktorGirisi.Location = new System.Drawing.Point(372, 260);
-            this.BtnDoktorGirisi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnDoktorGirisi.Margin = new System.Windows.Forms.Padding(4);
             this.BtnDoktorGirisi.Name = "BtnDoktorGirisi";
             this.BtnDoktorGirisi.Size = new System.Drawing.Size(264, 156);
             this.BtnDoktorGirisi.TabIndex = 9;
@@ -121,7 +121,7 @@
             this.BtnHastaGirisi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnHastaGirisi.BackgroundImage")));
             this.BtnHastaGirisi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnHastaGirisi.Location = new System.Drawing.Point(56, 260);
-            this.BtnHastaGirisi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnHastaGirisi.Margin = new System.Windows.Forms.Padding(4);
             this.BtnHastaGirisi.Name = "BtnHastaGirisi";
             this.BtnHastaGirisi.Size = new System.Drawing.Size(264, 156);
             this.BtnHastaGirisi.TabIndex = 8;
@@ -133,7 +133,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FloralWhite;
-            this.ClientSize = new System.Drawing.Size(1142, 500);
+            this.ClientSize = new System.Drawing.Size(1084, 492);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label3);
@@ -144,7 +144,7 @@
             this.Controls.Add(this.BtnHastaGirisi);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "LoginForm";
             this.Text = "PALA Love  Hospital";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -93,7 +93,7 @@ namespace Hospital_Management_Automation
             komut.Parameters.AddWithValue("@p3", Txtid.Text);
             komut.ExecuteNonQuery();
             bgl.baglanti().Close();
-            MessageBox.Show("Randevu Alındı", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            MessageBox.Show("Appointment Made", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
         }
     }

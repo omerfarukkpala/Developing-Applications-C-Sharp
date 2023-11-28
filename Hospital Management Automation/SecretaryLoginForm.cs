@@ -34,7 +34,7 @@ namespace Hospital_Management_Automation
             }
             else
             {
-                MessageBox.Show("Hatalı TC veya şifre");
+                MessageBox.Show("Incorrect TC or password");
             }
             bgl.baglanti().Close();
         }

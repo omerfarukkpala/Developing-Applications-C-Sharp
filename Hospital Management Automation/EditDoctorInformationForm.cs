@@ -46,7 +46,7 @@ namespace Hospital_Management_Automation
             komut.Parameters.AddWithValue("@p5", MskTC.Text);
             komut.ExecuteNonQuery();
             bgl.baglanti().Close();
-            MessageBox.Show("Kayıt Güncellendi");
+            MessageBox.Show("Registration Updated");
         }
     }
 }
