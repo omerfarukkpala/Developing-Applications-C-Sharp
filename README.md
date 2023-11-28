@@ -21,6 +21,9 @@
 ## Decision Structures
 ## If - Else![8](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/02858eae-350c-4a17-be17-13c2e54227c3)
 ## Student Exam Status Calculation![9](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/e38a2a28-db03-48e6-8049-f5050034494b)
+## Book Count ![10](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/15a7decc-08a2-489a-b8de-6710f25f9f0f)
+## Switch - Case Structure![11](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/07bf25ce-4287-45ce-9e9a-95628afee480)
+
 
 
 
