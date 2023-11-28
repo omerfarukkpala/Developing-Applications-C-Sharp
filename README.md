@@ -23,6 +23,7 @@
 ## Student Exam Status Calculation![9](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/e38a2a28-db03-48e6-8049-f5050034494b)
 ## Book Count ![10](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/15a7decc-08a2-489a-b8de-6710f25f9f0f)
 ## Switch - Case Structure![11](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/07bf25ce-4287-45ce-9e9a-95628afee480)
+## Project - Quiz Competition![12](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/97ae1a79-3b4e-4769-a0e5-9c529f884104)
 
 
 
