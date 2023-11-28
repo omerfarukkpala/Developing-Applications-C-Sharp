@@ -35,6 +35,10 @@
 ## Extra Tools![40](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/961a0bee-f1af-45f9-b752-3700a86eaf30)
 ## Numerical Lotto Application![42](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/f43a2f14-5843-4128-bbbf-22cda0cba035)
 ## Extra Structures![43](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/6f66d26f-39e8-4ea1-b982-0cfdf9451d8a)
+## Personnel Registration Project ![50](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/722461a8-f44d-4349-9d78-f29ac012541c)
+## Personnel Registration Project Main Form ![52](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/7a3f9640-8d66-4b51-9373-ef8e99130d49)
+## Personnel Registration Project CRUD![54](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/714398f2-c007-4cb2-af79-1dc0ea2c702a)
+## ## Personnel Registration Project Statictics And  Reports ![58](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/ca6aa6df-354e-457f-878a-fb3b540cee3f)
 
 
 
