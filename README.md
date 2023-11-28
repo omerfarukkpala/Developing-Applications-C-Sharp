@@ -27,6 +27,7 @@
 ## Loops![13](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/42647af8-4278-45e5-a240-edbf7ade9143)
 ## Timer ![14](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/55fd02cb-4462-443a-a474-bdd5fd23473d)
 ## Cake Baking Application![15](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/92d3b9bc-428f-44d6-92f6-f4a6f7385686)
+## Arrays ![16](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/b88a10cf-3028-4852-b906-3482fa932702)
 
 
 
