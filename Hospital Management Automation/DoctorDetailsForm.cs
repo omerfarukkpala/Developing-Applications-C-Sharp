@@ -24,7 +24,7 @@ namespace Hospital_Management_Automation
             LblTC.Text = TC;
 
             //Doktor Ad Soyad
-            SqlCommand komut = new SqlCommand("Select DoktoAd,DoktorSoyad from Tbl_Doktorlar where DoktorTC=@p1", bgl.baglanti());
+            SqlCommand komut = new SqlCommand("Select DoktorAd,DoktorSoyad from Tbl_Doktorlar where DoktorTC=@p1", bgl.baglanti());
             komut.Parameters.AddWithValue("@p1", LblTC.Text);
             SqlDataReader dr = komut.ExecuteReader();
             while (dr.Read())
@@ -42,14 +42,14 @@ namespace Hospital_Management_Automation
 
         private void BtnGuncelle_Click(object sender, EventArgs e)
         {
-            doctor fr = new ();
+            FormEditDoctorInformation fr = new FormEditDoctorInformation();
             fr.TCNO = LblTC.Text;
             fr.Show();
         }
 
         private void BtnDuyurular_Click(object sender, EventArgs e)
         {
-            FrmDuyurular fr = new FrmDuyurular();
+            AnnouncementForm fr = new AnnouncementForm();
             fr.Show();
         }
 

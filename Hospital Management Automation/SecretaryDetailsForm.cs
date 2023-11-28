@@ -115,5 +115,10 @@ namespace Hospital_Management_Automation
             AnnouncementForm frd = new AnnouncementForm();
             frd.Show();
         }
+
+        private void CmbDoktor_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

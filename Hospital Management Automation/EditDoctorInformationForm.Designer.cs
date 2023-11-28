@@ -150,7 +150,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.ClientSize = new System.Drawing.Size(593, 386);
+            this.ClientSize = new System.Drawing.Size(730, 443);
             this.Controls.Add(this.BtnBilgiGuncelle);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.CmbBrans);

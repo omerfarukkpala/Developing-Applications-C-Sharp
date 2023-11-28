@@ -200,6 +200,7 @@
             this.CmbDoktor.Name = "CmbDoktor";
             this.CmbDoktor.Size = new System.Drawing.Size(250, 26);
             this.CmbDoktor.TabIndex = 15;
+            this.CmbDoktor.SelectedIndexChanged += new System.EventHandler(this.CmbDoktor_SelectedIndexChanged);
             // 
             // CmbBrans
             // 
