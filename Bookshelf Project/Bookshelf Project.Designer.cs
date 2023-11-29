@@ -58,7 +58,7 @@
             // 
             // BtnAra
             // 
-            this.BtnAra.Location = new System.Drawing.Point(912, 243);
+            this.BtnAra.Location = new System.Drawing.Point(917, 243);
             this.BtnAra.Name = "BtnAra";
             this.BtnAra.Size = new System.Drawing.Size(108, 51);
             this.BtnAra.TabIndex = 45;
@@ -68,7 +68,7 @@
             // 
             // BtnBul
             // 
-            this.BtnBul.Location = new System.Drawing.Point(758, 243);
+            this.BtnBul.Location = new System.Drawing.Point(763, 243);
             this.BtnBul.Name = "BtnBul";
             this.BtnBul.Size = new System.Drawing.Size(108, 51);
             this.BtnBul.TabIndex = 44;
@@ -78,7 +78,7 @@
             // 
             // TxtKitapBul
             // 
-            this.TxtKitapBul.Location = new System.Drawing.Point(758, 198);
+            this.TxtKitapBul.Location = new System.Drawing.Point(763, 198);
             this.TxtKitapBul.Name = "TxtKitapBul";
             this.TxtKitapBul.Size = new System.Drawing.Size(260, 26);
             this.TxtKitapBul.TabIndex = 43;
@@ -87,7 +87,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(640, 202);
+            this.label7.Location = new System.Drawing.Point(645, 202);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(100, 20);
             this.label7.TabIndex = 42;
