@@ -48,6 +48,7 @@
 ## Secratary Department Panel  ![branch](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/aec9039c-b117-4814-b170-fc13d0849b15)
 ## Secratary Department ![list](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/9b737c18-10d0-4dcb-8eef-2e6fad2383ea)
 ## Bookshelf Project CRUD Operations ![book](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/fc71a1e6-c569-49b4-954a-50ac79faa83e)
+## Project Examples Try Catch - Excaption - Finally ![projectexzmplaes](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/10ef7209-219e-48ad-8dc7-7ad79dff5884)
 
 
 
