@@ -74,18 +74,19 @@
             this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.Location = new System.Drawing.Point(1257, -1);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(62, 61);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 35;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(430, 184);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(94, 53);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -98,17 +99,18 @@
             this.BtnAra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnAra.ForeColor = System.Drawing.Color.White;
             this.BtnAra.Location = new System.Drawing.Point(534, 184);
-            this.BtnAra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnAra.Margin = new System.Windows.Forms.Padding(4);
             this.BtnAra.Name = "BtnAra";
             this.BtnAra.Size = new System.Drawing.Size(242, 53);
             this.BtnAra.TabIndex = 16;
             this.BtnAra.Text = "ARA";
             this.BtnAra.UseVisualStyleBackColor = true;
+            this.BtnAra.Click += new System.EventHandler(this.BtnAra_Click);
             // 
             // TxtAra
             // 
             this.TxtAra.Location = new System.Drawing.Point(80, 192);
-            this.TxtAra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtAra.Margin = new System.Windows.Forms.Padding(4);
             this.TxtAra.Name = "TxtAra";
             this.TxtAra.Size = new System.Drawing.Size(346, 24);
             this.TxtAra.TabIndex = 15;
@@ -127,9 +129,9 @@
             this.groupBox2.Controls.Add(this.pictureBox4);
             this.groupBox2.Controls.Add(this.BtnEkle);
             this.groupBox2.Location = new System.Drawing.Point(16, 366);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(722, 259);
             this.groupBox2.TabIndex = 34;
             this.groupBox2.TabStop = false;
@@ -138,7 +140,7 @@
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(76, 40);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(94, 53);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -151,18 +153,19 @@
             this.BtnListele.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnListele.ForeColor = System.Drawing.Color.White;
             this.BtnListele.Location = new System.Drawing.Point(180, 40);
-            this.BtnListele.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnListele.Margin = new System.Windows.Forms.Padding(4);
             this.BtnListele.Name = "BtnListele";
             this.BtnListele.Size = new System.Drawing.Size(242, 53);
             this.BtnListele.TabIndex = 1;
             this.BtnListele.Text = "LİSTELE";
             this.BtnListele.UseVisualStyleBackColor = true;
+            this.BtnListele.Click += new System.EventHandler(this.BtnListele_Click);
             // 
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(430, 101);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(94, 53);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -175,12 +178,13 @@
             this.BtnGuncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnGuncelle.ForeColor = System.Drawing.Color.White;
             this.BtnGuncelle.Location = new System.Drawing.Point(534, 40);
-            this.BtnGuncelle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnGuncelle.Margin = new System.Windows.Forms.Padding(4);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(242, 53);
             this.BtnGuncelle.TabIndex = 9;
             this.BtnGuncelle.Text = "GÜNCELLE";
             this.BtnGuncelle.UseVisualStyleBackColor = true;
+            this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
             // 
             // BtnSil
             // 
@@ -188,18 +192,19 @@
             this.BtnSil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnSil.ForeColor = System.Drawing.Color.White;
             this.BtnSil.Location = new System.Drawing.Point(534, 101);
-            this.BtnSil.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnSil.Margin = new System.Windows.Forms.Padding(4);
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(242, 53);
             this.BtnSil.TabIndex = 13;
             this.BtnSil.Text = "SİL";
             this.BtnSil.UseVisualStyleBackColor = true;
+            this.BtnSil.Click += new System.EventHandler(this.BtnSil_Click);
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(430, 40);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(94, 53);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -210,7 +215,7 @@
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(76, 101);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(94, 53);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -223,12 +228,13 @@
             this.BtnEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnEkle.ForeColor = System.Drawing.Color.White;
             this.BtnEkle.Location = new System.Drawing.Point(180, 101);
-            this.BtnEkle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnEkle.Margin = new System.Windows.Forms.Padding(4);
             this.BtnEkle.Name = "BtnEkle";
             this.BtnEkle.Size = new System.Drawing.Size(242, 53);
             this.BtnEkle.TabIndex = 11;
             this.BtnEkle.Text = "EKLE";
             this.BtnEkle.UseVisualStyleBackColor = true;
+            this.BtnEkle.Click += new System.EventHandler(this.BtnEkle_Click);
             // 
             // groupBox1
             // 
@@ -243,10 +249,10 @@
             this.groupBox1.Controls.Add(this.TxtOgrenciid);
             this.groupBox1.Controls.Add(this.TxtAdi);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Location = new System.Drawing.Point(780, 366);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Location = new System.Drawing.Point(739, 366);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(572, 259);
             this.groupBox1.TabIndex = 33;
             this.groupBox1.TabStop = false;
@@ -268,36 +274,39 @@
             this.RdbtnErkek.AutoSize = true;
             this.RdbtnErkek.ForeColor = System.Drawing.Color.White;
             this.RdbtnErkek.Location = new System.Drawing.Point(414, 215);
-            this.RdbtnErkek.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RdbtnErkek.Margin = new System.Windows.Forms.Padding(4);
             this.RdbtnErkek.Name = "RdbtnErkek";
             this.RdbtnErkek.Size = new System.Drawing.Size(65, 22);
             this.RdbtnErkek.TabIndex = 14;
             this.RdbtnErkek.TabStop = true;
             this.RdbtnErkek.Text = "Erkek";
             this.RdbtnErkek.UseVisualStyleBackColor = true;
+            this.RdbtnErkek.CheckedChanged += new System.EventHandler(this.RdbtnErkek_CheckedChanged);
             // 
             // RdbtnKiz
             // 
             this.RdbtnKiz.AutoSize = true;
             this.RdbtnKiz.ForeColor = System.Drawing.Color.White;
             this.RdbtnKiz.Location = new System.Drawing.Point(279, 215);
-            this.RdbtnKiz.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RdbtnKiz.Margin = new System.Windows.Forms.Padding(4);
             this.RdbtnKiz.Name = "RdbtnKiz";
             this.RdbtnKiz.Size = new System.Drawing.Size(47, 22);
             this.RdbtnKiz.TabIndex = 13;
             this.RdbtnKiz.TabStop = true;
             this.RdbtnKiz.Text = "Kız";
             this.RdbtnKiz.UseVisualStyleBackColor = true;
+            this.RdbtnKiz.CheckedChanged += new System.EventHandler(this.RdbtnKiz_CheckedChanged);
             // 
             // CmbKulubu
             // 
             this.CmbKulubu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbKulubu.FormattingEnabled = true;
             this.CmbKulubu.Location = new System.Drawing.Point(279, 163);
-            this.CmbKulubu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CmbKulubu.Margin = new System.Windows.Forms.Padding(4);
             this.CmbKulubu.Name = "CmbKulubu";
             this.CmbKulubu.Size = new System.Drawing.Size(346, 26);
             this.CmbKulubu.TabIndex = 12;
+            this.CmbKulubu.SelectedIndexChanged += new System.EventHandler(this.CmbKulubu_SelectedIndexChanged);
             // 
             // label5
             // 
@@ -314,7 +323,7 @@
             // TxtSoyadi
             // 
             this.TxtSoyadi.Location = new System.Drawing.Point(279, 119);
-            this.TxtSoyadi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtSoyadi.Margin = new System.Windows.Forms.Padding(4);
             this.TxtSoyadi.Name = "TxtSoyadi";
             this.TxtSoyadi.Size = new System.Drawing.Size(346, 24);
             this.TxtSoyadi.TabIndex = 8;
@@ -347,7 +356,7 @@
             // 
             this.TxtOgrenciid.Enabled = false;
             this.TxtOgrenciid.Location = new System.Drawing.Point(279, 30);
-            this.TxtOgrenciid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtOgrenciid.Margin = new System.Windows.Forms.Padding(4);
             this.TxtOgrenciid.Name = "TxtOgrenciid";
             this.TxtOgrenciid.Size = new System.Drawing.Size(346, 24);
             this.TxtOgrenciid.TabIndex = 4;
@@ -355,7 +364,7 @@
             // TxtAdi
             // 
             this.TxtAdi.Location = new System.Drawing.Point(279, 75);
-            this.TxtAdi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtAdi.Margin = new System.Windows.Forms.Padding(4);
             this.TxtAdi.Name = "TxtAdi";
             this.TxtAdi.Size = new System.Drawing.Size(346, 24);
             this.TxtAdi.TabIndex = 5;
@@ -376,7 +385,7 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(28, 12);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(110, 61);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -388,10 +397,11 @@
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(16, 86);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1335, 274);
+            this.dataGridView1.Size = new System.Drawing.Size(1295, 274);
             this.dataGridView1.TabIndex = 32;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // label1
             // 
@@ -420,10 +430,11 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmOgrenci";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "FrmOgrenci";
+            this.Load += new System.EventHandler(this.FrmOgrenci_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.groupBox2.ResumeLayout(false);

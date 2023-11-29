@@ -34,5 +34,10 @@ namespace BonusProject
             FrmOgrenci fr = new FrmOgrenci();
             fr.Show();
         }
+
+        private void FrmOgretmen_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
