@@ -112,7 +112,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.BackColor = System.Drawing.Color.OldLace;
             this.ClientSize = new System.Drawing.Size(1200, 623);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox1);
