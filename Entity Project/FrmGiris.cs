@@ -16,5 +16,23 @@ namespace Entity_Project
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DbEntityUrunEntities db = new DbEntityUrunEntities();
+            var sorgu = from x in db.TBL_ADMIN
+                        where x.KULLANICI == textBox1.Text && x.SIFRE == textBox2.Text
+                        select x;
+            if (sorgu.Any())
+            {
+                FrmAnaForm fr = new FrmAnaForm();
+                fr.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Hatalı Giriş");
+            }
+        }
     }
 }
