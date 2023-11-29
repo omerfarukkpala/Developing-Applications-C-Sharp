@@ -113,6 +113,9 @@
     <EmbeddedResource Include="FrmOgretmen.resx">
       <DependentUpon>FrmOgretmen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmSinavNotlar.resx">
+      <DependentUpon>FrmSinavNotlar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

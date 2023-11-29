@@ -39,5 +39,11 @@ namespace BonusProject
         {
 
         }
+
+        private void BtnSinavNotlari_Click(object sender, EventArgs e)
+        {
+            FrmSinavNotlar fr = new FrmSinavNotlar();
+            fr.Show();
+        }
     }
 }

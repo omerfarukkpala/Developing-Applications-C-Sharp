@@ -50,7 +50,7 @@
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(40, 377);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(176, 76);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -64,7 +64,7 @@
             this.BtnOgrenciIslemleri.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnOgrenciIslemleri.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOgrenciIslemleri.Location = new System.Drawing.Point(225, 377);
-            this.BtnOgrenciIslemleri.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnOgrenciIslemleri.Margin = new System.Windows.Forms.Padding(4);
             this.BtnOgrenciIslemleri.Name = "BtnOgrenciIslemleri";
             this.BtnOgrenciIslemleri.Size = new System.Drawing.Size(292, 76);
             this.BtnOgrenciIslemleri.TabIndex = 18;
@@ -76,7 +76,7 @@
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(40, 292);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(176, 76);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -90,7 +90,7 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button4.Location = new System.Drawing.Point(225, 292);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(292, 76);
             this.button4.TabIndex = 16;
@@ -101,7 +101,7 @@
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(40, 208);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(176, 76);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -115,18 +115,19 @@
             this.BtnSinavNotlari.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnSinavNotlari.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnSinavNotlari.Location = new System.Drawing.Point(225, 208);
-            this.BtnSinavNotlari.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnSinavNotlari.Margin = new System.Windows.Forms.Padding(4);
             this.BtnSinavNotlari.Name = "BtnSinavNotlari";
             this.BtnSinavNotlari.Size = new System.Drawing.Size(292, 76);
             this.BtnSinavNotlari.TabIndex = 14;
             this.BtnSinavNotlari.Text = "SINAV NOTLARI";
             this.BtnSinavNotlari.UseVisualStyleBackColor = false;
+            this.BtnSinavNotlari.Click += new System.EventHandler(this.BtnSinavNotlari_Click);
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(40, 123);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(176, 76);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -140,7 +141,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button2.Location = new System.Drawing.Point(225, 123);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(292, 76);
             this.button2.TabIndex = 12;
@@ -152,7 +153,7 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(40, 39);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(176, 76);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -166,7 +167,7 @@
             this.BtnDers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnDers.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnDers.Location = new System.Drawing.Point(225, 39);
-            this.BtnDers.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnDers.Margin = new System.Windows.Forms.Padding(4);
             this.BtnDers.Name = "BtnDers";
             this.BtnDers.Size = new System.Drawing.Size(292, 76);
             this.BtnDers.TabIndex = 10;
@@ -192,7 +193,7 @@
             this.Controls.Add(this.BtnDers);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmOgretmen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "FrmOgretmen";
