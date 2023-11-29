@@ -10,26 +10,31 @@ using System.Windows.Forms;
 
 namespace ProjectExamples
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             try
             {
-                int sayi1 = Convert.ToInt32(textBox1.Text);
-                int sayi2 = Convert.ToInt32(textBox2.Text);
-                int toplam = sayi1 + sayi2;
-                MessageBox.Show(toplam.ToString());
+                int s1, s2, sonuc;
+                s1 = Convert.ToInt32(textBox1.Text);
+                s2 = Convert.ToInt32(textBox2.Text);
+                sonuc = s1 * s2;
+                label1.Text = sonuc.ToString();
             }
             catch (Exception)
             {
-                MessageBox.Show("Please check your values!");
-
+                MessageBox.Show("There is an error, this worked");
+            }
+            finally
+            {
+                MessageBox.Show("Finally the code worked");
             }
         }
     }
