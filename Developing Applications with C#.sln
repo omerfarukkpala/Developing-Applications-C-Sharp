@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BonusProject", "BonusProjec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity Project", "Entity Project\Entity Project.csproj", "{008DC79F-47D3-4B10-B374-E3ABF6CA3DCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N-tier Architecture", "N-tier Architecture\N-tier Architecture.csproj", "{E285C990-9DD4-4B3E-883F-E37235C3648F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{008DC79F-47D3-4B10-B374-E3ABF6CA3DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{008DC79F-47D3-4B10-B374-E3ABF6CA3DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{008DC79F-47D3-4B10-B374-E3ABF6CA3DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E285C990-9DD4-4B3E-883F-E37235C3648F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E285C990-9DD4-4B3E-883F-E37235C3648F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E285C990-9DD4-4B3E-883F-E37235C3648F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E285C990-9DD4-4B3E-883F-E37235C3648F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
