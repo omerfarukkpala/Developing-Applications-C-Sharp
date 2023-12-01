@@ -170,7 +170,7 @@
             this.BtnEkle.Name = "BtnEkle";
             this.BtnEkle.Size = new System.Drawing.Size(154, 45);
             this.BtnEkle.TabIndex = 14;
-            this.BtnEkle.Text = "EKLE";
+            this.BtnEkle.Text = "ADD";
             this.BtnEkle.UseVisualStyleBackColor = true;
             this.BtnEkle.Click += new System.EventHandler(this.BtnEkle_Click);
             // 
@@ -180,7 +180,7 @@
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(154, 45);
             this.BtnSil.TabIndex = 15;
-            this.BtnSil.Text = "SİL";
+            this.BtnSil.Text = "DELETE";
             this.BtnSil.UseVisualStyleBackColor = true;
             this.BtnSil.Click += new System.EventHandler(this.BtnSil_Click);
             // 
@@ -190,7 +190,7 @@
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(154, 45);
             this.BtnGuncelle.TabIndex = 16;
-            this.BtnGuncelle.Text = "GÜNCELLE";
+            this.BtnGuncelle.Text = "UPDATE";
             this.BtnGuncelle.UseVisualStyleBackColor = true;
             this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
             // 
