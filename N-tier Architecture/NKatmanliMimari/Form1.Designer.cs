@@ -80,7 +80,7 @@
             this.BtnListele.Name = "BtnListele";
             this.BtnListele.Size = new System.Drawing.Size(154, 45);
             this.BtnListele.TabIndex = 3;
-            this.BtnListele.Text = "LİSTELE";
+            this.BtnListele.Text = "LIST";
             this.BtnListele.UseVisualStyleBackColor = true;
             this.BtnListele.Click += new System.EventHandler(this.BtnListele_Click);
             // 
