@@ -94,11 +94,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(52, 47);
+            this.label2.Location = new System.Drawing.Point(25, 47);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(36, 20);
+            this.label2.Size = new System.Drawing.Size(63, 20);
             this.label2.TabIndex = 4;
-            this.label2.Text = "AD:";
+            this.label2.Text = "NAME :";
             // 
             // TxtSoyad
             // 
