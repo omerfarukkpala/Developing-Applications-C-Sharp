@@ -128,9 +128,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(301, 79);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(59, 20);
+            this.label4.Size = new System.Drawing.Size(67, 20);
             this.label4.TabIndex = 8;
-            this.label4.Text = "MAAŞ:";
+            this.label4.Text = "WAGE :";
             // 
             // TxtGorev
             // 
