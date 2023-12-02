@@ -9,6 +9,7 @@ namespace DataAccessLayer
 {
     public class Baglanti
     {
+        //
         public static SqlConnection bgl = new SqlConnection("Data Source=OMERFARUKPALA;Initial Catalog=DbPersonel;Integrated Security=True");
     }
 }
