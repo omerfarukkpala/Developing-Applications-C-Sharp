@@ -126,7 +126,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(314, 79);
+            this.label4.Location = new System.Drawing.Point(301, 79);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(59, 20);
             this.label4.TabIndex = 8;
@@ -142,11 +142,11 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(301, 15);
+            this.label5.Location = new System.Drawing.Point(309, 15);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(72, 20);
+            this.label5.Size = new System.Drawing.Size(48, 20);
             this.label5.TabIndex = 10;
-            this.label5.Text = "GÖREV:";
+            this.label5.Text = "JOB :";
             // 
             // TxtSehir
             // 
@@ -160,9 +160,9 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(309, 47);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(64, 20);
+            this.label6.Size = new System.Drawing.Size(53, 20);
             this.label6.TabIndex = 12;
-            this.label6.Text = "ŞEHİR:";
+            this.label6.Text = "CITY :";
             // 
             // BtnEkle
             // 
