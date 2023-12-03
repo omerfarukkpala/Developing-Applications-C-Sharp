@@ -45,7 +45,7 @@
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(435, 60);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(747, 222);
             this.dataGridView1.TabIndex = 17;
@@ -53,7 +53,7 @@
             // BtnGuncelle
             // 
             this.BtnGuncelle.Location = new System.Drawing.Point(234, 231);
-            this.BtnGuncelle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnGuncelle.Margin = new System.Windows.Forms.Padding(4);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(162, 50);
             this.BtnGuncelle.TabIndex = 16;
@@ -64,7 +64,7 @@
             // BtnSil
             // 
             this.BtnSil.Location = new System.Drawing.Point(234, 173);
-            this.BtnSil.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnSil.Margin = new System.Windows.Forms.Padding(4);
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(162, 50);
             this.BtnSil.TabIndex = 15;
@@ -75,7 +75,7 @@
             // BtnEkle
             // 
             this.BtnEkle.Location = new System.Drawing.Point(63, 231);
-            this.BtnEkle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnEkle.Margin = new System.Windows.Forms.Padding(4);
             this.BtnEkle.Name = "BtnEkle";
             this.BtnEkle.Size = new System.Drawing.Size(162, 50);
             this.BtnEkle.TabIndex = 14;
@@ -86,7 +86,7 @@
             // BtnListele
             // 
             this.BtnListele.Location = new System.Drawing.Point(63, 173);
-            this.BtnListele.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnListele.Margin = new System.Windows.Forms.Padding(4);
             this.BtnListele.Name = "BtnListele";
             this.BtnListele.Size = new System.Drawing.Size(162, 50);
             this.BtnListele.TabIndex = 13;
@@ -97,7 +97,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(160, 104);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(232, 24);
             this.textBox2.TabIndex = 12;
@@ -115,7 +115,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(160, 60);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(232, 24);
             this.textBox1.TabIndex = 10;
@@ -134,7 +134,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 623);
+            this.ClientSize = new System.Drawing.Size(1180, 493);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.BtnGuncelle);
             this.Controls.Add(this.BtnSil);
@@ -145,7 +145,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
