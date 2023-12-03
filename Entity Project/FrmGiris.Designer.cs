@@ -79,9 +79,9 @@
             this.label1.Location = new System.Drawing.Point(17, 28);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 18);
+            this.label1.Size = new System.Drawing.Size(92, 18);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Kullanıcı Adı :";
+            this.label1.Text = "User Name :";
             // 
             // FrmGiris
             // 
