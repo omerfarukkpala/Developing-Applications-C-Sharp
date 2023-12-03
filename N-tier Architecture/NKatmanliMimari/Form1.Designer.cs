@@ -55,7 +55,7 @@
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dataGridView1.Location = new System.Drawing.Point(0, 246);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(806, 191);
+            this.dataGridView1.Size = new System.Drawing.Size(847, 191);
             this.dataGridView1.TabIndex = 0;
             // 
             // label1
@@ -176,7 +176,7 @@
             // 
             // BtnSil
             // 
-            this.BtnSil.Location = new System.Drawing.Point(528, 114);
+            this.BtnSil.Location = new System.Drawing.Point(688, 12);
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(154, 45);
             this.BtnSil.TabIndex = 15;
@@ -198,7 +198,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(806, 437);
+            this.ClientSize = new System.Drawing.Size(847, 437);
             this.Controls.Add(this.BtnGuncelle);
             this.Controls.Add(this.BtnSil);
             this.Controls.Add(this.BtnEkle);
