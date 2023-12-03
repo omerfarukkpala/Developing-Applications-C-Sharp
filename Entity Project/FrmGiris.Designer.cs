@@ -58,12 +58,12 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(65, 71);
+            this.label2.Location = new System.Drawing.Point(26, 73);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 18);
+            this.label2.Size = new System.Drawing.Size(83, 18);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Şifre :";
+            this.label2.Text = "Password :";
             // 
             // textBox1
             // 
