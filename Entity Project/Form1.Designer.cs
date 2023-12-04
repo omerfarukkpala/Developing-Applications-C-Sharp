@@ -57,7 +57,7 @@
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(162, 50);
             this.BtnGuncelle.TabIndex = 16;
-            this.BtnGuncelle.Text = "Güncelle";
+            this.BtnGuncelle.Text = "UPDATE";
             this.BtnGuncelle.UseVisualStyleBackColor = true;
             this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
             // 
