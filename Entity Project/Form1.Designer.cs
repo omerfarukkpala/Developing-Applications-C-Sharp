@@ -52,7 +52,7 @@
             // 
             // BtnGuncelle
             // 
-            this.BtnGuncelle.Location = new System.Drawing.Point(234, 231);
+            this.BtnGuncelle.Location = new System.Drawing.Point(236, 234);
             this.BtnGuncelle.Margin = new System.Windows.Forms.Padding(4);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(162, 50);
@@ -63,7 +63,7 @@
             // 
             // BtnSil
             // 
-            this.BtnSil.Location = new System.Drawing.Point(234, 173);
+            this.BtnSil.Location = new System.Drawing.Point(236, 176);
             this.BtnSil.Margin = new System.Windows.Forms.Padding(4);
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(162, 50);
@@ -74,7 +74,7 @@
             // 
             // BtnEkle
             // 
-            this.BtnEkle.Location = new System.Drawing.Point(63, 231);
+            this.BtnEkle.Location = new System.Drawing.Point(65, 234);
             this.BtnEkle.Margin = new System.Windows.Forms.Padding(4);
             this.BtnEkle.Name = "BtnEkle";
             this.BtnEkle.Size = new System.Drawing.Size(162, 50);
@@ -85,7 +85,7 @@
             // 
             // BtnListele
             // 
-            this.BtnListele.Location = new System.Drawing.Point(63, 173);
+            this.BtnListele.Location = new System.Drawing.Point(65, 176);
             this.BtnListele.Margin = new System.Windows.Forms.Padding(4);
             this.BtnListele.Name = "BtnListele";
             this.BtnListele.Size = new System.Drawing.Size(162, 50);
@@ -134,7 +134,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1180, 493);
+            this.ClientSize = new System.Drawing.Size(1183, 379);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.BtnGuncelle);
             this.Controls.Add(this.BtnSil);
