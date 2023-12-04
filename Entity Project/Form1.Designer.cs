@@ -79,7 +79,7 @@
             this.BtnEkle.Name = "BtnEkle";
             this.BtnEkle.Size = new System.Drawing.Size(162, 50);
             this.BtnEkle.TabIndex = 14;
-            this.BtnEkle.Text = "Ekle";
+            this.BtnEkle.Text = "SAVE";
             this.BtnEkle.UseVisualStyleBackColor = true;
             this.BtnEkle.Click += new System.EventHandler(this.BtnEkle_Click);
             // 
