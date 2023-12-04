@@ -126,9 +126,9 @@
             this.label1.Location = new System.Drawing.Point(12, 64);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 18);
+            this.label1.Size = new System.Drawing.Size(94, 18);
             this.label1.TabIndex = 9;
-            this.label1.Text = "Kategori ID:";
+            this.label1.Text = "Category  ID:";
             // 
             // Form1
             // 
