@@ -52,7 +52,7 @@
             // 
             // BtnGuncelle
             // 
-            this.BtnGuncelle.Location = new System.Drawing.Point(236, 234);
+            this.BtnGuncelle.Location = new System.Drawing.Point(246, 232);
             this.BtnGuncelle.Margin = new System.Windows.Forms.Padding(4);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(162, 50);
@@ -63,7 +63,7 @@
             // 
             // BtnSil
             // 
-            this.BtnSil.Location = new System.Drawing.Point(236, 176);
+            this.BtnSil.Location = new System.Drawing.Point(246, 174);
             this.BtnSil.Margin = new System.Windows.Forms.Padding(4);
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(162, 50);
@@ -74,7 +74,7 @@
             // 
             // BtnEkle
             // 
-            this.BtnEkle.Location = new System.Drawing.Point(65, 234);
+            this.BtnEkle.Location = new System.Drawing.Point(75, 232);
             this.BtnEkle.Margin = new System.Windows.Forms.Padding(4);
             this.BtnEkle.Name = "BtnEkle";
             this.BtnEkle.Size = new System.Drawing.Size(162, 50);
@@ -85,7 +85,7 @@
             // 
             // BtnListele
             // 
-            this.BtnListele.Location = new System.Drawing.Point(65, 176);
+            this.BtnListele.Location = new System.Drawing.Point(75, 174);
             this.BtnListele.Margin = new System.Windows.Forms.Padding(4);
             this.BtnListele.Name = "BtnListele";
             this.BtnListele.Size = new System.Drawing.Size(162, 50);
