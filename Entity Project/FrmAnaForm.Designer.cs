@@ -36,7 +36,7 @@
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(562, 40);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(255, 183);
             this.button3.TabIndex = 5;
@@ -47,7 +47,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(298, 40);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(255, 183);
             this.button2.TabIndex = 4;
@@ -58,11 +58,11 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(34, 40);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(255, 183);
             this.button1.TabIndex = 3;
-            this.button1.Text = "KATEGORİ İŞLEMLERİ";
+            this.button1.Text = "CATEGORY TRANSACTIONS";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -75,9 +75,9 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmAnaForm";
-            this.Text = "FrmAnaForm";
+            this.Text = "Frm Ana Form";
             this.ResumeLayout(false);
 
         }
