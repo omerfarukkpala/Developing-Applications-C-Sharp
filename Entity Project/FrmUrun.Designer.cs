@@ -113,7 +113,7 @@
             this.BtnListele.Name = "BtnListele";
             this.BtnListele.Size = new System.Drawing.Size(167, 40);
             this.BtnListele.TabIndex = 34;
-            this.BtnListele.Text = "LİSTELE";
+            this.BtnListele.Text = "LIST";
             this.BtnListele.UseVisualStyleBackColor = true;
             this.BtnListele.Click += new System.EventHandler(this.BtnListele_Click);
             // 
@@ -248,7 +248,7 @@
             this.Controls.Add(this.Txtid);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmUrun";
             this.Text = "FrmUrun";
             this.Load += new System.EventHandler(this.FrmUrun_Load);
