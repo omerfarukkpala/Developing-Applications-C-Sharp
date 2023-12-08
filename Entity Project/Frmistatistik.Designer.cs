@@ -84,7 +84,7 @@
             this.panel7.Controls.Add(this.label13);
             this.panel7.Controls.Add(this.label14);
             this.panel7.Location = new System.Drawing.Point(357, 205);
-            this.panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(334, 154);
             this.panel7.TabIndex = 16;
@@ -117,7 +117,7 @@
             this.panel8.Controls.Add(this.label15);
             this.panel8.Controls.Add(this.label16);
             this.panel8.Location = new System.Drawing.Point(14, 205);
-            this.panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(334, 154);
             this.panel8.TabIndex = 15;
@@ -150,7 +150,7 @@
             this.panel9.Controls.Add(this.label17);
             this.panel9.Controls.Add(this.label18);
             this.panel9.Location = new System.Drawing.Point(1044, 367);
-            this.panel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(334, 154);
             this.panel9.TabIndex = 21;
@@ -183,7 +183,7 @@
             this.panel10.Controls.Add(this.label19);
             this.panel10.Controls.Add(this.label20);
             this.panel10.Location = new System.Drawing.Point(700, 367);
-            this.panel10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel10.Margin = new System.Windows.Forms.Padding(4);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(334, 154);
             this.panel10.TabIndex = 22;
@@ -216,7 +216,7 @@
             this.panel11.Controls.Add(this.label21);
             this.panel11.Controls.Add(this.label22);
             this.panel11.Location = new System.Drawing.Point(357, 367);
-            this.panel11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel11.Margin = new System.Windows.Forms.Padding(4);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(334, 154);
             this.panel11.TabIndex = 20;
@@ -249,7 +249,7 @@
             this.panel12.Controls.Add(this.label23);
             this.panel12.Controls.Add(this.label24);
             this.panel12.Location = new System.Drawing.Point(14, 367);
-            this.panel12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel12.Margin = new System.Windows.Forms.Padding(4);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(334, 154);
             this.panel12.TabIndex = 19;
@@ -304,7 +304,7 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(14, 43);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(334, 154);
             this.panel1.TabIndex = 11;
@@ -337,7 +337,7 @@
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Location = new System.Drawing.Point(357, 43);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(334, 154);
             this.panel2.TabIndex = 12;
@@ -370,7 +370,7 @@
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.label6);
             this.panel3.Location = new System.Drawing.Point(700, 43);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(334, 154);
             this.panel3.TabIndex = 13;
@@ -403,7 +403,7 @@
             this.panel4.Controls.Add(this.label7);
             this.panel4.Controls.Add(this.label8);
             this.panel4.Location = new System.Drawing.Point(1044, 43);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(334, 154);
             this.panel4.TabIndex = 14;
@@ -436,7 +436,7 @@
             this.panel5.Controls.Add(this.label9);
             this.panel5.Controls.Add(this.label10);
             this.panel5.Location = new System.Drawing.Point(1044, 205);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(334, 154);
             this.panel5.TabIndex = 17;
@@ -469,7 +469,7 @@
             this.panel6.Controls.Add(this.label11);
             this.panel6.Controls.Add(this.label12);
             this.panel6.Location = new System.Drawing.Point(700, 205);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(334, 154);
             this.panel6.TabIndex = 18;
@@ -492,9 +492,9 @@
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel6);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frmistatistik";
-            this.Text = "Frmistatistik";
+            this.Text = "Statistics Form";
             this.Load += new System.EventHandler(this.Frmistatistik_Load);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
