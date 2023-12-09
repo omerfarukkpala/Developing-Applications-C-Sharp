@@ -73,7 +73,7 @@
             this.BtnTemizle.Name = "BtnTemizle";
             this.BtnTemizle.Size = new System.Drawing.Size(167, 40);
             this.BtnTemizle.TabIndex = 38;
-            this.BtnTemizle.Text = "TEMİZLE";
+            this.BtnTemizle.Text = "CLEAR";
             this.BtnTemizle.UseVisualStyleBackColor = true;
             this.BtnTemizle.Click += new System.EventHandler(this.BtnTemizle_Click);
             // 
