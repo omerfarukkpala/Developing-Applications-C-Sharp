@@ -93,7 +93,7 @@
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(167, 40);
             this.BtnSil.TabIndex = 36;
-            this.BtnSil.Text = "SİL";
+            this.BtnSil.Text = "DELETE";
             this.BtnSil.UseVisualStyleBackColor = true;
             this.BtnSil.Click += new System.EventHandler(this.BtnSil_Click);
             // 
