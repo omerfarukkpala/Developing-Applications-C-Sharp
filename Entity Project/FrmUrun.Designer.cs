@@ -202,9 +202,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(55, 72);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(83, 18);
+            this.label2.Size = new System.Drawing.Size(201, 18);
             this.label2.TabIndex = 23;
-            this.label2.Text = "ÜRÜN ADI:";
+            this.label2.Text = "NAME OF THE PRODUCT: :";
             // 
             // Txtid
             // 
@@ -226,7 +226,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(577, 467);
+            this.ClientSize = new System.Drawing.Size(662, 527);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.BtnTemizle);
