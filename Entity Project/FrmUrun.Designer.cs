@@ -71,7 +71,7 @@
             // 
             this.BtnTemizle.Location = new System.Drawing.Point(409, 213);
             this.BtnTemizle.Name = "BtnTemizle";
-            this.BtnTemizle.Size = new System.Drawing.Size(176, 40);
+            this.BtnTemizle.Size = new System.Drawing.Size(172, 40);
             this.BtnTemizle.TabIndex = 38;
             this.BtnTemizle.Text = "CLEAR";
             this.BtnTemizle.UseVisualStyleBackColor = true;
@@ -81,7 +81,7 @@
             // 
             this.BtnGuncelle.Location = new System.Drawing.Point(409, 167);
             this.BtnGuncelle.Name = "BtnGuncelle";
-            this.BtnGuncelle.Size = new System.Drawing.Size(176, 40);
+            this.BtnGuncelle.Size = new System.Drawing.Size(172, 40);
             this.BtnGuncelle.TabIndex = 37;
             this.BtnGuncelle.Text = "UPDATE";
             this.BtnGuncelle.UseVisualStyleBackColor = true;
@@ -91,7 +91,7 @@
             // 
             this.BtnSil.Location = new System.Drawing.Point(409, 121);
             this.BtnSil.Name = "BtnSil";
-            this.BtnSil.Size = new System.Drawing.Size(176, 40);
+            this.BtnSil.Size = new System.Drawing.Size(172, 40);
             this.BtnSil.TabIndex = 36;
             this.BtnSil.Text = "DELETE";
             this.BtnSil.UseVisualStyleBackColor = true;
@@ -101,7 +101,7 @@
             // 
             this.BtnEkle.Location = new System.Drawing.Point(409, 75);
             this.BtnEkle.Name = "BtnEkle";
-            this.BtnEkle.Size = new System.Drawing.Size(176, 40);
+            this.BtnEkle.Size = new System.Drawing.Size(172, 40);
             this.BtnEkle.TabIndex = 35;
             this.BtnEkle.Text = "CREATE";
             this.BtnEkle.UseVisualStyleBackColor = true;
@@ -111,7 +111,7 @@
             // 
             this.BtnListele.Location = new System.Drawing.Point(409, 29);
             this.BtnListele.Name = "BtnListele";
-            this.BtnListele.Size = new System.Drawing.Size(176, 40);
+            this.BtnListele.Size = new System.Drawing.Size(172, 40);
             this.BtnListele.TabIndex = 34;
             this.BtnListele.Text = "LIST";
             this.BtnListele.UseVisualStyleBackColor = true;
