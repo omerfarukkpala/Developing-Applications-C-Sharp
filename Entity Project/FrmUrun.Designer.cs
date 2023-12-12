@@ -122,9 +122,9 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(102, 232);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(88, 18);
+            this.label7.Size = new System.Drawing.Size(99, 18);
             this.label7.TabIndex = 33;
-            this.label7.Text = "KATEGORİ:";
+            this.label7.Text = "CATEGORY :";
             // 
             // textBox6
             // 
@@ -136,7 +136,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(124, 200);
+            this.label6.Location = new System.Drawing.Point(103, 203);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(93, 18);
             this.label6.TabIndex = 31;
