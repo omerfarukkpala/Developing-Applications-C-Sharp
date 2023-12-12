@@ -154,9 +154,9 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(139, 168);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 18);
+            this.label5.Size = new System.Drawing.Size(61, 18);
             this.label5.TabIndex = 29;
-            this.label5.Text = "FİYAT:";
+            this.label5.Text = "PRICE :";
             // 
             // TxtStok
             // 
@@ -168,11 +168,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(85, 136);
+            this.label4.Location = new System.Drawing.Point(27, 133);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(101, 18);
+            this.label4.Size = new System.Drawing.Size(163, 18);
             this.label4.TabIndex = 27;
-            this.label4.Text = "STOK SAYISI:";
+            this.label4.Text = "NUMBER OF STOCK :";
             // 
             // TxtMarka
             // 
@@ -186,9 +186,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(128, 104);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 18);
+            this.label3.Size = new System.Drawing.Size(68, 18);
             this.label3.TabIndex = 25;
-            this.label3.Text = "MARKA:";
+            this.label3.Text = "BRAND :";
             // 
             // TxtUrunAd
             // 
@@ -200,11 +200,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 72);
+            this.label2.Location = new System.Drawing.Point(1, 72);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(201, 18);
+            this.label2.Size = new System.Drawing.Size(205, 18);
             this.label2.TabIndex = 23;
-            this.label2.Text = "NAME OF THE PRODUCT:  ";
+            this.label2.Text = "NAME OF THE PRODUCT :  ";
             // 
             // Txtid
             // 
