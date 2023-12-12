@@ -138,9 +138,9 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(124, 200);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(69, 18);
+            this.label6.Size = new System.Drawing.Size(93, 18);
             this.label6.TabIndex = 31;
-            this.label6.Text = "DURUM:";
+            this.label6.Text = "SITUATION :";
             // 
             // TxtFiyat
             // 
