@@ -107,9 +107,9 @@
             this.label14.Location = new System.Drawing.Point(18, 18);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(102, 23);
+            this.label14.Size = new System.Drawing.Size(97, 23);
             this.label14.TabIndex = 0;
-            this.label14.Text = "Toplam Stok";
+            this.label14.Text = "Total Stock";
             // 
             // panel8
             // 
