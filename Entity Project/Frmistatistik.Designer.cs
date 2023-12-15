@@ -360,9 +360,9 @@
             this.label4.Location = new System.Drawing.Point(18, 18);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(153, 23);
+            this.label4.Size = new System.Drawing.Size(201, 23);
             this.label4.TabIndex = 0;
-            this.label4.Text = "Toplam Ürün Sayısı";
+            this.label4.Text = "Total Number of Products";
             // 
             // panel3
             // 
