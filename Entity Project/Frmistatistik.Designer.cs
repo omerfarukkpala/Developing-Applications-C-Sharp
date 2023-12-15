@@ -327,9 +327,9 @@
             this.label1.Location = new System.Drawing.Point(18, 18);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(179, 23);
+            this.label1.Size = new System.Drawing.Size(215, 23);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Toplam Kategori Sayısı";
+            this.label1.Text = "Total Number of Categories";
             // 
             // panel2
             // 
