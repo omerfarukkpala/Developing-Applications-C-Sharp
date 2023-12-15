@@ -173,9 +173,9 @@
             this.label18.Location = new System.Drawing.Point(18, 18);
             this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(189, 23);
+            this.label18.Size = new System.Drawing.Size(240, 23);
             this.label18.TabIndex = 0;
-            this.label18.Text = "Toplam Buzdolabı Sayısı";
+            this.label18.Text = "Total Number of Refrigerators";
             // 
             // panel10
             // 
