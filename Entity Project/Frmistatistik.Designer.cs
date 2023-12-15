@@ -206,9 +206,9 @@
             this.label20.Location = new System.Drawing.Point(18, 18);
             this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(180, 23);
+            this.label20.Size = new System.Drawing.Size(227, 23);
             this.label20.TabIndex = 0;
-            this.label20.Text = "En Fazla Ürünlü Marka";
+            this.label20.Text = "Brand with the Most Products";
             // 
             // panel11
             // 
