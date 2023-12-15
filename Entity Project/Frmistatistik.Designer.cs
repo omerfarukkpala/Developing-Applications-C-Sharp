@@ -294,9 +294,9 @@
             this.label12.Location = new System.Drawing.Point(18, 18);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(180, 23);
+            this.label12.Size = new System.Drawing.Size(177, 23);
             this.label12.TabIndex = 0;
-            this.label12.Text = "En Yüksek Fiyatlı Ürün";
+            this.label12.Text = "Highest Priced Product";
             // 
             // panel1
             // 
