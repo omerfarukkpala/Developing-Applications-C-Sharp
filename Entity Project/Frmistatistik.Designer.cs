@@ -239,9 +239,9 @@
             this.label22.Location = new System.Drawing.Point(18, 18);
             this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(121, 23);
+            this.label22.Size = new System.Drawing.Size(120, 23);
             this.label22.TabIndex = 0;
-            this.label22.Text = "Kasadaki Tutar";
+            this.label22.Text = "Amount in Cash";
             // 
             // panel12
             // 
@@ -272,9 +272,9 @@
             this.label24.Location = new System.Drawing.Point(18, 18);
             this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(100, 23);
+            this.label24.Size = new System.Drawing.Size(136, 23);
             this.label24.TabIndex = 0;
-            this.label24.Text = "Şehir Sayısı";
+            this.label24.Text = "Number of Cities";
             // 
             // label11
             // 
