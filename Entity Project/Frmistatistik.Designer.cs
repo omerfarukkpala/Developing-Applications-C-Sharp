@@ -140,9 +140,9 @@
             this.label16.Location = new System.Drawing.Point(18, 18);
             this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(144, 23);
+            this.label16.Size = new System.Drawing.Size(187, 23);
             this.label16.TabIndex = 0;
-            this.label16.Text = "Beyaz Eşya Sayısı";
+            this.label16.Text = "Number of White Goods";
             // 
             // panel9
             // 
