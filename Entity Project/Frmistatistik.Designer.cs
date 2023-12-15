@@ -459,9 +459,9 @@
             this.label10.Location = new System.Drawing.Point(18, 18);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(173, 23);
+            this.label10.Size = new System.Drawing.Size(163, 23);
             this.label10.TabIndex = 0;
-            this.label10.Text = "En Düşük Fiyatlı Ürün";
+            this.label10.Text = "Lowest Price Product";
             // 
             // panel6
             // 
