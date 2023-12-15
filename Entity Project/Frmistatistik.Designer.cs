@@ -393,9 +393,9 @@
             this.label6.Location = new System.Drawing.Point(18, 18);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(165, 23);
+            this.label6.Size = new System.Drawing.Size(221, 23);
             this.label6.TabIndex = 0;
-            this.label6.Text = "Aktif Müşteri Sayısı";
+            this.label6.Text = "Number of Active Customers";
             // 
             // panel4
             // 
@@ -426,9 +426,9 @@
             this.label8.Location = new System.Drawing.Point(18, 18);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(160, 23);
+            this.label8.Size = new System.Drawing.Size(224, 23);
             this.label8.TabIndex = 0;
-            this.label8.Text = "Pasif Müşteri Sayısı";
+            this.label8.Text = "Number of Passive Customers";
             // 
             // panel5
             // 
