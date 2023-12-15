@@ -226,7 +226,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(574, 513);
+            this.ClientSize = new System.Drawing.Size(556, 499);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.BtnTemizle);
