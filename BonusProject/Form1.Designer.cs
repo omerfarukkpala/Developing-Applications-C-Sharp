@@ -46,9 +46,9 @@
             this.label3.Location = new System.Drawing.Point(280, 336);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 18);
+            this.label3.Size = new System.Drawing.Size(69, 18);
             this.label3.TabIndex = 11;
-            this.label3.Text = "Numara:";
+            this.label3.Text = "Number :";
             // 
             // textBox1
             // 
@@ -67,9 +67,9 @@
             this.label2.Location = new System.Drawing.Point(633, 274);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 18);
+            this.label2.Size = new System.Drawing.Size(62, 18);
             this.label2.TabIndex = 9;
-            this.label2.Text = "Öğretmen";
+            this.label2.Text = "Teacher";
             // 
             // label1
             // 
@@ -78,9 +78,9 @@
             this.label1.Location = new System.Drawing.Point(338, 274);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 18);
+            this.label1.Size = new System.Drawing.Size(58, 18);
             this.label1.TabIndex = 8;
-            this.label1.Text = "Öğrenci";
+            this.label1.Text = "Student";
             // 
             // pictureBox2
             // 
