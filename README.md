@@ -54,7 +54,7 @@
 ## CLUB OPERATIONS PANEL ![33333](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/bfab7f5f-13e9-4ecf-97ea-8e9017034576)
 ## EXAM NOTES ![4444EXAM](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/bbdaec5d-8ca6-4153-b244-144347a577f0)
 ## STUDENT TRANSACTION ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/9584dad5-cb57-4038-9964-578ca66d9781)![adsads](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/e75c089e-46ca-46f8-97f6-79acaeaca7e5)
-# Product-Management-System Entity Project 
+# Product Management System Entity Project And  Linq Queries 
 
 
 
