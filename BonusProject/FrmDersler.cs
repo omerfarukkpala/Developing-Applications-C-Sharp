@@ -28,7 +28,7 @@ namespace BonusProject
         private void BtnEkle_Click(object sender, EventArgs e)
         {
             ds.DersEkle(TxtDersAdi.Text);
-            MessageBox.Show("Ders Ekleme İşlemi Yapılmıştır");
+            MessageBox.Show("Course Has Been Added.");
         }
 
         private void BtnListele_Click(object sender, EventArgs e)

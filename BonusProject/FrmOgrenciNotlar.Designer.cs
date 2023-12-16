@@ -49,7 +49,7 @@
             this.ClientSize = new System.Drawing.Size(859, 472);
             this.Controls.Add(this.dataGridView1);
             this.Name = "FrmOgrenciNotlar";
-            this.Text = "Ogrenci Not Ekranı";
+            this.Text = "Student Grade Screen";
             this.Load += new System.EventHandler(this.FrmOgrenciNotlar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

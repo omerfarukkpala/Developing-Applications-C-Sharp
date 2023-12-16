@@ -30,15 +30,15 @@ namespace BonusProject
             da.Fill(dt);
             dataGridView1.DataSource = dt;
 
-            baglanti.Open();
-            SqlCommand komut1 = new SqlCommand("Select OGRENCIAD , OGRENCISOYAD From Tbl_Ogrenciler where OGRENCIID=@p1", baglanti);
-            komut1.Parameters.AddWithValue("@p1", numara);
-            SqlDataReader dr1 = komut1.ExecuteReader();
-            while (dr1.Read())
-            {
-                this.Text = dr1[0] + "" + dr1[1].ToString();
-            }
-            baglanti.Close();
+           // baglanti.Open();
+           // SqlCommand komut1 = new SqlCommand("Select OGRAD , OGRSOYAD From TBLOGRENCILER where OGRID=@p1", baglanti);
+           // komut1.Parameters.AddWithValue("@p1", numara);
+           //SqlDataReader dr1 = komut1.ExecuteReader();
+           // while (dr1.Read())
+           // {
+           //     this.Text = dr1[0] + "" + dr1[1].ToString();
+           // }
+           // baglanti.Close();
 
         }
 

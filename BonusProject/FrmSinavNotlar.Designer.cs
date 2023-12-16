@@ -71,7 +71,7 @@
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.Location = new System.Drawing.Point(885, 4);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(41, 44);
+            this.pictureBox6.Size = new System.Drawing.Size(41, 49);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 33;
             this.pictureBox6.TabStop = false;
@@ -80,9 +80,9 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(660, 170);
+            this.pictureBox7.Location = new System.Drawing.Point(660, 189);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(63, 38);
+            this.pictureBox7.Size = new System.Drawing.Size(63, 42);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 30;
             this.pictureBox7.TabStop = false;
@@ -92,11 +92,11 @@
             this.BtnAra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnAra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnAra.ForeColor = System.Drawing.Color.White;
-            this.BtnAra.Location = new System.Drawing.Point(729, 170);
+            this.BtnAra.Location = new System.Drawing.Point(729, 189);
             this.BtnAra.Name = "BtnAra";
-            this.BtnAra.Size = new System.Drawing.Size(161, 38);
+            this.BtnAra.Size = new System.Drawing.Size(161, 42);
             this.BtnAra.TabIndex = 29;
-            this.BtnAra.Text = "ARA";
+            this.BtnAra.Text = "SEARCH";
             this.BtnAra.UseVisualStyleBackColor = true;
             this.BtnAra.Click += new System.EventHandler(this.BtnAra_Click);
             // 
@@ -105,19 +105,19 @@
             this.BtnTemizle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnTemizle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnTemizle.ForeColor = System.Drawing.Color.White;
-            this.BtnTemizle.Location = new System.Drawing.Point(729, 125);
+            this.BtnTemizle.Location = new System.Drawing.Point(729, 139);
             this.BtnTemizle.Name = "BtnTemizle";
-            this.BtnTemizle.Size = new System.Drawing.Size(161, 38);
+            this.BtnTemizle.Size = new System.Drawing.Size(161, 42);
             this.BtnTemizle.TabIndex = 27;
-            this.BtnTemizle.Text = "TEMİZLE";
+            this.BtnTemizle.Text = "CLEAN";
             this.BtnTemizle.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(660, 125);
+            this.pictureBox1.Location = new System.Drawing.Point(660, 139);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(63, 38);
+            this.pictureBox1.Size = new System.Drawing.Size(63, 42);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 28;
             this.pictureBox1.TabStop = false;
@@ -127,20 +127,20 @@
             this.BtnGuncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnGuncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnGuncelle.ForeColor = System.Drawing.Color.White;
-            this.BtnGuncelle.Location = new System.Drawing.Point(729, 81);
+            this.BtnGuncelle.Location = new System.Drawing.Point(729, 90);
             this.BtnGuncelle.Name = "BtnGuncelle";
-            this.BtnGuncelle.Size = new System.Drawing.Size(161, 38);
+            this.BtnGuncelle.Size = new System.Drawing.Size(161, 42);
             this.BtnGuncelle.TabIndex = 25;
-            this.BtnGuncelle.Text = "GÜNCELLE";
+            this.BtnGuncelle.Text = "UPDATE";
             this.BtnGuncelle.UseVisualStyleBackColor = true;
             this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(660, 81);
+            this.pictureBox3.Location = new System.Drawing.Point(660, 90);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(63, 38);
+            this.pictureBox3.Size = new System.Drawing.Size(63, 42);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 26;
             this.pictureBox3.TabStop = false;
@@ -148,9 +148,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(660, 37);
+            this.pictureBox2.Location = new System.Drawing.Point(660, 41);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(63, 38);
+            this.pictureBox2.Size = new System.Drawing.Size(63, 42);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 24;
             this.pictureBox2.TabStop = false;
@@ -160,19 +160,19 @@
             this.BtnHesapla.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnHesapla.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnHesapla.ForeColor = System.Drawing.Color.White;
-            this.BtnHesapla.Location = new System.Drawing.Point(729, 37);
+            this.BtnHesapla.Location = new System.Drawing.Point(729, 41);
             this.BtnHesapla.Name = "BtnHesapla";
-            this.BtnHesapla.Size = new System.Drawing.Size(161, 38);
+            this.BtnHesapla.Size = new System.Drawing.Size(161, 42);
             this.BtnHesapla.TabIndex = 23;
-            this.BtnHesapla.Text = "HESAPLA";
+            this.BtnHesapla.Text = "CALCULATE";
             this.BtnHesapla.UseVisualStyleBackColor = true;
             this.BtnHesapla.Click += new System.EventHandler(this.BtnHesapla_Click);
             // 
             // TxtDurum
             // 
-            this.TxtDurum.Location = new System.Drawing.Point(440, 102);
+            this.TxtDurum.Location = new System.Drawing.Point(452, 113);
             this.TxtDurum.Name = "TxtDurum";
-            this.TxtDurum.Size = new System.Drawing.Size(179, 24);
+            this.TxtDurum.Size = new System.Drawing.Size(179, 26);
             this.TxtDurum.TabIndex = 21;
             // 
             // label8
@@ -180,17 +180,17 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(358, 106);
+            this.label8.Location = new System.Drawing.Point(342, 117);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(76, 19);
+            this.label8.Size = new System.Drawing.Size(104, 19);
             this.label8.TabIndex = 22;
-            this.label8.Text = "DURUM:";
+            this.label8.Text = "SITUATION :";
             // 
             // TxtOrtalama
             // 
-            this.TxtOrtalama.Location = new System.Drawing.Point(440, 68);
+            this.TxtOrtalama.Location = new System.Drawing.Point(452, 76);
             this.TxtOrtalama.Name = "TxtOrtalama";
-            this.TxtOrtalama.Size = new System.Drawing.Size(179, 24);
+            this.TxtOrtalama.Size = new System.Drawing.Size(179, 26);
             this.TxtOrtalama.TabIndex = 19;
             // 
             // label7
@@ -198,17 +198,17 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(330, 72);
+            this.label7.Location = new System.Drawing.Point(349, 80);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(104, 19);
+            this.label7.Size = new System.Drawing.Size(97, 19);
             this.label7.TabIndex = 20;
-            this.label7.Text = "ORTALAMA:";
+            this.label7.Text = "AVERAGE :";
             // 
             // TxtProje
             // 
-            this.TxtProje.Location = new System.Drawing.Point(440, 36);
+            this.TxtProje.Location = new System.Drawing.Point(452, 40);
             this.TxtProje.Name = "TxtProje";
-            this.TxtProje.Size = new System.Drawing.Size(179, 24);
+            this.TxtProje.Size = new System.Drawing.Size(179, 26);
             this.TxtProje.TabIndex = 17;
             // 
             // label6
@@ -216,17 +216,17 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(364, 40);
+            this.label6.Location = new System.Drawing.Point(350, 44);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(70, 19);
+            this.label6.Size = new System.Drawing.Size(96, 19);
             this.label6.TabIndex = 18;
-            this.label6.Text = "PROJE:";
+            this.label6.Text = "PROJECT :";
             // 
             // TxtSinav3
             // 
-            this.TxtSinav3.Location = new System.Drawing.Point(121, 166);
+            this.TxtSinav3.Location = new System.Drawing.Point(129, 184);
             this.TxtSinav3.Name = "TxtSinav3";
-            this.TxtSinav3.Size = new System.Drawing.Size(179, 24);
+            this.TxtSinav3.Size = new System.Drawing.Size(179, 26);
             this.TxtSinav3.TabIndex = 15;
             // 
             // label5
@@ -234,26 +234,26 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(40, 170);
+            this.label5.Location = new System.Drawing.Point(40, 189);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(76, 19);
+            this.label5.Size = new System.Drawing.Size(78, 19);
             this.label5.TabIndex = 16;
-            this.label5.Text = "SINAV 3:";
+            this.label5.Text = "EXAM 3 :";
             // 
             // TxtSinav2
             // 
-            this.TxtSinav2.Location = new System.Drawing.Point(121, 134);
+            this.TxtSinav2.Location = new System.Drawing.Point(129, 149);
             this.TxtSinav2.Name = "TxtSinav2";
-            this.TxtSinav2.Size = new System.Drawing.Size(179, 24);
+            this.TxtSinav2.Size = new System.Drawing.Size(179, 26);
             this.TxtSinav2.TabIndex = 13;
             // 
             // CmbDers
             // 
             this.CmbDers.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbDers.FormattingEnabled = true;
-            this.CmbDers.Location = new System.Drawing.Point(121, 68);
+            this.CmbDers.Location = new System.Drawing.Point(129, 76);
             this.CmbDers.Name = "CmbDers";
-            this.CmbDers.Size = new System.Drawing.Size(179, 26);
+            this.CmbDers.Size = new System.Drawing.Size(179, 28);
             this.CmbDers.TabIndex = 12;
             // 
             // label2
@@ -261,28 +261,28 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(6, 40);
+            this.label2.Location = new System.Drawing.Point(5, 45);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(110, 19);
+            this.label2.Size = new System.Drawing.Size(117, 19);
             this.label2.TabIndex = 6;
-            this.label2.Text = "ÖĞRENCİ ID:";
+            this.label2.Text = "STUDENT ID :";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(40, 138);
+            this.label1.Location = new System.Drawing.Point(40, 153);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 19);
+            this.label1.Size = new System.Drawing.Size(78, 19);
             this.label1.TabIndex = 14;
-            this.label1.Text = "SINAV 2:";
+            this.label1.Text = "EXAM 2 :";
             // 
             // TxtOgrenciid
             // 
-            this.TxtOgrenciid.Location = new System.Drawing.Point(121, 36);
+            this.TxtOgrenciid.Location = new System.Drawing.Point(129, 40);
             this.TxtOgrenciid.Name = "TxtOgrenciid";
-            this.TxtOgrenciid.Size = new System.Drawing.Size(179, 24);
+            this.TxtOgrenciid.Size = new System.Drawing.Size(179, 26);
             this.TxtOgrenciid.TabIndex = 4;
             // 
             // label3
@@ -290,28 +290,28 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(55, 72);
+            this.label3.Location = new System.Drawing.Point(36, 80);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(61, 19);
+            this.label3.Size = new System.Drawing.Size(86, 19);
             this.label3.TabIndex = 7;
-            this.label3.Text = "DERS:";
+            this.label3.Text = "LESSON :";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(40, 106);
+            this.label4.Location = new System.Drawing.Point(40, 118);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(76, 19);
+            this.label4.Size = new System.Drawing.Size(78, 19);
             this.label4.TabIndex = 9;
-            this.label4.Text = "SINAV 1:";
+            this.label4.Text = "EXAM 1 :";
             // 
             // TxtSinav1
             // 
-            this.TxtSinav1.Location = new System.Drawing.Point(121, 102);
+            this.TxtSinav1.Location = new System.Drawing.Point(129, 113);
             this.TxtSinav1.Name = "TxtSinav1";
-            this.TxtSinav1.Size = new System.Drawing.Size(179, 24);
+            this.TxtSinav1.Size = new System.Drawing.Size(179, 26);
             this.TxtSinav1.TabIndex = 8;
             // 
             // groupBox1
@@ -340,33 +340,33 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.TxtSinav1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 51);
+            this.groupBox1.Location = new System.Drawing.Point(12, 57);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(912, 220);
+            this.groupBox1.Size = new System.Drawing.Size(912, 244);
             this.groupBox1.TabIndex = 32;
             this.groupBox1.TabStop = false;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 277);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 308);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(912, 197);
+            this.dataGridView1.Size = new System.Drawing.Size(912, 219);
             this.dataGridView1.TabIndex = 31;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // FrmSinavNotlar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(54)))), ((int)(((byte)(80)))));
-            this.ClientSize = new System.Drawing.Size(931, 483);
+            this.ClientSize = new System.Drawing.Size(931, 537);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dataGridView1);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmSinavNotlar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Frm Sinav Notlar";
