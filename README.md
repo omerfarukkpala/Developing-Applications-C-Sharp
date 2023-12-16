@@ -50,7 +50,8 @@
 ## Bookshelf Project CRUD Operations ![book](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/fc71a1e6-c569-49b4-954a-50ac79faa83e)
 ## Project Examples Try Catch - Excaption - Finally ![projectexzmplaes](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/10ef7209-219e-48ad-8dc7-7ad79dff5884)
 ## E-School Similar Application ![11](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/26fbe0a0-9676-4b6b-928f-624c268e482d)
-## COURSE PROCEDURES CRUD ![222](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/b9a31655-2816-4bfd-bad2-62469ead1b0d)
+# COURSE PROCEDURES CRUD ![222](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/b9a31655-2816-4bfd-bad2-62469ead1b0d)
+# CLUB OPERATIONS PANEL ![33333](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/bfab7f5f-13e9-4ecf-97ea-8e9017034576)
 
 
 
