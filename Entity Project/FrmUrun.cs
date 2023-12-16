@@ -47,7 +47,7 @@ namespace Entity_Project
             t.DURUM = true;
             db.TBLURUN.Add(t);
             db.SaveChanges();
-            MessageBox.Show("Ürün Sisteme Kaydedildi");
+            MessageBox.Show("Product Saved.");
         }
 
         private void BtnSil_Click(object sender, EventArgs e)
@@ -56,7 +56,7 @@ namespace Entity_Project
             var urun = db.TBLURUN.Find(x);
             db.TBLURUN.Remove(urun);
             db.SaveChanges();
-            MessageBox.Show("Ürün Silindi");
+            MessageBox.Show("Product Deleted");
         }
 
         private void BtnGuncelle_Click(object sender, EventArgs e)
@@ -67,7 +67,7 @@ namespace Entity_Project
             urun.MARKA = TxtMarka.Text;
             urun.STOK = short.Parse(TxtStok.Text);
             db.SaveChanges();
-            MessageBox.Show("Ürün Güncellendi");
+            MessageBox.Show("Product Updated.");
         }
 
         private void FrmUrun_Load(object sender, EventArgs e)

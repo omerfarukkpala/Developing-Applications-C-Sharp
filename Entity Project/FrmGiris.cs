@@ -31,7 +31,7 @@ namespace Entity_Project
             }
             else
             {
-                MessageBox.Show("Hatalı Giriş");
+                MessageBox.Show("Incorrect Entry");
             }
         }
     }

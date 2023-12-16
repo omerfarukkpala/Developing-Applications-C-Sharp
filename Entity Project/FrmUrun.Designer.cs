@@ -54,7 +54,7 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(201, 229);
+            this.comboBox1.Location = new System.Drawing.Point(222, 229);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(164, 26);
             this.comboBox1.TabIndex = 40;
@@ -64,12 +64,12 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(16, 261);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(523, 202);
+            this.dataGridView1.Size = new System.Drawing.Size(704, 202);
             this.dataGridView1.TabIndex = 39;
             // 
             // BtnTemizle
             // 
-            this.BtnTemizle.Location = new System.Drawing.Point(371, 215);
+            this.BtnTemizle.Location = new System.Drawing.Point(552, 213);
             this.BtnTemizle.Name = "BtnTemizle";
             this.BtnTemizle.Size = new System.Drawing.Size(168, 40);
             this.BtnTemizle.TabIndex = 38;
@@ -79,7 +79,7 @@
             // 
             // BtnGuncelle
             // 
-            this.BtnGuncelle.Location = new System.Drawing.Point(371, 169);
+            this.BtnGuncelle.Location = new System.Drawing.Point(552, 167);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(168, 40);
             this.BtnGuncelle.TabIndex = 37;
@@ -89,7 +89,7 @@
             // 
             // BtnSil
             // 
-            this.BtnSil.Location = new System.Drawing.Point(371, 123);
+            this.BtnSil.Location = new System.Drawing.Point(552, 121);
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(168, 40);
             this.BtnSil.TabIndex = 36;
@@ -99,7 +99,7 @@
             // 
             // BtnEkle
             // 
-            this.BtnEkle.Location = new System.Drawing.Point(371, 77);
+            this.BtnEkle.Location = new System.Drawing.Point(552, 75);
             this.BtnEkle.Name = "BtnEkle";
             this.BtnEkle.Size = new System.Drawing.Size(168, 40);
             this.BtnEkle.TabIndex = 35;
@@ -109,7 +109,7 @@
             // 
             // BtnListele
             // 
-            this.BtnListele.Location = new System.Drawing.Point(371, 31);
+            this.BtnListele.Location = new System.Drawing.Point(552, 29);
             this.BtnListele.Name = "BtnListele";
             this.BtnListele.Size = new System.Drawing.Size(168, 40);
             this.BtnListele.TabIndex = 34;
@@ -128,7 +128,7 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(201, 197);
+            this.textBox6.Location = new System.Drawing.Point(222, 197);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(164, 24);
             this.textBox6.TabIndex = 32;
@@ -144,7 +144,7 @@
             // 
             // TxtFiyat
             // 
-            this.TxtFiyat.Location = new System.Drawing.Point(201, 165);
+            this.TxtFiyat.Location = new System.Drawing.Point(222, 165);
             this.TxtFiyat.Name = "TxtFiyat";
             this.TxtFiyat.Size = new System.Drawing.Size(164, 24);
             this.TxtFiyat.TabIndex = 30;
@@ -160,7 +160,7 @@
             // 
             // TxtStok
             // 
-            this.TxtStok.Location = new System.Drawing.Point(201, 133);
+            this.TxtStok.Location = new System.Drawing.Point(222, 133);
             this.TxtStok.Name = "TxtStok";
             this.TxtStok.Size = new System.Drawing.Size(164, 24);
             this.TxtStok.TabIndex = 28;
@@ -176,7 +176,7 @@
             // 
             // TxtMarka
             // 
-            this.TxtMarka.Location = new System.Drawing.Point(201, 101);
+            this.TxtMarka.Location = new System.Drawing.Point(222, 101);
             this.TxtMarka.Name = "TxtMarka";
             this.TxtMarka.Size = new System.Drawing.Size(164, 24);
             this.TxtMarka.TabIndex = 26;
@@ -192,7 +192,7 @@
             // 
             // TxtUrunAd
             // 
-            this.TxtUrunAd.Location = new System.Drawing.Point(201, 69);
+            this.TxtUrunAd.Location = new System.Drawing.Point(222, 69);
             this.TxtUrunAd.Name = "TxtUrunAd";
             this.TxtUrunAd.Size = new System.Drawing.Size(164, 24);
             this.TxtUrunAd.TabIndex = 24;
@@ -208,7 +208,7 @@
             // 
             // Txtid
             // 
-            this.Txtid.Location = new System.Drawing.Point(201, 37);
+            this.Txtid.Location = new System.Drawing.Point(222, 37);
             this.Txtid.Name = "Txtid";
             this.Txtid.Size = new System.Drawing.Size(164, 24);
             this.Txtid.TabIndex = 22;
@@ -227,7 +227,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
-            this.ClientSize = new System.Drawing.Size(556, 499);
+            this.ClientSize = new System.Drawing.Size(908, 499);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.BtnTemizle);
@@ -251,6 +251,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmUrun";
+            this.Text = "Product Management System";
             this.Load += new System.EventHandler(this.FrmUrun_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

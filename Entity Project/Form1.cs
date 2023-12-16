@@ -31,7 +31,7 @@ namespace Entity_Project
             t.AD = textBox2.Text;
             db.TBLKATEGORI.Add(t);
             db.SaveChanges();
-            MessageBox.Show("Kategori Eklendi");
+            MessageBox.Show("Category Added");
         }
 
         private void BtnSil_Click(object sender, EventArgs e)
@@ -40,7 +40,7 @@ namespace Entity_Project
             var ktgr = db.TBLKATEGORI.Find(x);
             db.TBLKATEGORI.Remove(ktgr);
             db.SaveChanges();
-            MessageBox.Show("Kategori Silindi");
+            MessageBox.Show("Category Deleted.");
         }
 
         private void BtnGuncelle_Click(object sender, EventArgs e)
@@ -49,7 +49,7 @@ namespace Entity_Project
             var ktgr = db.TBLKATEGORI.Find(x);
             ktgr.AD = textBox2.Text;
             db.SaveChanges();
-            MessageBox.Show("Güncelleme Yapıldı");
+            MessageBox.Show("Category Updated");
         }
     }
 }
