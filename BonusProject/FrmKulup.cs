@@ -45,7 +45,7 @@ namespace BonusProject
             komut.Parameters.AddWithValue("@p1", TxtKulupAdi.Text);
             komut.ExecuteNonQuery();
             baglanti.Close();
-            MessageBox.Show("Kulüp Listeye Eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Club Added", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             liste();
         }
 
@@ -62,7 +62,7 @@ namespace BonusProject
             komut.Parameters.AddWithValue("@p1", TxtKulupid.Text);
             komut.ExecuteNonQuery();
             baglanti.Close();
-            MessageBox.Show("Kulüp Listeden Silindi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Club Deleted", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             liste();
         }
 
@@ -74,7 +74,7 @@ namespace BonusProject
             komut.Parameters.AddWithValue("@p2", TxtKulupid.Text);
             komut.ExecuteNonQuery();
             baglanti.Close();
-            MessageBox.Show("Kulüp Listesi Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Club Updated", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             liste();
         }
 

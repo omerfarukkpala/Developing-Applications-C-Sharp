@@ -54,7 +54,7 @@ namespace BonusProject
                 c = "ERKEK";
             }
             ds.OgrenciEkle(TxtAdi.Text, TxtSoyadi.Text, byte.Parse(CmbKulubu.SelectedValue.ToString()), c);
-            MessageBox.Show("Öğrenci Ekleme Yapıldı");
+            MessageBox.Show("Student Added.");
         }
 
         private void BtnListele_Click(object sender, EventArgs e)
@@ -66,7 +66,7 @@ namespace BonusProject
         private void BtnSil_Click(object sender, EventArgs e)
         {
             ds.OgrenciSil(int.Parse(TxtOgrenciid.Text));
-            MessageBox.Show("Öğrenci Sil Yapıldı");
+            MessageBox.Show("Student Deleted.");
 
 
         }
@@ -102,7 +102,7 @@ namespace BonusProject
         private void BtnGuncelle_Click(object sender, EventArgs e)
         {
             ds.OgrenciGuncelle(TxtAdi.Text, TxtSoyadi.Text, byte.Parse(CmbKulubu.SelectedValue.ToString()), c, int.Parse(TxtOgrenciid.Text));
-            MessageBox.Show("Öğrenci Güncelleme Yapıldı");
+            MessageBox.Show("Student Updated.");
 
 
         }
