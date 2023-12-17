@@ -60,6 +60,7 @@
 ## Category Transactions ![PPPP](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/d6737b70-5afa-4e93-9d8e-06b14edcb35c)
 ## Product Transactions ![PRODUCT](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/546a2f86-3e54-4137-9791-16c12010eab9)
 ## Product Management Statistics ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/8c05edc4-ce64-4b43-a57e-bc25456baffc)
+# N-tier Architecture![ntier](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/a1725b3c-0fc4-45e1-b9b8-b27344eaafcc)
 
 
 
