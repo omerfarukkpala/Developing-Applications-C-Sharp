@@ -57,6 +57,7 @@
 # Product Management System Entity Project And  Linq Queries 
 ## Admin  Login![admingiris](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/ca50764d-7171-4007-bece-03b72aa70135)
 ##  Product Management Menu ![panelhepsi](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/7160e466-4ac2-46fb-8e09-d6449aa549df)
+## Category Transactions ![PPPP](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/d6737b70-5afa-4e93-9d8e-06b14edcb35c)
 
 
 
