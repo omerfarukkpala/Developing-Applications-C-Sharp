@@ -55,6 +55,8 @@
 ## EXAM NOTES ![4444EXAM](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/bbdaec5d-8ca6-4153-b244-144347a577f0)
 ## STUDENT TRANSACTION ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/9584dad5-cb57-4038-9964-578ca66d9781)![adsads](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/e75c089e-46ca-46f8-97f6-79acaeaca7e5)
 # Product Management System Entity Project And  Linq Queries 
+## Admin  Login![admingiris](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/ca50764d-7171-4007-bece-03b72aa70135)
+##  Product Management Menu ![panelhepsi](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/7160e466-4ac2-46fb-8e09-d6449aa549df)
 
 
 
