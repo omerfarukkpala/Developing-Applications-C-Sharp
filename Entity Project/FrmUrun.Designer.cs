@@ -64,12 +64,12 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(16, 261);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(704, 202);
+            this.dataGridView1.Size = new System.Drawing.Size(739, 202);
             this.dataGridView1.TabIndex = 39;
             // 
             // BtnTemizle
             // 
-            this.BtnTemizle.Location = new System.Drawing.Point(552, 213);
+            this.BtnTemizle.Location = new System.Drawing.Point(591, 213);
             this.BtnTemizle.Name = "BtnTemizle";
             this.BtnTemizle.Size = new System.Drawing.Size(168, 40);
             this.BtnTemizle.TabIndex = 38;
@@ -79,7 +79,7 @@
             // 
             // BtnGuncelle
             // 
-            this.BtnGuncelle.Location = new System.Drawing.Point(552, 167);
+            this.BtnGuncelle.Location = new System.Drawing.Point(591, 167);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(168, 40);
             this.BtnGuncelle.TabIndex = 37;
@@ -89,7 +89,7 @@
             // 
             // BtnSil
             // 
-            this.BtnSil.Location = new System.Drawing.Point(552, 121);
+            this.BtnSil.Location = new System.Drawing.Point(591, 121);
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(168, 40);
             this.BtnSil.TabIndex = 36;
@@ -99,7 +99,7 @@
             // 
             // BtnEkle
             // 
-            this.BtnEkle.Location = new System.Drawing.Point(552, 75);
+            this.BtnEkle.Location = new System.Drawing.Point(591, 75);
             this.BtnEkle.Name = "BtnEkle";
             this.BtnEkle.Size = new System.Drawing.Size(168, 40);
             this.BtnEkle.TabIndex = 35;
@@ -109,7 +109,7 @@
             // 
             // BtnListele
             // 
-            this.BtnListele.Location = new System.Drawing.Point(552, 29);
+            this.BtnListele.Location = new System.Drawing.Point(591, 29);
             this.BtnListele.Name = "BtnListele";
             this.BtnListele.Size = new System.Drawing.Size(168, 40);
             this.BtnListele.TabIndex = 34;
