@@ -58,6 +58,8 @@
 ## Admin  Login![admingiris](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/ca50764d-7171-4007-bece-03b72aa70135)
 ##  Product Management Menu ![panelhepsi](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/7160e466-4ac2-46fb-8e09-d6449aa549df)
 ## Category Transactions ![PPPP](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/d6737b70-5afa-4e93-9d8e-06b14edcb35c)
+## Product Transactions ![PRODUCT](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/546a2f86-3e54-4137-9791-16c12010eab9)
+## Product Management Statistics ![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-Sharp/assets/101570820/8c05edc4-ce64-4b43-a57e-bc25456baffc)
 
 
 
