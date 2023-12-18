@@ -135,7 +135,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
-            this.ClientSize = new System.Drawing.Size(1156, 258);
+            this.ClientSize = new System.Drawing.Size(1141, 254);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.BtnGuncelle);
             this.Controls.Add(this.BtnSil);
