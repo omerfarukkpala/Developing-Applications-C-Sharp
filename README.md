@@ -1,4 +1,4 @@
-# Developing Applications with C#                                                          
+# Developing Applications with C#                                                           
 ## Basic Tool Uses                           
 ## Using Label and Textbox!![image](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/e77965e9-c3d6-4ac1-84e2-619ead367432)
 ## Using Combobox and Listbox Tools ![2](https://github.com/omerfarukkpala/Developing-Applications-with-C-/assets/101570820/f9756931-5c73-45ed-9fdb-c5613bf3004b)
